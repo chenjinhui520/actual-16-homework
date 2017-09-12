@@ -33,7 +33,7 @@
 ```
 第一次使用
 git clone https://github.com/51reboot/actual-16-homework.git
-cd actual-15-homework
+cd actual-16-homework
 mkdir panda
 echo  print 123 >> woniu/zuoye.py
 git add .

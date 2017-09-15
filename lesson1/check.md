@@ -5,9 +5,9 @@
 |chenai         |         |         |                   |
 |fengxiaoli     |         |优+      |附加题也写完了。    |
 |jianghong      |         |良       |使用了2种方式获取结果，推荐。不足之处是分来计算的。  |
-|marshall       |         |优       |                   |
-|neal           |         |良       |                   |
-|yangjianjiang  |         |良       |                   |
-|zhanghe        |         |良       |                   |
+|marshall       |         |优       |有基础的，已经用到了索引、函数，冒泡排序等。                   |
+|neal           |         |良       |分开计算获取结果。                   |
+|yangjianjiang  |         |良       |分开计算获取结果。                   |
+|zhanghe        |         |良       |分开计算获取结果。                   |
 
 

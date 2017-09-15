@@ -6,9 +6,9 @@ life = 4 #四条命
 num = 1 #初始关数
 money = 0 #初始金币数0
 while num <= 8:
-	print '你目前处于第%s关，你还有%s条命，你一共有%s金币' %(num,life,money)
 	if life == 0:
 		break
+	print '你目前处于第%s关，你还有%s条命，你一共有%s金币' %(num,life,money)
 	choice = int(random.random()*10)
 	if choice < 5:
 		money += 10

@@ -1,34 +1,13 @@
 ## 作业检查结果
 
-## chenai 
--  
-
-## fengxiaoli
-- 优+ 
-
-## jianghong
-- 良 
-
-## marshall
-- 优 
-
-## neal
-- 良 
-
-## yangjianjiang
-- 良 
-
-## zhanghe
-- 良
+|账号           |姓名     |成绩     |备注               |
+|:--------------|:--------| :------ |:----------------- |
+|chenai         |         |         |                   |
+|fengxiaoli     |         |优+      |附加题也写完了。    |
+|jianghong      |         |良       |使用了2种方式获取结果，推荐。不足之处是分来计算的。  |
+|marshall       |         |优       |                   |
+|neal           |         |良       |                   |
+|yangjianjiang  |         |良       |                   |
+|zhanghe        |         |良       |                   |
 
 
-### 作业检查结果
-|账号           |姓名     |成绩     |备注     |
-|:--------------|--------:| :------:|--------:|
-|chenai         |         |         |         |
-|fengxiaoli     |         |优+      |         |
-|jianghong      |         |良       |         |
-|marshall       |         |优       |         |
-|neal           |         |良       |         |
-|yangjianjiang  |         |良       |         |
-|zhanghe        |         |良       |         |

@@ -14,3 +14,6 @@
 #### 注意
 - 定义变量时，变量名称最好跟变量的内容相关，不建议任意指定，除非是临时变量。
 - 定义变量时，等号左右最好有空格，非必须，主要是为了美观，看起来更舒服。
+
+
+[learn markdown](http://note.youdao.com/iyoudao/?p=2411&vendor=unsilent14)

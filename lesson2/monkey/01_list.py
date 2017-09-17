@@ -1,42 +1,24 @@
 #coding: utf-8
 
-import time
-'''
-去除arr中重复的元素
+arr = ['python', 'golang', 'java', 'c']
+#print type(arr)
+print 'arr: ', arr
 
-for in遍历时不要在遍历中删除数据
-'''
-arr = [1, 2, 3, 4, 2, 12, 3, 14, 3, 2, 12, 3, 14, 3, 21, 2, 2, 3, 4111, 22, 3333, 4]
+arr1 = ['js', 'vue']
+arr[2:2] = arr1 
+print 'arr insert: ', arr
 
-'''
-# 方式1
-for x in arr:
-    if arr.count(x) > 2:
-        arr.remove(x)
-print arr
-
-# 方式2
-for x in arr:
-    while arr.count(x) > 1:
-        index = arr.index(x)
-        del arr[index]
-        print arr
-print arr
-'''
-
-# 方式3
-arr2 = []
-for x in arr:
-    if x not in arr2:
-        arr2.append(x)
-
-print arr2
+####
+start = 2
+end = 4
+arr[start:end] = []
+print 'arr4 udpate: ', arr
 
 
-# 方式4
-arr3 = list(set(arr))
-print arr3
+nums = range(1, 10)
+arr[3:3] = nums
+print 'arr3 insert: ', arr
 
 
-
-
+arr[2:-2] = []
+print 'arr3 udpate: ', arr

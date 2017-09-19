@@ -62,7 +62,3 @@ findOne(nums)
 findTow(nums)
 findTree(nums)
 findFour(nums)
-
-
-
-

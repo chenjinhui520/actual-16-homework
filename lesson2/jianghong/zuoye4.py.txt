@@ -1,0 +1,16 @@
+#!/usr/bin/python
+# coding=utf-8
+s=('    abc    ')
+print s.strip()#删除s两边的空格
+print s.rstrip()#删除s右边的空格
+print s.lstrip()#删除s左边的空格
+print s.find('a')#在s中查找a,返回所在的位置
+print s.find('b',3,len(s))#在s中特定位置（3开始，末尾结束）查找a,返回所在的位置
+print ''.join(['p','y','th','on'])#将list中字符串用''顺序连接起来
+ss='LEARNING python abc'
+print ss.lower()#将ss中字母都变成小写
+print ss.upper()#将ss中字母都变成大写
+print ss.replace('abc','highly')#将ss中abc用highly代替
+print ss.startswith('L')#判断ss是否以L开始，返回bool型
+print ss.endswith('c')#判断ss是否以c结束，返回bool型
+print ss.count('a')#计算ss中a出现的次数

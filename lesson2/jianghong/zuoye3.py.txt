@@ -1,0 +1,12 @@
+#!/usr/bin/python
+# coding=utf-8
+arr=[]
+arr.append('hello world')
+print arr
+arr.append(True)
+print arr
+arr.append(['a', 'b', 'c'])
+print arr
+for x in arr:
+    print x
+    print type(x)

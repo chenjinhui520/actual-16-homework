@@ -1,12 +1,13 @@
 #!/usr/bin/python
 # coding=utf-8
 b=[]
+shutCommands=['exit','quit','q']
 while True:
     a = raw_input('请输入命令:')
     b.append(a)
     c = len(b)
     d = c - 2
-    if (a =="exit q") or (a=="quit q"):
+    if a in shutCommands:
         break
     elif (a!='history') and (a!='help'):
         print '%s命令执行成功' %(a)

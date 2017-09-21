@@ -1,11 +1,11 @@
 #!/usr/bin/python
 # coding=utf-8
-arr=[]
-arr.append('hello world')
+arr=[]#创建一个空list
+arr.append('hello world')#向list添加一个str类型元素
 print arr
-arr.append(True)
+arr.append(True)#向list添加一个bool类型元素，在list的尾端添加
 print arr
-arr.append(['a', 'b', 'c'])
+arr.append(['a', 'b', 'c'])#向list添加一个list类型元素，list里面可以包含int,float，str，bool，list，dict等类型元素
 print arr
 for x in arr:
     print x

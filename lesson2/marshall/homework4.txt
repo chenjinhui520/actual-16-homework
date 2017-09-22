@@ -1,0 +1,109 @@
+字符串
+1. strip
+    S.strip([chars]) -> string or unicode
+    Return a copy of the string S with leading and trailing
+    whitespace removed.
+    If chars is given and not None, remove characters in chars instead.
+    If chars is unicode, S will be converted to unicode before stripping
+    a. 返回字符串S 去掉头和尾部空格的拷贝，如果有字符参数且字符参数不为空，则从字符串头尾中去掉此字符
+       如果字符参数是unicode，则字符串在做strip操作前先做unicode转换
+    b. 返回字符串
+    c. '   asdfasdf'.strip()
+
+2. lstrip(...)
+     S.lstrip([chars]) -> string or unicode
+    Return a copy of the string S with leading whitespace removed.
+    If chars is given and not None, remove characters in chars instead.
+    If chars is unicode, S will be converted to unicode before stripping
+    a. 返回字符串S 去掉头部的空格的拷贝，如果有字符参数且字符参数不为空，则从头部去掉此字和会
+       如果字符参数是unicode，则字符串在做strip操作前先做unicode转换
+    b. 返回字符串
+    c. ' asd'.strip()
+
+3.  rstrip(...)
+    S.rstrip([chars]) -> string or unicode
+    Return a copy of the string S with trailing whitespace removed.
+    If chars is given and not None, remove characters in chars instead.
+    If chars is unicode, S will be converted to unicode before stripping
+    a. 返回字符串S 去掉头部的空格的拷贝，如果有字符参数且字符参数不为空，则从尾部去掉此字和会
+       如果字符参数是unicode，则字符串在做strip操作前先做unicode转换
+    b. 返回字符串
+    c. 'adf  '.strip()
+
+ 4. find(...)
+    S.find(sub [,start [,end]]) -> int
+    Return the lowest index in S where substring sub is found,
+    such that sub is contained within S[start:end].  Optional
+    arguments start and end are interpreted as in slice notation.
+    Return -1 on failure
+    a. 返回在字符串S中找到的第一个子字符串的索引，S可以包括开始和结束的标识。可选参数start和end被解析
+    为分片标识，如果失败则返回-1
+    b. 返回一个索引值
+    c. 'asdfddff'.find('f')
+
+ 5.  join(...)
+    S.join(iterable) -> string
+    Return a string which is the concatenation of the strings in the
+    iterable.  The separator between elements is S.
+    a. 返回一个字符串，这个字符串通过连接字符S 将可迭代参数连在一起。
+    b. 返回一个索引值
+    c. 'a'.join(['123','hello','world'])
+
+6.  lower(...)
+    S.lower() -> string
+    Return a copy of the string S converted to lowercase.
+    a. 返回一个将字符串S转换成小写字符的拷贝
+    b. 返回一个字符串
+    c. 'adfFFFFAAA'.lower()
+
+7.  upper(...)
+    S.upper() -> string
+    Return a copy of the string S converted to uppercase.
+    a. 返回一个将字符串S转换成大写字符的拷贝
+    b. 返回一个字符串
+    c. 'adfFFFFAAA'.upper()
+
+8.  replace(...)
+    S.replace(old, new[, count]) -> string
+    Return a copy of string S with all occurrences of substring
+    old replaced by new.  If the optional argument count is
+    given, only the first count occurrences are replaced.
+
+    a. 返回一个 将字符串S 用新字符替换旧字符 后的拷贝，如果有可选项count，则只有最前面的count个字符被替换
+    b. 返回一个字符串
+    c. adfFFFFAAA.replace('a','eeee')
+9. startswith(...)
+    S.startswith(prefix[, start[, end]]) -> bool
+    Return True if S starts with the specified prefix, False otherwise.
+    With optional start, test S beginning at that position.
+    With optional end, stop comparing S at that position.
+    prefix can also be a tuple of strings to try.
+
+
+    a. 如果S 是以指定字符为前缀则返回True，否则返回False
+    如果有可选项 start ，则测试S开始位置为start
+    如果有可选项 end, 则在end的位置停止对S做对比
+    前缀也可以是字符串的元组,满足其中一个即返回True
+    b. 返回值为布尔值
+    c. 'asdfasdfe'.startswith('a')
+
+10.endswith(...)
+    S.endswith(suffix[, start[, end]]) -> bool
+    Return True if S ends with the specified suffix, False otherwise.
+    With optional start, test S beginning at that position.
+    With optional end, stop comparing S at that position.
+    suffix can also be a tuple of strings to try.
+    a. 如果S 是以指定字符为后缀则返回True,否则返回False
+    如果有可选项 start ，则测试S开始位置为start
+    如果有可选项 end, 则在end的位置停止对S做对比
+    前缀也可以是字符串的元组,满足其中一个即返回True
+    b. 返回值为布尔值
+    c. 'asdfasdfe'.endswith('e')
+11.count(...)
+    S.count(sub[, start[, end]]) -> int
+    Return the number of non-overlapping occurrences of substring sub in
+    string S[start:end].  Optional arguments start and end are interpreted
+    as in slice notation.
+    a. 返回子字符串sub在字符串S中出现的次数，可选参数start 和end 被解析为分片标识
+    b. 返回一个整型
+    c. 'hello world'.count('o')

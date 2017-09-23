@@ -1,1 +1,56 @@
-###
+列表
+1. append(...)
+       L.append(object) -- append object to end
+    a、追加对象到列表的末尾
+    b、无返回值
+    c、示例
+        arr.append('123','abc')
+        print 'append',arr
+2.  count(...)
+         L.count(value) -> integer -- return number of occurrences of value
+    a. 返回输入值出现的个数
+    b. 有返回值，返回一个整型
+    c. arr = [a,b,a,c,a]  arr.count(a)
+
+3.  extend(...)
+        L.extend(iterable) -- extend list by appending elements from the iterable
+    a. 通过追加可迭代的元素来扩展列表
+    b. 无返回值
+    c. arr.extend([1,2,3,4])
+4.  index(...)
+        L.index(value, [start, [stop]]) -> integer -- return first index of value
+        Raises ValueError if the value is not present.
+    a. 返回输入值出现第一次的索引,如果输入的值不存在，则报ValueError的错误
+    b. 有返回值
+    c. arr.index('a')
+5.  insert(...)
+    L.insert(index, object) -- insert object before index
+    a. 在列表的指定索引前插入对象
+    b. 无返回值
+    c. arr.insert(12,[123])
+6.  pop(...)
+    L.pop([index]) -> item -- remove and return item at index (default last).
+    Raises IndexError if list is empty or index is out of range.
+    a. 从列表中去掉并返回索引对应的值,如果列表为空或者索引越出范围则报IndexError
+    b. 有返回值。 返回值为列表中索引对应的值
+    c. return_value = arr.pop('123')
+7. remove(...)
+    L.remove(value) -- remove first occurrence of value.
+    Raises ValueError if the value is not present
+    a. 去除列表中第一次出现的输入的值，如果输入的值不存在，则报ValueError
+    b. 无返回值
+    c. arr.remove('123')
+8. reverse(...)
+    L.reverse() -- reverse *IN PLACE*
+    a.原地反转列表
+    b.无返回值
+    c. arr.reverse()
+9.  sort(...)
+    L.sort(cmp=None, key=None, reverse=False) -- stable sort *IN PLACE*;
+    cmp(x, y) -> -1, 0, 1
+    a.原地将列表排序,可以使用cmp方法或者key方法来排序
+    b.无返回值
+    c arr.sort()
+
+
+

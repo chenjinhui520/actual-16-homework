@@ -15,15 +15,16 @@
 注意：
 本次作业不需要将用户信息写入到文件.
 '''
-#注册列表
+```
+##注册列表
 user = []
-#登录错误次数
+##登录错误次数
 count = 0
-#退出操作
+##退出操作
 quit = ['quit','exit','q']
-#action
+##action
 Action = ['register','login']
-#帮助手册
+##帮助手册
 Help = '''
 help           -- 帮助手册
 register       -- 注册账号
@@ -63,3 +64,4 @@ while True:
                     print '登录错误次数：%s' % count
             else:
                 print '用户不存在’' 
+```

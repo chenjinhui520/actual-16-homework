@@ -19,20 +19,32 @@
 user = []
 #登录错误次数
 count = 0
-
+#退出操作
+quit = ['quit','exit','q']
+#action
+Action = ['register','login']
+#帮助手册
+Help = '''
+help           -- 帮助手册
+register       -- 注册账号
+login          -- 登录账号
+quit、exit、q  -- 退出
+'''
 while True:
     action = raw_input('please tell me what your wants: ')
+    if action in quit:
+        print '退出成功'
+        break
+    if  action not in Action:
+        print Help
     if action == 'register':
         print '注册账号'
         Username = raw_input('Pick a uername: ')
-        print type(Username)
         Email = raw_input('you@example.com: ')
-        print type(Email)
         Password = raw_input('Create a password: ')
-        print type(Password)
         Username_dict = {'Username':Username,'Email':Email,'Password':Password}
         user.append(Username_dict)
-        print '用户信息字典 %s'  % Username_dict
+        print '用户信息如下 %s'  % Username_dict
         print '注册完成'
     if action == 'login':
         print '登录账号'
@@ -50,7 +62,4 @@ while True:
                     count += 1
                     print '登录错误次数：%s' % count
             else:
-                print '用户不存在’'   
-       
-        
-1
+                print '用户不存在’' 

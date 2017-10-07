@@ -5,11 +5,18 @@ GitHub注册选项有三个
 用户名
 密码
 Email
-
+Break 在函数内用不了  所以采用sys.exit()
 '''
 import getpass
+import sys
+
 info = dict()
-infos = dict()
+#infos = dict()
+infos = {'w': {'password': 'w', 'email': 'w'}}
+
+
+
+
 def register():
     print '已经进入注册状态,请输入您的帐号密码与邮箱'
     username = raw_input('Please Input Username:')
@@ -30,20 +37,22 @@ def register():
 
 
 
-
+c = 0
 def Login():
-    c = 0
+    global c
     print '已经进入登陆状态,请输入您的帐号密码,输错三次会被锁定'
     username = raw_input('Please Input Username:')
     password = getpass.getpass('Please Input Password: ')
     if infos.get(username,0) and infos[username]['password'] == password:
         print '登陆成功'
-    elif c >= 3:
+    elif c > 2:
         c += 1
         print '已经连续输错三次%s 用户被锁定' %(username)
+        sys.exit()
     else:
         c += 1
         print '输入错误%s次,请重新输入' %(c)
+
 
 while True:
     print '输入reg进入注册流程,输入login进入登陆流程'
@@ -52,3 +61,5 @@ while True:
         register()
     elif operation == 'login':
         Login()
+    else:
+        break

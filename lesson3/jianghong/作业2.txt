@@ -1,0 +1,50 @@
+#!/usr/bin/env python
+# coding: utf-8
+import os
+import re
+fileOpen=open(r'C:\Users\Administrator\PycharmProjects\20170923\nginx_access.py.log','rb')
+fileContext=fileOpen.readlines()#将打开的文件保存为一个list
+answer1Dict={}#第一个问题的答案dict
+for i in fileContext:
+    #print i
+    if i in answer1Dict:
+        answer1Dict[i]+=1
+    else:
+        answer1Dict[i]=1
+#print(answer1Dict)
+answer2Dict={}#第二个问题答案dict
+Ip=[]#IPlist
+for ip in fileContext:
+    getIp = re.compile(r'\d+.\d+.\d+.\d+')#正则取IP
+    match = getIp.search(ip)
+    mo = match.group()
+    Ip.append(mo)
+#print Ip
+for x in Ip:
+    if x in answer2Dict:
+
+        answer2Dict[x]+=1
+    else:
+        answer2Dict[x]=1
+#print answer2Dict
+Url=[]#URLlist
+for s in fileContext:
+    getUrl=re.compile(r'http:\S\S\w+.\w+.\w+\S+')#正则取URL
+    match = getUrl.search(s)
+    if match:
+        mo = match.group()
+        Url.append(mo)
+#print Url
+answer3Dict={}#第三个问题答案
+for a in set(Ip):
+    templist = []
+    for b in fileContext:
+        if a in b:
+            templist.append(b)
+    tempdict2={}#内层字典
+    for c in templist:
+        for d in set(Url):
+            if d in c:
+                tempdict2.setdefault(d,sum([str(templist).count(d)]))#生成URL--次数的内层字典
+    answer3Dict[a]=tempdict2
+#print answer3Dict

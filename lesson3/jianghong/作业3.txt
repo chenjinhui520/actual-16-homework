@@ -1,0 +1,7 @@
+# coding=utf-8
+a=[2,53,4,65,76,45,56,2,7,554,90,46,89]
+for i in range(len(a)):#取list长度数值，并遍历
+    for j in range(i):#遍历i值，使其可以取到所有在i之前的所有list值
+        if a[i]<a[j]:#比较所取list中最后一个值和前面所有值
+            a[i],a[j]=a[j],a[i]#按从从小到大排序
+print a

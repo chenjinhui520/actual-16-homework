@@ -12,7 +12,7 @@ def login(wrong_time):
     passwd = raw_input("请输入登录密码:")
     if  users.get(user_name)==passwd:
         print "登录成功"
-        return(1)
+        return("succ")
     else:
         print("登录失败 您还有%d次登录机会"%(wrong_time-1))
         wrong_time-=1
@@ -22,7 +22,7 @@ while True:
     if action == "1":
         regist()
     if action == "2":
-        if login(wrong_time) == 1:
+        if login(wrong_time) == 'succ':
             break
         else:
             wrong_time-=1

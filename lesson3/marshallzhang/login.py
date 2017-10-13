@@ -16,7 +16,7 @@ def login(wrong_time):
     else:
         print("登录失败 您还有%d次登录机会"%(wrong_time-1))
         wrong_time-=1
-    return wrong_time 
+        return wrong_time 
 while True:
     action=raw_input("请输入操作项 1 为注册 2为登录:")
     if action == "1":

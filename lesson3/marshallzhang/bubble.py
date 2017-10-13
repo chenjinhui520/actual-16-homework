@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 #coding=utf8
 def bubble(nums):
-    # 使用列表冒泡排序找出来最大和第二最大值
     length = len(nums)
     max = nums[0]
     for i in range(length,0,-1):

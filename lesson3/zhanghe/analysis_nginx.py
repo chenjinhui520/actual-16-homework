@@ -5,6 +5,7 @@
 
 statusCode = {}
 ipAddress = {}
+ipUrl = {}
 
 nginxLog = r'/home/hezhang/Desktop/nginx_access.log'
 
@@ -16,6 +17,7 @@ fd.close()
 # Analysis Status Code
 for line in logs:
     l = line.split()
+    #print l
     ip = l[0]
     s1 = l[-5]
     s2 = l[8]
@@ -26,8 +28,6 @@ for line in logs:
     else:
         ipAddress[ip] = 1
 
-    '''
-    '''
 
     # Analysis Status Code
     if s1.isdigit():
@@ -42,8 +42,33 @@ for line in logs:
             statusCode[s2] = 1
     else:
         continue
-        
 
+
+    #ip url
+    ipUrl[ip] = {}
+
+
+
+
+
+for i in ipUrl:
+    for line in logs:
+        l = line.split()
+        ip = l[0]
+        method = l[5]
+        url = l[6]
+
+        if ip == i:
+            if 'GET' in method:
+                if url in ipUrl[ip]:
+                    ipUrl[ip][url] += 1
+                else:
+                    ipUrl[ip] = {url: 1}
+
+
+    
+        
+#print ipUrl       
 #print statusCode
 #print ipAddress
 
@@ -72,3 +97,5 @@ for ip, count in ipAddressResult:
 else:
     print '-' * 28
 #'''
+
+print ipUrl       

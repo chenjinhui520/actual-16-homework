@@ -1,11 +1,12 @@
 #!/bin/python
 #coding: utf-8
 import re
+import sys
 
 counter = 0
 #filename = 'store.db'
-personinfos = [] 
-user={}
+persioninfos = [] 
+failu={}
 
 while True:
     action = raw_input('action :')
@@ -21,9 +22,13 @@ while True:
         if re.match('\w+@\w+\.[a-z]+',email) == None:
             print 'incorrect emaill address. The format is like name@example.com'
             continue
+        for u in persioninfos:
+            if u['username'] == username or u['email'] == email:
+                print 'user or email exist.'
+                continue
         password = raw_input('Password:')
         user = {'username' : username , 'email' : email, 'password' : password}
-        personinfos.append(user)
+        persioninfos.append(user)
         print 'Register successfully'
         continue
 
@@ -31,13 +36,23 @@ while True:
 
         username = raw_input('Username :')
         password = raw_input('Password:')
+        if username.isspace() or password.isspace():
+            print 'username or password is null'
+            continue
 
-        for x in personinfos:
+        for x in persioninfos:
             if x['username'] == username and x['password'] == password:
                 print 'login sucess'
                 print 'welcome %s to login' % username
             else:
                 print 'Account do not exist. Pleae register firstly'
+                if failu.has_key(username):
+                    failu[username]+=1
+                    if failu[username] > 3:
+                        print 'login failed more than 3 times'
+                        sys.exit()
+                else:
+                    failu[username]=1
 
         continue
 

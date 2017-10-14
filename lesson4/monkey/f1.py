@@ -1,47 +1,59 @@
+#coding: utf-8
 
-# 无参数 无返回值
-def func1():
-    print "hello world!"
+def f1():
+    print 'hello world.'
 
-# 无参数 有返回值
-def func2():
-    print "hello world!"
-    return "hw"
+def f2(x):
+    print x
 
-# 有参数 有返回值
-# 位置参数
-def func3(x, y):
+def f3(x, y):
+    print x, y
+    print x + y
+
+def f4(x, y):
     return x + y
 
-# 有参数 有返回值
+def f5(x, y):
+    print 'x + y = ', x + y
+    return x + y
+
 # 位置参数
-def func4(x, y):
+def f6(x, y):
     return y, x
 
-# 位置参数 默认参数
-def func5(x, y=1):
-    print x
-    print y
+def revererString(x, y):
+    return y + ' ' + x
 
-# 位置参数 关键字参数
-def func(*args, **kwargs):
-    print args
-    print kwargs
+def new_raw_input(prompt):
+    return prompt
 
-def func6(x, y, *args, **kwargs):
-    print 'x, y is:',x, y
-    print 'args is',args
-    print "kwargs is",kwargs
+# 默认参数
+def f7(prompt=""):
+    return prompt
 
-func6(12, 34, 45, 67, name='alen', age=23)
+f6('123', '456')
 
-# 参数传递
-def func7(*args):
-    print args
+#name = f7('oplease input your name: ')
+#print 'name: ', name
 
-p = (1,2,3, 4,5)
-func7(p)
-func7(*p)
+#f2('please input your name: ')
 
+#f3(2, 5)
 
+#s = f4(2, 5)
+#print s
 
+#s = f5(2, 5)
+#print 's: ', s
+
+#x, y = f6('hello', 'world')
+#print x, y
+
+#s = revererString('hello', 'world')
+#print s
+
+#name = new_raw_input("please input your name: ")
+#print name
+
+#ss = f6(2, 5)
+#print ss 

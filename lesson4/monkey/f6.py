@@ -1,0 +1,4 @@
+
+
+def exitfunc():
+    return True

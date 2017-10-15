@@ -33,8 +33,15 @@ def readFile(filename):
     return data
 
 
-def printJson(data):
-    print json.dumps(data, indent=4)
+def printFormat(data, format=json):
+    if format == "json":
+        print json.dumps(data, indent=4)
+
+    elif format == "xml":
+        pass
+
+    elif format == "table":
+        pass
 
 
 def check_user_exists(username):
@@ -49,6 +56,9 @@ def authentication(username, password):
         如果用户名和密码验证成功 return True 否则 return False
     '''    
     return True # return False
+
+def help():
+    pass
 
 
 def main():

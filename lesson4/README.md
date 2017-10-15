@@ -21,11 +21,16 @@ def register():
 
 
 def writeFile(filename, data):
-    pass
+    fd = open(filename, 'w')
+    fd.write(data)
+    fd.close()
 
 
 def readFile(filename):
-    return
+    fd = open(filename, 'r')
+    data = fd.read()
+    return data
+
 
 def printJson(data):
     print json.dumps(data, indent=4)
@@ -39,16 +44,35 @@ def check_user_exists(username):
 
 
 def authentication(username, password):
-    
+    '''
+        如果用户名和密码验证成功 return True 否则 return False
+    '''    
     return True # return False
 
 
 def main():
-    pass
+    while True:
+        action = raw_input("please input your action: ")
+        if action == 'login':
+            pass
 
+        elif action == 'register':
+            pass
 
+        elif action == 'quit':
+            pass
+
+        elif action == 'list':
+            pass
+
+        elif action == 'help':
+            pass
+
+        else:
+            pass
+
+# 主函数
 main()
-
 ```
 
 - 注意 

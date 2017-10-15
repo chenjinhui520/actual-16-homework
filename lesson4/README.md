@@ -1,9 +1,16 @@
 ## 作业1
+> 改造lesson3作业1的用户注册、登录系统, 使用函数的方式。  
+
+- 注意
+    1. main函数为程序的入口函数，也称为主函数；
+    2. 用户退出程序前需要把数据持久化到文件中， 下次再运行该程序需要从磁盘文件中加载数据到内存中(也就是json.loads);
+    3.  
 ```
 #!coding: utf-8
 
 import json
 
+filename = "store.db"
 
 def login():
     pass
@@ -43,3 +50,5 @@ def main():
 main()
 
 ```
+
+

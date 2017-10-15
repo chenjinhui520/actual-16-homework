@@ -29,6 +29,7 @@ def writeFile(filename, data):
 def readFile(filename):
     fd = open(filename, 'r')
     data = fd.read()
+    fd.close()
     return data
 
 

@@ -74,6 +74,7 @@ def main():
             pass
 
         elif action == 'list':
+            # 列出所有已注册的用户，并格式化输出，输出格式可以任意。
             pass
 
         elif action == 'help':

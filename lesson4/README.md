@@ -131,7 +131,7 @@ def rrange(*args):
         start, stop, step = args[0], args[1], args[2]
         ret = counter_range(start, stop, step)
     else:
-        ret = "range expected at most 3 arguments, got %d" % len(args)
+        ret = "rrange expected at most 3 arguments, got %d" % len(args)
     return ret
 
 def counter_range(start, stop, step):

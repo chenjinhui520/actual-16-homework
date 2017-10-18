@@ -101,3 +101,85 @@ lambda 匿名函数
 
 ```
 
+## 参考代码
+> 如何手动实现内置的range函数，以及range函数的参数
+
+```
+#coding: utf-8
+#filename: monkey.py
+
+
+'''
+如果手动实现简单版的range函数
+'''
+
+
+def rrange(*args):
+    '''
+    rrange(stop) -> list of integers
+    rrange(start, stop[, step]) -> list of integers
+    '''
+    ret = []
+
+    if len(args) == 1:
+        start, stop, step = 0, args[0], 1
+        ret = counter_range(start, stop, step)
+    elif len(args) == 2:
+        start, stop, step = args[0], args[1], 1
+        ret = counter_range(start, stop, step)
+    elif len(args) == 3:
+        start, stop, step = args[0], args[1], args[2]
+        ret = counter_range(start, stop, step)
+    else:
+        ret = "range expected at most 3 arguments, got %d" % len(args)
+    return ret
+
+def counter_range(start, stop, step):
+    counter_ret = []
+    while start < stop:
+        counter_ret.append(start)
+        start += step
+    return counter_ret
+
+
+if __name__ == '__main__':
+    print rrange(10)
+    print rrange(10, 21)
+    print rrange(10, 21, 2)
+```
+
+> 调用和执行结果
+```
+(python27env) [root@l-monkey@gmail monkey]# ll monkey.py 
+-rw-r--r-- 1 root root 929 10月 18 13:24 monkey.py
+(python27env) [root@l-monkey@gmail monkey]# ipython
+WARNING: IPython History requires SQLite, your history will not be saved
+Python 2.7.10 (default, Aug 25 2017, 15:33:18) 
+Type "copyright", "credits" or "license" for more information.
+
+IPython 1.2.1 -- An enhanced Interactive Python.
+?         -> Introduction and overview of IPython's features.
+%quickref -> Quick reference.
+help      -> Python's own help system.
+object?   -> Details about 'object', use 'object??' for extra details.
+
+In [1]: import monkey
+
+In [2]: monkey.rrange?
+Type:       function
+String Form:<function rrange at 0x7f37f4223320>
+File:       /root/reboot16/actual-16-homework/lesson5/monkey/monkey.py
+Definition: monkey.rrange(*args)
+Docstring:
+rrange(stop) -> list of integers
+rrange(start, stop[, step]) -> list of integers
+
+In [3]: monkey.rrange(10)
+Out[3]: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+In [4]: monkey.rrange(1, 10)
+Out[4]: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+In [5]: monkey.rrange(1, 10, 2)
+Out[5]: [1, 3, 5, 7, 9]
+```

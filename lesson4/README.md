@@ -188,3 +188,35 @@ Out[4]: [1, 2, 3, 4, 5, 6, 7, 8, 9]
 In [5]: monkey.rrange(1, 10, 2)
 Out[5]: [1, 3, 5, 7, 9]
 ```
+
+## lesson3的第二个作业的第二个方式
+```
+#coding: utf-8
+
+import json
+
+
+def counterLog(filename):
+    ret = {}
+    with open(filename, 'r') as fd:
+        for line in fd:
+            token = line.split()
+            src_ip = token[0]
+            target_url = token[6]
+            if src_ip in ret:
+                if target_url in ret[src_ip]:
+                    ret[src_ip][target_url] += 1
+                else:
+                    ret[src_ip][target_url] = 1
+            else:
+                ret[src_ip] = { target_url : 1 }
+    return ret
+
+def printJson(data):
+    print json.dumps(data, indent=4)
+
+
+if __name__ == '__main__':
+    data = counterLog('logs/access.log')
+    printJson(data)
+```

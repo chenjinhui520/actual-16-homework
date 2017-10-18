@@ -113,7 +113,7 @@ def main():
             data = readFile(filename)
             prompt = """请输入输出格式[json|xml|table]"""
             format_type=raw_input(prompt)
-            printFormat(data,'xml')
+            printFormat(data,format_type)
         elif action == '5' or action == "help":
             help()
         else:

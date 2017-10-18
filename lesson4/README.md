@@ -124,17 +124,22 @@ def rrange(*args):
     if len(args) == 1:
         start, stop, step = 0, args[0], 1
         ret = counter_range(start, stop, step)
+
     elif len(args) == 2:
         start, stop, step = args[0], args[1], 1
         ret = counter_range(start, stop, step)
+
     elif len(args) == 3:
         start, stop, step = args[0], args[1], args[2]
         ret = counter_range(start, stop, step)
+
     else:
         ret = "rrange expected at most 3 arguments, got %d" % len(args)
+
     return ret
 
 def counter_range(start, stop, step):
+
     counter_ret = []
     while start < stop:
         counter_ret.append(start)

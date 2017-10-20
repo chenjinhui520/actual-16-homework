@@ -30,9 +30,9 @@ def confirmadd():
     passwd = request.form.get('passwd')
     with open('store.db','r') as f:
         users = json.loads(f.read())
-    with open('store.db','w') as f:
-        users[user] =  passwd
+        users[user] = passwd
         users = json.dumps(users)
+    with open('store.db', 'w') as f:
         f.write(users)
     return redirect('userlist')
 

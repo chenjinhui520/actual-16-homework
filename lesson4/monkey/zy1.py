@@ -60,3 +60,4 @@ while True:
 
 
 print "Game Over."
+print personinfos

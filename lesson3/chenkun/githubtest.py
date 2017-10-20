@@ -41,4 +41,7 @@ while 1:
     elif action == '3':
         break
 
+print userinfo
+
+
     

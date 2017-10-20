@@ -1,13 +1,11 @@
-<a href="adduser">add user</a>
-<table border="1">
+<table>
     <tr>
-        <td>用户名</td>
-        <td>密码</td>
+        <td><a href="userlist">查询用户</a></td>
+        <td><a href="adduser">注册用户</a></td>
     </tr>
-    {% for user in users.iteritems() %}
-    <tr>
-        <td>{{user[0]}}</td>
-        <td>{{user[1]}}</td>
-    </tr>
-    {% endfor %}
+    <form action="login" method="POST">
+        <tr><td>用户名:<input type="text" name="user"></td></tr> 
+        <tr><td>密码:<input type="text" name="passwd"></td></tr> 
+        <tr><td><input type="submit" value="login"></td></tr>
+    </form>
 </table>

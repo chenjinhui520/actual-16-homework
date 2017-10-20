@@ -41,6 +41,11 @@ def printFormat(data, format=json):
         pass
 
     elif format == "table":
+        '''
+        username    |   email                   |   password
+        monkey      |   monkey@51reboot.com     |   123456
+        xiaoming    |   xiaoming@51reboot.com   |   123456
+        '''
         pass
 
 

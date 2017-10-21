@@ -4,7 +4,7 @@ import json
 
 from flask import Flask
 from flask import request
-from flask import render_template 
+from flask import render_template
 
 app = Flask(__name__)
 
@@ -15,7 +15,7 @@ def WriteFile(registerInfo):
             users = json.loads(fd.read())
     except Exception as e:
         users = []
-    
+
     users.append(registerInfo)
     with open('store.db', 'w') as fd:
         fd.write(json.dumps(users))
@@ -40,14 +40,6 @@ def userlist():
         data = json.loads(fd.read())
     return render_template('userlist.html', users=data, errmsg='login failed')
 
-@app.route('/delUser')
-def delUser():
-    username = request.args['username']
-    # username = monkey
-    '''
-        通过用户名删除用户
-    '''
-    return 'delUser sucess.'
 
 
 if __name__ == '__main__':

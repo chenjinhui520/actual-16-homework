@@ -4,16 +4,12 @@
 		<th style='color:red'>用户名</th>
 		<th>邮  箱</th>
 		<th>密  码</th>
-		<th>操  作</th>
 	</tr>
 	{% for user in users %}
 	<tr>
 		<td>{{ user['username'] }}</td>
 		<td>{{ user['email'] }}</td>
 		<td>{{ user['password'] }}</td>
-		<td>
-                    <a href='/delUser?username={{user['username']}}'>删除</a>
-                </td>
 	</tr>
        {% endfor %}
 

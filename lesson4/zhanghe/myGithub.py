@@ -5,6 +5,7 @@ import getpass
 import json
 import os
 import sys
+from prettytable import PrettyTable
 
 
 dbfile = 'mydbfile.db' #存储账号信息
@@ -70,17 +71,27 @@ def readFile(filename):
 
 
 def formatTable(data):
-    print '-' * 70
-    print '| {:^10}| {:^10}| {:^25}| {:^15}|'.format('Account', 'Status', 'Email', 'Password')
-    print '-' * 70
+    tableHeader = ['账户名称', '账户状态', '邮箱', '密码']
+    # print '-' * 70
+    # print '| {:^10}| {:^10}| {:^25}| {:^15}|'.format('Account', 'Status', 'Email', 'Password')
+    # print '-' * 70
+    # for k, v in data.iteritems():
+    #     if v[0] == 0:
+    #         status = 'OK'
+    #     else:
+    #         status = 'LOCK'
+
+    #     print '| {:<10}| {:^10}| {:<25}| {:<15}|'.format(k, status, v[1], v[2])
+    #     print '-' * 70
+    table = PrettyTable(field_names=tableHeader)
     for k, v in data.iteritems():
         if v[0] == 0:
             status = 'OK'
         else:
             status = 'LOCK'
-
-        print '| {:<10}| {:^10}| {:<25}| {:<15}|'.format(k, status, v[1], v[2])
-        print '-' * 70
+        table.add_row([k, status, v[1], v[2]])
+        
+    print table
 
 
 # 列出所有注册账户

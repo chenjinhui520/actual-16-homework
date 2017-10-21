@@ -27,16 +27,18 @@ while ppp:
                     #n,p,e = fd.read().split('|')
                         if '|' in line and line.strip().split('|')[0] == name and line.strip().split('|')[1]  == passwd:
                             print '登录成功yep！'
+                            ppp = False
                             break
                         else:
                             print '用户名或密码错误...'
-                            if c != 3:
-                                continue
-                            else:
+                            if c > 3:
                                 print '连续3次输入错误！[你已被锁定]！请到公安局自首..'
+                                ppp = False
                                 break
-                    ppp = False
-                    break
+                            c += 1
+            else:
+                print '数据库不存在-请先注册用户!'
+                break
     if point == 'register':
         name = raw_input('请填写用户名：').strip()
         passwd = raw_input('请填写密码：').strip()
@@ -45,35 +47,3 @@ while ppp:
         f.write(name+'|'+passwd+'|'+email+'\n')
         f.close
     c += 1
-'''
-作业2：
-    需求: 处理NGINX ACCESS日志
-    实现：
-    1. 统计一个日志文件中不同状态码出现的次数；
-    2. 统计一个日志文件中不同IP出现的次数；
-    3. 统计同一个ip访问不同一个url的次数；
-    
-    # 方式1:
-      添加 m['80.82.78.38']['http://www.reboot.com'] = 1 如果不存在就修改
-    {
-        '80.82.78.38' : {
-                  'http://www.baidu.com/cache/global/img/gs.gif' : 2,
-                  'http://www.qq.com/404/search_children.js' : 5,
-                   },
-        '80.82.78.100' : {
-                  'http://www.baidu.com/cache/global/img/gs.gif' : 20,
-                   },
-    }
-    # 方式2:
-    {
-        '80.82.78.38 http://www.baidu.com/cache/global/img/gs.gif' : 2,
-        '80.82.78.38 http://www.qq.com/404/search_children.js' : 5,
-        '80.82.78.100 http://www.baidu.com/cache/global/img/gs.gif' : 20,
-    } 
-'''
-'''
-作业3：
-    理解冒泡排序，不看上课代码，手写冒泡排序。  
-'''
-
-

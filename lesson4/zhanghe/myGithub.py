@@ -253,6 +253,8 @@ def main():
         if ops not in operaters():
             print 'Invalid choice, try again'
             continue
+
+        '''
         if ops == 'help':
             help()
         elif ops == 'quit':
@@ -269,7 +271,10 @@ def main():
             login()
         elif ops == 'register':
             register()
+        '''
 
+        actionMap = {'delete': deleteAccount, 'help': help, 'list': listAccount, 'lock': lock, 'unlock': unlock, 'quit': quit, 'login': login, 'register': register}
+        actionMap[ops]()
 
 if __name__ == '__main__':
     main()

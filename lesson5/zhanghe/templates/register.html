@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="utf-8">
+    <title>般若用户注册登录系统</title>
+    <link rel="stylesheet" href="../static/register.css">
+</head>
+
+<body>
+    <div class="content">
+        <h1 class="title"><i class="topic">般若</i>用户注册登录系统</h1>
+        <div class="register">
+            <form action="/register" method="POST">
+                <input type="text" placeholder="用户名" class="input registerInput" name="username">
+                <input type="email" placeholder="邮箱" class="input registerInput" name="email">
+                <input type="password" placeholder="密码" class="input registerInput" name="password">
+                <input type="submit" value="注册" class="input registerBtn">
+            </form>
+            
+        </div>
+        <div class="back">
+            <a href="/">返回主页</a>
+        </div>
+    </div>
+</body>
+
+</html>

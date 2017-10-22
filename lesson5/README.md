@@ -14,5 +14,5 @@
 3. 完善lesson5用户系统的 ![注册用户 和 查看用户](https://github.com/51reboot/actual-16-homework/blob/master/lesson5/monkey/web/flask_web2.py)功能页面.
 
 ## 课下娱乐
-![彩色输出终端格式](./monkey/color.png)
+![docker](./monkey/imgs/color.png)
 

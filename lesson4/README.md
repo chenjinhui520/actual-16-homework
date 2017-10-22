@@ -5,7 +5,7 @@
 1. main函数为程序的入口函数，也称为主函数；
 2. 用户退出程序前需要把数据持久化到文件中， 下次再运行该程序需要从磁盘文件中加载数据到内存中(也就是json.loads);
 
-```
+```python
 #!coding: utf-8
 
 import json
@@ -109,7 +109,7 @@ lambda 匿名函数
 ## 参考代码
 > 如何手动实现内置的range函数，以及range函数的参数
 
-```
+```python
 #coding: utf-8
 #filename: monkey.py
 
@@ -195,7 +195,7 @@ Out[5]: [1, 3, 5, 7, 9]
 ```
 
 ## lesson3的第二个作业的第二个方式
-```
+```python
 #coding: utf-8
 
 import json

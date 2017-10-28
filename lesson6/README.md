@@ -8,7 +8,7 @@
 ```bash
 ├── commoy        # 工具函数 或 通用函数;
 ├── flask_web     # flask的核心代码;
-├- stati            # 静态文件，比如css/js/image等;
+├- statc         # 静态文件，比如css/js/image等;
 ├── templa        # 静态文件；
 └── tests         # 测试文件；
 ```

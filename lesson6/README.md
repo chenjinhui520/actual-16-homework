@@ -12,5 +12,5 @@
 ├── templates       # 静态文件；
 └── tests.py        # 测试文件；
 ```
-- ![PPT课件](http://112.74.164.107:8000/lesson6.slide#1)
+![PPT课件](http://112.74.164.107:8000/lesson6.slide#1)
 

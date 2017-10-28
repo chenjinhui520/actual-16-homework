@@ -1,0 +1,29 @@
+<h1>Hello World!</h1>
+{{ name }}
+<img src="/static/images/kunan.jpg">
+
+{% if data %}
+    用户名: {{ data['name'] }}
+    <br/>
+    电  话: {{ data['tel'] }}
+    
+    
+    <ol>
+        <li>{{ data['name'] }}</li>
+        <li>{{ data['tel'] }}</li>
+    </ol>
+    
+    <ul>
+        <li>{{ data['name'] }}</li>
+        <li>{{ data['tel'] }}</li>
+    </ul>
+
+
+    {% for k, v in data.items() %}
+        <p>{{ v }},  {{ k }} </p>
+    {% endfor %}
+{% endif %}
+
+{% for iter in listdata %}
+    <p style='color:red'>{{ iter }} </p>
+{% endfor %}

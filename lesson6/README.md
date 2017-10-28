@@ -6,9 +6,9 @@
 
 > 模块拆分
 ```bash
-├── common.p 	# 工具函数 或 通用函数;
-├── flask_web.py	# flask的核心代码;
-├- static		# 静态文件，比如css/js/image等;
-├── templates	# 静态文件；
-└── tests.py		# 测试文件；
+├── commoy        # 工具函数 或 通用函数;
+├── flask_web     # flask的核心代码;
+├- stati            # 静态文件，比如css/js/image等;
+├── templa        # 静态文件；
+└── tests         # 测试文件；
 ```

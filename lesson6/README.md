@@ -12,5 +12,9 @@
 ├── templates       # 静态文件；
 └── tests.py        # 测试文件；
 ```
-![PPT课件](http://112.74.164.107:8000/lesson6.slide#1)
 
+> 注意
+```
+标准模块(os/sys)部分多练习
+funcArgv 和 execute_command 两个函数不看代码在写一遍
+```

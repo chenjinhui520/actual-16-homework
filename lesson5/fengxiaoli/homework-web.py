@@ -154,8 +154,7 @@ def login():
 
 @app.route('/userslist')
 def userlist():
-    with open('store.db', 'r') as fd:
-        data = json.loads(fd.read())
+    data=GetUsers()
     return render_template('userlist.html', users=data, errmsg='login failed')
 
 

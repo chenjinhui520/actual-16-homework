@@ -19,7 +19,7 @@
 funcArgv 和 execute_command 两个函数不看代码在写一遍
 ```
 
-> 二维码生成
+## 二维码生成
 
 ```python
 # pip install Image

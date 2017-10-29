@@ -22,6 +22,7 @@ funcArgv 和 execute_command 两个函数不看代码在写一遍
 ## 二维码生成
 
 ```python
+#coding: utf-8
 # pip install Image
 # pip install qrcode
 
@@ -34,3 +35,5 @@ img = qrcode.make('https://github.com/467754239')
 with open('reboot-actual.png', 'wb') as f:
     img.save(f)
 ```
+
+![二维码](./monkey/reboot-actual.png)

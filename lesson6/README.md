@@ -1,5 +1,7 @@
 # 作业 
 
+## 要求:
+
 1. 完善用户注册、登录、查看的功能;
 2. 登录页面改成使用bootstrap的登录页面；
 3. 将flask代码和工具函数拆分；
@@ -9,7 +11,7 @@
 ├── common.py       # 工具函数 或 通用函数;
 ├── flask_web.py    # flask的核心代码;
 ├── static          # 静态文件，比如css/js/image等;
-├── templates       # 静态文件；
+├── templates       # 静态文件，比如html；
 └── tests.py        # 测试文件；
 ```
 
@@ -19,7 +21,7 @@
 funcArgv 和 execute_command 两个函数不看代码在写一遍
 ```
 
-## 二维码生成
+## 二维码生成:
 
 ```python
 #coding: utf-8

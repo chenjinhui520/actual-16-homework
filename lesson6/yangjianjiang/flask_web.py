@@ -17,8 +17,8 @@ def index():
 def login():
     if request.method == 'POST':
         loading = request.form.to_dict()
-        print loading
-        print common.login(loading['username'],loading['password'])
+        #print loading
+        #print common.login(loading['username'],loading['password'])
         if common.login(loading['username'],loading['password']):
             return render_template('index.html')
         else:

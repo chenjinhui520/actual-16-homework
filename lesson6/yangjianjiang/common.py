@@ -41,7 +41,7 @@ def check_email(email):
 def login(*args):
     data = ReadFile()
     map_user_pass_dic = { x['username'] : x['password'] for x in data if x }
-    print map_user_pass_dic
+    #print map_user_pass_dic
     if map_user_pass_dic.get(args[0],None) == args[1]:
         return True
     else:

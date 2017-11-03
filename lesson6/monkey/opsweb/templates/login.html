@@ -24,15 +24,18 @@
             <form class="form-signin" action='/login' method='POST'>
                 <h2 class="form-signin-heading"><center>Sign In</center></h2>
                 <label for="inputEmail" class="sr-only">Username</label>
-                <input type="email" id="inputEmail" class="form-control" placeholder="Username" required autofocus>
+                <input type="text" id="inputEmail" class="form-control" placeholder="Username" name="username" required autofocus>
                 <label for="inputPassword" class="sr-only">Password</label>
-                <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+                <input type="password" id="inputPassword" class="form-control" placeholder="Password" name="password" required>
                 <div class="checkbox">
                     <label>
                         <input type="checkbox" value="remember-me"> Remember 
                     </label>
                 </div>
             <button class="btn btn-lg btn-primary btn-block" type="submit">LOGIN</button>
+			{% if errmsg %}
+			    <h5 style="color:red">{{ errmsg }}</h5>
+			{% endif %}
             </form>
           </div> <!-- /container -->
 

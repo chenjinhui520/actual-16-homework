@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Microsoft Yahei", "微软雅黑", "Arial", "sans-serif";
+    font-size: 12px;
+}
+
+body {
+    background-color: #A9F5A9;
+}
+
+body, h1 {
+    margin: 0;
+    padding: 0;
+}
+
+
+.content {
+    margin: 150px auto 0;
+    width: 800px;
+    height: 350px;
+    background-color: #424242;
+}
+
+.content .title {
+    font-family:  "华文行楷","Microsoft Yahei", "Arial", "sans-serif";
+    font-size: 3.5rem;
+    color: #0088cc;
+    font-weight: normal;
+    letter-spacing: 5px;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.content .topic {
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: bolder;
+}
+
+.login {
+	margin: 20px auto 0;
+	background-color: #424242;
+    border-radius: 5px;
+    padding: 0 200px;
+}
+
+.input {
+	font-size: 1.2rem;
+	text-indent: 5px;
+	width: 400px;
+	height: 35px;
+}
+
+.loginInput {
+	border: 1px solid #333;
+	display: block;
+	margin-bottom: 15px;
+}
+
+.loginInput:focus {
+	outline: none;
+	border: 1px solid #0088cc;
+}
+
+.loginBtn {
+	color: #fff;
+	background-color: #0088cc;
+	border: none;
+	font-size: 1.6rem;
+	cursor: pointer;
+	height: 45px;
+	letter-spacing: 5px;
+	border-radius: 2px;
+	outline: none;
+}
+
+.loginBtn:hover {
+	background-color: #31B1F2;
+	transition-property: background-color;
+	transition-duration: 0.5s;
+}
+
+.back {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.back a {
+    font-size: 1.5rem;
+    color: #0088cc;
+}
+
+.back a:hover {
+    color: #ffffff;
+    background-color: #0088cc;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+}

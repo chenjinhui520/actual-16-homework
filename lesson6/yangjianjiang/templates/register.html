@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="icon" href="../../favicon.ico">
+
+        <title>Reboot Actual 16</title>
+
+        <!-- Bootstrap core CSS -->
+        <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Custom styles for this template -->
+        <link href="/static/css/signin.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/">OpsWeb</a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="/">返回首页</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+<!--
+            <form action="/register" method="POST">
+                <input type="text" placeholder="用户名" class="input registerInput" name="username">
+                <input type="email" placeholder="邮箱" class="input registerInput" name="email">
+                <input type="password" placeholder="密码" class="input registerInput" name="password">
+                <input type="submit" value="注册" class="input registerBtn">
+            </form>
+-->
+
+        <div class="container">
+            <form class="form-signin" action='/register' method='POST'>
+                <h2 class="form-signin-heading"><center>注册页</center></h2>
+                <label for="inputEmail" class="sr-only" >username</label>
+                <input type="text"  class="form-control" placeholder="用户名"  name="username" required autofocus>
+                <label for="inputEmail" class="sr-only" >email</label>
+                <input type="email" id="inputEmail" class="form-control" placeholder="邮 箱" name="email"  required autofocus>
+                <label for="inputPassword" class="sr-only">password</label>
+                <input type="password" id="inputPassword" class="form-control" placeholder="密 码" name="password" required>
+<!--
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" value="remember-me"> Remember 
+                    </label>
+                </div>
+                -->
+            <button class="btn btn-lg btn-primary btn-block" type="submit">REGISTER</button>
+            </form>
+          </div> <!-- /container -->
+
+  </body>
+</html>
+

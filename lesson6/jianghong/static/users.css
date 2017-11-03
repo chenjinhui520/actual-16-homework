@@ -1,0 +1,95 @@
+@charset "utf-8";
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Microsoft Yahei", "微软雅黑", "Arial", "sans-serif";
+    font-size: 10px;
+}
+
+body {
+    background-color: #A9F5A9;
+}
+
+body, h1 {
+    margin: 0;
+    padding: 0;
+}
+
+
+.content {
+    margin: 150px auto 0;
+    width: 600px;
+    height: 450px;
+    max-height: 450px;
+    background-color:  #424242;
+}
+
+.content .title {
+    font-family: "华文行楷","Microsoft Yahei", "微软雅黑", "Arial", "sans-serif";
+    font-size: 3rem;
+    color: #0088cc;
+    font-weight: normal;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.content .topic {
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.ftable {
+    width: 600px;
+    height: 280px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.caption {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #0088cc;
+}
+
+.table th {
+    font-size: 1.5rem;
+    color: #0088cc;
+    font-weight: bold;
+}
+.table tr, .table th, .table td {
+    border: 1px solid #0088cc;
+    height: 40px; 
+    font-size: 1.4rem;
+}
+
+.table {
+    border-collapse: collapse;
+    text-align: center;
+    width: 580px;
+    height: 60px;
+    margin-left: 9px;
+}
+
+
+.back {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.back a {
+    font-size: 1.5rem;
+    color: #0088cc;
+}
+
+.back a:hover {
+    color: #ffffff;
+    background-color: #0088cc;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+}

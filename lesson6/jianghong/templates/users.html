@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="utf-8">
+    <title>王者峡谷注册中心</title>
+    <link rel="stylesheet" href="../static/users.css">
+</head>
+
+<body>
+    <div class="content">
+        <h1 class="title"><i class="topic">欢迎</i>来到王者峡谷</h1>
+        <div class="ftable">
+            <table class="table">
+                <caption class="caption">用户列表</caption>
+                <thead>
+                    <tr>
+                        <th>用户名</th>
+                        <th>用户状态</th>
+                        <th>邮箱</th>
+                        <th>密码</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for user, values in users.iteritems() %}
+                    <tr>
+                        <td>{{ user }}</td>
+                        <td>{{ status }}</td>
+                        <td>{{ values[1] }}</td>
+                        <td>{{ values[2] }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        <div class="back">
+            <a href="/">返回主页</a>
+        </div>
+    </div>
+</body>
+
+</html>

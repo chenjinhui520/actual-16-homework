@@ -11,3 +11,6 @@
 1. 用户的注册、删除、搜索功能课堂上已经完成，大家只需要把用户修改完成即可；
 2. 以上所有的功能会在第八次课用一上午的时间在重新带大家手动敲一遍；
 ```
+
+## Chrome Flask MySQL三者的关系
+![relation](./monkey/images/flask-mysql.png)

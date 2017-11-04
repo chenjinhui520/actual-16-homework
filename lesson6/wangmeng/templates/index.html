@@ -1,0 +1,25 @@
+<h1>hello world</h1>
+{{ enter }}
+
+{% if data%}
+    用户名：{{ data['name'] }}
+    <br/>
+    密  码：{{ data['pwd'] }}
+    
+    <ol>
+    <li>{{ data['name'] }}</li>
+    <li>{{ data['pwd'] }}</li>
+    </ol>
+    <ul>
+    <li>{{ data['name'] }}</li>
+    <li>{{ data['pwd'] }}</li>
+    </ul>
+    
+    {% for k,v in data.items() %}
+        <p>{{k}},{{v}}</p>
+    {% endfor %}
+{% endif %}
+
+{% for i in listdata %}
+    <p style='color:red'>{{ i }}</p>
+{% endfor %}

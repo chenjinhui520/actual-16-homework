@@ -175,9 +175,9 @@
 											</div>
 
 											<div class="btn-group pull-right">
-												<form class="form-inline" style="float: right" method="get" action="/users">
+												<form class="form-inline" style="float: right" method="get" action="">
 												    <div class="form-group">
-												    	<input class="form-control" type="text" name="search" placeholder="搜索" autocomplete="off">
+												    	<input class="form-control" type="text" name="search" value="" placeholder="搜索" autocomplete="off">
 														<button type="submit" class="btn btn-primary">查询</button>
 												    </div>	
 												</form>
@@ -199,23 +199,37 @@
 															</tr>
 														</thead>
 														<tbody>
-                                                                                                                       {% for user in users %}
-								<tr>
-									<td class="highlight">
-									<div class="info"> </div>
-									<a href="javascript:;"> {{ user[0] }} </a>
-								</td>
-								<td class="hidden-xs"> {{ user[1] }}</td>
-								<td class="hidden-xs"> {{ user[2] }} </td>
-								<td> {{ user[3] }} </td>
-								<td>
-									<a href="javascript:;" class="btn btn-outline btn-circle green btn-sm purple">
-										<i class="fa fa-edit"></i> Edit </a>
-									<a href="/users/{{ user[0] }} " class="btn btn-outline btn-circle dark btn-sm black">
-										<i class="fa fa-trash-o"></i> Delete </a>
-										</td>
-														</tr>
-														         {% endfor %}	
+															<tr>
+																<td class="highlight">
+																	<div class="info"> </div>
+																	<a href="javascript:;"> 1 </a>
+																</td>
+																<td class="hidden-xs"> monkey </td>
+																<td class="hidden-xs"> monkey@51reboot.com </td>
+																<td> 123456 </td>
+																<td>
+																	<a href="javascript:;" class="btn btn-outline btn-circle green btn-sm purple">
+																		<i class="fa fa-edit"></i> Edit </a>
+																	<a href="javascript:;" class="btn btn-outline btn-circle dark btn-sm black">
+																		<i class="fa fa-trash-o"></i> Delete </a>
+																</td>
+															</tr>
+															
+															<tr>
+																<td class="highlight">
+																	<div class="info"> </div>
+																	<a href="javascript:;"> 2 </a>
+																</td>
+																<td class="hidden-xs"> monkey </td>
+																<td class="hidden-xs"> monkey@51reboot.com </td>
+																<td> 123456 </td>
+																<td>
+																	<a href="javascript:;" class="btn btn-outline btn-circle green btn-sm purple">
+																		<i class="fa fa-edit"></i> Edit </a>
+																	<a href="javascript:;" class="btn btn-outline btn-circle dark btn-sm black">
+																		<i class="fa fa-trash-o"></i> Delete </a>
+																</td>
+															</tr>
 														</tbody>
 													</table>
 												</div>

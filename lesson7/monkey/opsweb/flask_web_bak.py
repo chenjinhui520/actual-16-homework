@@ -7,10 +7,7 @@ from flask import redirect                # 从flask包导入redirect函数
 from flask import render_template         # 从flask包导入render_template函数 
 
 from common import authentication
-from common import register
-from common import get_user
-from common import get_users 
-from common import userDel 
+from auth import login_required
 
 
 app = Flask(__name__)
@@ -20,6 +17,7 @@ app.secret_key = 'oF\xd3I\x98\xe5\xb4\x1a\xfb\xc77\xe3\xcc,\xc2\xd2\x05\x8b\xa9\
 '''首页
 '''
 @app.route('/')
+@login_required
 def index():
     return render_template('index.html')
 
@@ -44,44 +42,24 @@ def login():
 '''用户
 '''
 @app.route('/users', methods=['GET', 'POST', 'DELETE', 'PUT'])
+@login_required
 def users():
-    search_value = request.args.get("search")
-    print search_value
-    if search_value:
-        users = get_user(search_value) 
-    else:
-        users = get_users()
-    return render_template('users.html', users=users)
-
-
-'''用户删除
-'''
-@app.route('/users/<int:uid>', methods=['GET'])
-def usersDel(uid):
-    response = userDel(uid)
-    print response
-    return redirect('/users')
+    return render_template('users.html')
 
 
 '''用户添加
 '''
 @app.route('/users/add', methods=['GET', 'POST'])
+@login_required
 def users_add():
     if request.method == 'POST':
+        print dir(request.form)
+        print "values: ", request.form.values()
         data = request.form.to_dict()
+        print data
         if data['password'] != data['rpassword']:
             errmsg = "Confirm password error"
             return render_template('users_add.html', errmsg=errmsg)
-        # 1. 判断用户是否存在，用户存在，提示改用户已被注册
-
-        # 2. 判断邮箱的后缀是不是公司的邮箱后缀 @51reboot.com
-
-        # 3. 密码复杂性要求 长度不能低于8位 必须包含大写、小写和特殊字符等
-
-        print data
-        response = register(data)
-        print response
-
         return redirect("/users")
     else:
         return render_template('users_add.html')
@@ -90,6 +68,7 @@ def users_add():
 '''资产
 '''
 @app.route('/assets')
+@login_required
 def assets():
     return render_template('assets.html')
 
@@ -97,6 +76,7 @@ def assets():
 '''性能监控
 '''
 @app.route('/performance_monitor')
+@login_required
 def performance_monitor():
     return render_template('monitor.html')
 

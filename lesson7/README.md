@@ -13,4 +13,4 @@
 ```
 
 ## Chrome Flask MySQL三者的关系
-![relation](./monkey/images/flask-mysql.png)
+![relation](./monkey/images/flask-mysql.jpg)

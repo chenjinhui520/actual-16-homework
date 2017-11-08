@@ -15,3 +15,6 @@ def select_all_result(sql):
     cursor.execute(sql)
     return cursor.fetchall()
 
+def select_one_result(sql):
+    cursor.execute(sql)
+    return cursor.fetchone()

@@ -8,13 +8,12 @@
         <meta content="Preview page of Metronic Admin Theme #1 for blank page layout" name="description" />
         <meta content="" name="author" />
 		
-        <link href="/static/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-        <link href="/static/global/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css" />
-        <link href="/static/global/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-        <link href="/static/layouts/layout/css/layout.min.css" rel="stylesheet" type="text/css" />
-        <link href="/static/layouts/layout/css/themes/darkblue.min.css" rel="stylesheet" type="text/css" id="style_color" />
-        <link href="/static/css/components.min.css" rel="stylesheet" id="style_components" type="text/css" />
-	<link href="/static/imgs/favicon.ico" rel="shortcut icon" /> 
+        <link href="../static/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+        <link href="../static/global/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css" />
+        <link href="../static/global/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="../static/layouts/layout/css/layout.min.css" rel="stylesheet" type="text/css" />
+        <link href="../static/layouts/layout/css/themes/darkblue.min.css" rel="stylesheet" type="text/css" id="style_color" />
+		<link href="../static/imgs/favicon.ico" rel="shortcut icon" /> 
 
         <style>
             @media (min-width: 768px){
@@ -32,7 +31,7 @@
                 <div class="page-header-inner ">
                     <div class="page-logo">
                         <a href="/">
-                            <img src="/static/layouts/layout/img/logo.png" alt="logo" class="logo-default" /> </a>
+                            <img src="../static/layouts/layout/img/logo.png" alt="logo" class="logo-default" /> </a>
                         <div class="menu-toggler sidebar-toggler">
                             <span></span>
                         </div>
@@ -43,7 +42,7 @@
                         <ul class="nav navbar-nav pull-right">
                             <li class="dropdown dropdown-user">
                                 <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
-                                    <img alt="" class="img-circle" src="/static/layouts/layout/img/avatar3_small.jpg" />
+                                    <img alt="" class="img-circle" src="../static/layouts/layout/img/avatar3_small.jpg" />
                                     <span class="username username-hide-on-mobile"> actual6 </span>
                                     <i class="fa fa-angle-down"></i>
                                 </a>
@@ -96,7 +95,7 @@
                                     <i class="fa fa-angle-right"></i>
                                 </li>
                                 <li>
-                                    <span>用户管理</span>
+                                    <span>用户编辑</span>
                                 </li>
                             </ul>
                         </div>
@@ -104,7 +103,6 @@
 						
 						 <div class="row">
 							<div class="col-md-12">
-							
 								<div class="portlet light">
 									<div class="portlet-body">
 										<div class="table-toolbar">
@@ -120,7 +118,7 @@
                                                                 <span class="required" aria-required="true"> * </span>
                                                             </label>
                                                             <div class="col-md-4">
-                                                                <input type="text" class="form-control" name="username" value={{ user[1] }}>
+								    <input type="text" class="form-control" name="username" value={{ user[1] }} />
                                                                 <span class="help-block"> Provide your username </span>
                                                             </div>
                                                         </div>
@@ -129,7 +127,7 @@
                                                                 <span class="required" aria-required="true"> * </span>
                                                             </label>
                                                             <div class="col-md-4">
-                                                                <input type="password" class="form-control" name="password" id="submit_form_password" value={{ user[3] }}>
+								    <input type="password" class="form-control" name="password" value= {{ user[3] }} id="submit_form_password">
                                                                 <span class="help-block"> Provide your password. </span>
                                                             </div>
                                                         </div>
@@ -138,7 +136,7 @@
                                                                 <span class="required" aria-required="true"> * </span>
                                                             </label>
                                                             <div class="col-md-4">
-                                                                <input type="password" class="form-control" name="rpassword" value={{ user[3] }}>
+                                                                <input type="password" class="form-control" name="rpassword" value={{ user[3] }} >
                                                                 <span class="help-block"> Confirm your password </span>
                                                             </div>
                                                         </div>
@@ -147,7 +145,7 @@
                                                                 <span class="required" aria-required="true"> * </span>
                                                             </label>
                                                             <div class="col-md-4">
-                                                                <input type="text" class="form-control" name="email" value={{ user[2] }}>
+                                                                <input type="text" class="form-control" name="email" value= {{ user[2] }}>
                                                                 <span class="help-block"> Provide your email address </span>
                                                             </div>
                                                         </div>
@@ -168,7 +166,7 @@
             </div>
 
             <div class="page-footer">
-                <div class="page-footer-inner"> 2017 &copy; fengxiaoli. All rights reserved.</div>
+                <div class="page-footer-inner"> 2017 &copy; monkey. All rights reserved.</div>
                 <div class="scroll-to-top">
                     <i class="icon-arrow-up"></i>
                 </div>
@@ -176,17 +174,17 @@
         </div>
       
         <!-- BEGIN CORE PLUGINS -->
-        <script src="/static/global/plugins/jquery.min.js" type="text/javascript"></script>
-        <script src="/static/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
-        <script src="/static/global/plugins/js.cookie.min.js" type="text/javascript"></script>
-        <script src="/static/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
-        <script src="/static/global/plugins/jquery.blockui.min.js" type="text/javascript"></script>
-        <script src="/static/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js" type="text/javascript"></script>
-        <script src="/static/global/scripts/app.min.js" type="text/javascript"></script>
-        <script src="/static/layouts/layout/scripts/layout.min.js" type="text/javascript"></script>
-        <script src="/static/layouts/layout/scripts/demo.min.js" type="text/javascript"></script>
-        <script src="/static/layouts/global/scripts/quick-sidebar.min.js" type="text/javascript"></script>
-        <script src="/static/layouts/global/scripts/quick-nav.min.js" type="text/javascript"></script>
+        <script src="../static/global/plugins/jquery.min.js" type="text/javascript"></script>
+        <script src="../static/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="../static/global/plugins/js.cookie.min.js" type="text/javascript"></script>
+        <script src="../static/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+        <script src="../static/global/plugins/jquery.blockui.min.js" type="text/javascript"></script>
+        <script src="../static/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js" type="text/javascript"></script>
+        <script src="../static/global/scripts/app.min.js" type="text/javascript"></script>
+        <script src="../static/layouts/layout/scripts/layout.min.js" type="text/javascript"></script>
+        <script src="../static/layouts/layout/scripts/demo.min.js" type="text/javascript"></script>
+        <script src="../static/layouts/global/scripts/quick-sidebar.min.js" type="text/javascript"></script>
+        <script src="../static/layouts/global/scripts/quick-nav.min.js" type="text/javascript"></script>
         <!-- END THEME LAYOUT SCRIPTS -->
         <script>
             $(document).ready(function()

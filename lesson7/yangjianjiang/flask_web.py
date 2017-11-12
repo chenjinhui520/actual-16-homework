@@ -66,8 +66,10 @@ def usersDel(uid):
 '''
 @app.route('/edit/<int:uid>', methods=['POST','GET'])
 def usersedit(uid):
+    # () tuple
     response = userInfo(uid)
     #print response
+    print response
     if request.method == 'POST':
         data = request.form.to_dict()
         #print data
@@ -75,7 +77,7 @@ def usersedit(uid):
             user = userEdit(uid,**data)
             return redirect('/users') 
         else:
-            return render_template('users_edit.html',users=response)
+            return render_template('users_edit.html',users=response, errmsg='confirm error.')
     else:
         return render_template('users_edit.html',users=response)
 

@@ -56,7 +56,8 @@ def usersadd():
     else:
         return render_template('users_add.html')
 
-@app.route('/users',methods=['GET', 'POST', 'DELETE', 'PUT'])
+#@app.route('/users',methods=['GET', 'POST', 'DELETE', 'PUT'])
+@app.route('/users',methods=['GET'])
 def getusers():
     search_value = request.args.get("search")
     print search_value
@@ -117,8 +118,9 @@ def deluser(uid):
     print response
     return redirect('/users')
 
-@app.route('/users/edit/<int:uid>',methods=['GET', 'POST'])
-def updateuser(uid):
+#@app.route('/users/edit/<int:uid>',methods=['GET', 'POST'])
+@app.route('/users/edit',methods=['GET', 'POST'])
+def updateuser():
     if request.method == 'POST':
         print 'update user post'
         user = request.form.to_dict()
@@ -127,6 +129,10 @@ def updateuser(uid):
         userUpdate(user)
         return redirect('/users')
     else:
+        uid = request.args['uid']
+        uid = request.args.get('uid', '')
+        print uid, type(uid) 
+        uid = int(uid)
         user=get_user_id(uid)
         print user[0]
         return render_template('users_edit.html',user=user[0])
@@ -139,4 +145,4 @@ def logout():
     
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=8000, debug=True)
+    app.run(host='0.0.0.0', port=9000, debug=True)

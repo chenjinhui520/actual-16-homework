@@ -43,15 +43,32 @@ def login():
 
 '''用户
 '''
-@app.route('/users', methods=['GET', 'POST', 'DELETE', 'PUT'])
+@app.route('/users', methods=['GET'])
 def users():
-    search_value = request.args.get("search")
-    print search_value
-    if search_value:
-        users = get_user(search_value) 
-    else:
-        users = get_users()
+    #search_value = request.args.get("search")
+    #print search_value
+    #if search_value:
+    #    users = get_user(search_value) 
+    #else:
+    #    users = get_users()
+    users = get_users()
     return render_template('users.html', users=users)
+
+
+'''用户编辑
+'''
+@app.route('/users/edit', methods=['GET', 'POST'])
+def usersEdit():
+    if request.method == 'POST':
+        modifyInfo = request.form.to_dict()
+        # 修改数据库
+        # userEdit(modifyInfo)
+        # "UPDATE users SET password = '%s' wehre username = '%s'" % (modifyInfo['username'], modifyInfo['password'])
+        return redirect('/users')
+    else:
+        username = request.args['username']
+        print username
+        return render_template('users_edit.html', username=username)
 
 
 '''用户删除

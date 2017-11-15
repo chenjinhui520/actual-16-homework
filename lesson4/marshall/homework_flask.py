@@ -12,7 +12,6 @@ def userlist():
 @app.route('/adduser')
 def adduser():
     return render_template("add_user.html")
-
 @app.route('/login',methods=['POST'])
 
 def login():
@@ -41,3 +40,6 @@ def confirmadd():
 
 if __name__=='__main__':
     app.run(host='0.0.0.0',port=9092,debug=True)
+
+
+

@@ -1,8 +1,8 @@
 
 import MySQLdb as mdb
 
-#conn = mdb.connect(host='127.0.0.1', user='root', passwd='123456', db='dbtest2', charset='utf8')
-conn = mdb.connect(host='127.0.0.1', user='root', passwd='123456', db='actual16', charset='utf8')
+conn = mdb.connect(host='127.0.0.1', user='root', passwd='123456', db='dbtest2', charset='utf8')
+#conn = mdb.connect(host='127.0.0.1', user='root', passwd='123456', db='actual16', charset='utf8')
 
 cursor = conn.cursor()
 

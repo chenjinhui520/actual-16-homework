@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户注册页面</title>
+</head>
+<body>
+    {% if msg == 'user_exsit' %}
+        <font color="red">用户名已存在 </font>
+    {% elif msg == 'error_email'%}
+        <font color="red"> 邮箱错误 </font>
+    {% endif %}
+    <form action="/register", method="post" >
+    请输入用户名：<input type="text" name="username">
+    请输入用户邮箱:<input type="text" name="email">
+    请输入密码: <input   type="text" name="password">
+    <input type="submit" name="提交">
+    </form>
+</body>
+</html>

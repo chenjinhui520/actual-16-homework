@@ -17,5 +17,5 @@
 - ConfigParse模块
 
 
-## Chrome Flask MySQL三者的关系
+## Flask MVC 
 ![mvc](./monkey/flask-mvc.png)

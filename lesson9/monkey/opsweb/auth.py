@@ -13,5 +13,5 @@ def login_required(func):
             return redirect('/login')
         return func(*args, **kwargs)
 
-    return child
+    return wrapper
 

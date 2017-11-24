@@ -1,0 +1,955 @@
+[11/24/17  03:42:50 PM] - [MainThread] -[_internal.py-line:87] [WARNING]  * Debugger is active!
+[11/24/17  03:42:50 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Debugger PIN: 233-530-204
+[11/24/17  03:43:38 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Detected change in '/home/fengxiaoli/myworkspace/python-learning/9/fengxiaoli/homework-web.py', reloading
+[11/24/17  03:43:38 PM] - [MainThread] -[_internal.py-line:87] [WARNING]  * Debugger is active!
+[11/24/17  03:43:38 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Debugger PIN: 233-530-204
+[11/24/17  03:43:46 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 15:43:46] "GET / HTTP/1.1" 302 -
+[11/24/17  03:43:46 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 15:43:46] "GET /login HTTP/1.1" 200 -
+[11/24/17  03:43:56 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 15:43:56] "POST /login HTTP/1.1" 500 -
+[11/24/17  03:43:56 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 15:43:56] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[11/24/17  03:43:56 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 15:43:56] "GET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[11/24/17  03:43:56 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 15:43:56] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[11/24/17  03:43:56 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 15:43:56] "GET /login?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[11/24/17  03:43:56 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 15:43:56] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[11/24/17  03:43:56 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 15:43:56] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[11/24/17  03:45:32 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Detected change in '/home/fengxiaoli/myworkspace/python-learning/9/fengxiaoli/homework-web.py', reloading
+[11/24/17  03:45:32 PM] - [MainThread] -[_internal.py-line:87] [WARNING]  * Debugger is active!
+[11/24/17  03:45:32 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Debugger PIN: 233-530-204
+[11/24/17  03:45:41 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 15:45:41] "GET / HTTP/1.1" 302 -
+[11/24/17  03:45:41 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 15:45:41] "GET /login HTTP/1.1" 200 -
+[11/24/17  03:45:49 PM] - [Thread-1] -[homework-web.py-line:57] [DEBUG] login post:
+[11/24/17  03:45:49 PM] - [Thread-1] -[homework-web.py-line:58] [DEBUG] {'username': u'fxl2', 'password': u'123'}
+[11/24/17  03:45:49 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 15:45:49] "POST /login HTTP/1.1" 500 -
+[11/24/17  03:45:49 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 15:45:49] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[11/24/17  03:45:49 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 15:45:49] "GET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[11/24/17  03:45:49 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 15:45:49] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[11/24/17  03:45:49 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 15:45:49] "GET /login?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[11/24/17  03:45:49 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 15:45:49] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[11/24/17  03:45:49 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 15:45:49] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[11/24/17  03:46:41 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Detected change in '/home/fengxiaoli/myworkspace/python-learning/9/fengxiaoli/homework-web.py', reloading
+[11/24/17  03:46:41 PM] - [MainThread] -[_internal.py-line:87] [WARNING]  * Debugger is active!
+[11/24/17  03:46:41 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Debugger PIN: 233-530-204
+[11/24/17  03:46:45 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 15:46:45] "GET / HTTP/1.1" 302 -
+[11/24/17  03:46:45 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 15:46:45] "GET /login HTTP/1.1" 200 -
+[11/24/17  03:46:52 PM] - [Thread-1] -[homework-web.py-line:65] [DEBUG] login post:
+[11/24/17  03:46:52 PM] - [Thread-1] -[homework-web.py-line:66] [DEBUG] {'username': u'fxl2', 'password': u'123'}
+[11/24/17  03:46:52 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 15:46:52] "POST /login HTTP/1.1" 500 -
+[11/24/17  03:46:52 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 15:46:52] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[11/24/17  03:46:52 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 15:46:52] "GET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[11/24/17  03:46:52 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 15:46:52] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[11/24/17  03:46:52 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 15:46:52] "GET /login?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[11/24/17  03:46:52 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 15:46:52] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[11/24/17  03:46:52 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 15:46:52] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[11/24/17  03:51:48 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Running on http://0.0.0.0:9000/ (Press CTRL+C to quit)
+[11/24/17  03:51:48 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Restarting with stat
+[11/24/17  03:51:48 PM] - [MainThread] -[_internal.py-line:87] [WARNING]  * Debugger is active!
+[11/24/17  03:51:48 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Debugger PIN: 233-530-204
+[11/24/17  03:51:55 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 15:51:55] "GET / HTTP/1.1" 302 -
+[11/24/17  03:51:55 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 15:51:55] "GET /login HTTP/1.1" 200 -
+[11/24/17  03:52:03 PM] - [Thread-1] -[homework-web.py-line:65] [DEBUG] login post:
+[11/24/17  03:52:03 PM] - [Thread-1] -[homework-web.py-line:66] [DEBUG] {'username': u'fxl2', 'password': u'123'}
+[11/24/17  03:52:03 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 15:52:03] "POST /login HTTP/1.1" 500 -
+[11/24/17  03:52:03 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 15:52:03] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[11/24/17  03:52:03 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 15:52:03] "GET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+[11/24/17  03:52:03 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 15:52:03] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[11/24/17  03:52:03 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 15:52:03] "GET /login?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+[11/24/17  03:52:03 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 15:52:03] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[11/24/17  03:52:03 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 15:52:03] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[11/24/17  03:53:26 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Running on http://0.0.0.0:9000/ (Press CTRL+C to quit)
+[11/24/17  03:53:26 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Restarting with stat
+[11/24/17  03:53:26 PM] - [MainThread] -[_internal.py-line:87] [WARNING]  * Debugger is active!
+[11/24/17  03:53:26 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Debugger PIN: 233-530-204
+[11/24/17  03:53:31 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 15:53:31] "GET / HTTP/1.1" 302 -
+[11/24/17  03:53:31 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 15:53:31] "GET /login HTTP/1.1" 200 -
+[11/24/17  03:53:38 PM] - [Thread-1] -[homework-web.py-line:65] [DEBUG] login post:
+[11/24/17  03:53:38 PM] - [Thread-1] -[homework-web.py-line:66] [DEBUG] {'username': u'fxl2', 'password': u'123'}
+[11/24/17  03:53:38 PM] - [Thread-1] -[common.py-line:49] [DEBUG] SELECT * FROM users WHERE username = 'fxl2' and password = '123';
+[11/24/17  03:53:38 PM] - [Thread-1] -[homework-web.py-line:68] [DEBUG] userfxl2exist.
+[11/24/17  03:53:38 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 15:53:38] "POST /login HTTP/1.1" 302 -
+[11/24/17  03:53:38 PM] - [Thread-1] -[homework-web.py-line:52] [DEBUG] search user:
+[11/24/17  03:53:38 PM] - [Thread-1] -[homework-web.py-line:53] [DEBUG] None
+[11/24/17  03:53:39 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 15:53:39] "GET /users HTTP/1.1" 200 -
+[11/24/17  03:53:39 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 15:53:39] "GET /static/js/myajax.js HTTP/1.1" 200 -
+[11/24/17  03:53:47 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 15:53:47] "GET / HTTP/1.1" 200 -
+[11/24/17  03:53:51 PM] - [Thread-1] -[homework-web.py-line:52] [DEBUG] search user:
+[11/24/17  03:53:51 PM] - [Thread-1] -[homework-web.py-line:53] [DEBUG] None
+[11/24/17  03:53:51 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 15:53:51] "GET /users HTTP/1.1" 200 -
+[11/24/17  03:53:57 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 15:53:57] "GET /logout HTTP/1.1" 302 -
+[11/24/17  03:53:57 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 15:53:57] "GET /login HTTP/1.1" 200 -
+[11/24/17  03:54:02 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 15:54:02] "GET / HTTP/1.1" 302 -
+[11/24/17  03:54:02 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 15:54:02] "GET /login HTTP/1.1" 200 -
+[11/24/17  03:54:08 PM] - [Thread-1] -[homework-web.py-line:65] [DEBUG] login post:
+[11/24/17  03:54:08 PM] - [Thread-1] -[homework-web.py-line:66] [DEBUG] {'username': u'fxl2', 'password': u'123'}
+[11/24/17  03:54:08 PM] - [Thread-1] -[common.py-line:49] [DEBUG] SELECT * FROM users WHERE username = 'fxl2' and password = '123';
+[11/24/17  03:54:08 PM] - [Thread-1] -[homework-web.py-line:68] [DEBUG] userfxl2exist.
+[11/24/17  03:54:08 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 15:54:08] "POST /login HTTP/1.1" 302 -
+[11/24/17  03:54:08 PM] - [Thread-1] -[homework-web.py-line:52] [DEBUG] search user:
+[11/24/17  03:54:08 PM] - [Thread-1] -[homework-web.py-line:53] [DEBUG] None
+[11/24/17  03:54:08 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 15:54:08] "GET /users HTTP/1.1" 200 -
+[11/24/17  03:59:48 PM] - [Thread-1] -[homework-web.py-line:52] [DEBUG] search user:
+[11/24/17  03:59:48 PM] - [Thread-1] -[homework-web.py-line:53] [DEBUG] None
+[11/24/17  03:59:48 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 15:59:48] "GET /users HTTP/1.1" 200 -
+[11/24/17  03:59:48 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 15:59:48] "GET /static/imgs/favicon.ico HTTP/1.1" 200 -
+[11/24/17  04:01:54 PM] - [Thread-1] -[homework-web.py-line:52] [DEBUG] search user:
+[11/24/17  04:01:54 PM] - [Thread-1] -[homework-web.py-line:53] [DEBUG] None
+[11/24/17  04:01:54 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:01:54] "GET /users HTTP/1.1" 200 -
+[11/24/17  04:03:13 PM] - [Thread-1] -[homework-web.py-line:52] [DEBUG] search user:
+[11/24/17  04:03:13 PM] - [Thread-1] -[homework-web.py-line:53] [DEBUG] None
+[11/24/17  04:03:13 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:03:13] "GET /users HTTP/1.1" 200 -
+[11/24/17  04:03:17 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:03:17] "GET /static/img/remove-icon-small.png HTTP/1.1" 404 -
+[11/24/17  04:04:15 PM] - [Thread-1] -[homework-web.py-line:52] [DEBUG] search user:
+[11/24/17  04:04:15 PM] - [Thread-1] -[homework-web.py-line:53] [DEBUG] None
+[11/24/17  04:04:15 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:04:15] "GET /users HTTP/1.1" 200 -
+[11/24/17  04:04:18 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:04:18] "GET /static/img/remove-icon-small.png HTTP/1.1" 404 -
+[11/24/17  04:06:01 PM] - [Thread-1] -[homework-web.py-line:52] [DEBUG] search user:
+[11/24/17  04:06:01 PM] - [Thread-1] -[homework-web.py-line:53] [DEBUG] None
+[11/24/17  04:06:01 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:06:01] "GET /users HTTP/1.1" 200 -
+[11/24/17  04:06:04 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:06:04] "GET /static/img/remove-icon-small.png HTTP/1.1" 404 -
+[11/24/17  04:06:22 PM] - [Thread-1] -[homework-web.py-line:126] [DEBUG] email do not exist
+[11/24/17  04:06:22 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:06:22] "POST /checkemail HTTP/1.1" 200 -
+[11/24/17  04:08:13 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:08:13] "GET / HTTP/1.1" 200 -
+[11/24/17  04:08:18 PM] - [Thread-1] -[homework-web.py-line:52] [DEBUG] search user:
+[11/24/17  04:08:18 PM] - [Thread-1] -[homework-web.py-line:53] [DEBUG] None
+[11/24/17  04:08:18 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:08:18] "GET /users HTTP/1.1" 200 -
+[11/24/17  04:08:20 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:08:20] "GET /static/img/remove-icon-small.png HTTP/1.1" 404 -
+[11/24/17  04:08:32 PM] - [Thread-1] -[homework-web.py-line:126] [DEBUG] email do not exist
+[11/24/17  04:08:32 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:08:32] "POST /checkemail HTTP/1.1" 200 -
+[11/24/17  04:10:11 PM] - [Thread-1] -[common.py-line:66] [DEBUG] DELETE FROM users WHERE id = 44; 
+[11/24/17  04:10:11 PM] - [Thread-1] -[homework-web.py-line:83] [DEBUG] del user response:
+[11/24/17  04:10:11 PM] - [Thread-1] -[homework-web.py-line:84] [DEBUG] 1
+[11/24/17  04:10:11 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:10:11] "POST /users/del/44 HTTP/1.1" 200 -
+[11/24/17  04:10:11 PM] - [Thread-1] -[homework-web.py-line:52] [DEBUG] search user:
+[11/24/17  04:10:11 PM] - [Thread-1] -[homework-web.py-line:53] [DEBUG] None
+[11/24/17  04:10:11 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:10:11] "GET /users HTTP/1.1" 200 -
+[11/24/17  04:11:12 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:11:12] "GET /static/img/remove-icon-small.png HTTP/1.1" 404 -
+[11/24/17  04:11:22 PM] - [Thread-1] -[homework-web.py-line:106] [DEBUG] /checkuser post
+[11/24/17  04:11:22 PM] - [Thread-1] -[homework-web.py-line:107] [DEBUG] fxl2
+[11/24/17  04:11:22 PM] - [Thread-1] -[homework-web.py-line:109] [DEBUG] user exist
+[11/24/17  04:11:22 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:11:22] "POST /checkuser HTTP/1.1" 200 -
+[11/24/17  04:15:50 PM] - [Thread-1] -[homework-web.py-line:52] [DEBUG] search user:
+[11/24/17  04:15:50 PM] - [Thread-1] -[homework-web.py-line:53] [DEBUG] None
+[11/24/17  04:15:50 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:15:50] "GET /users HTTP/1.1" 200 -
+[11/24/17  04:15:55 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:15:55] "GET /static/img/remove-icon-small.png HTTP/1.1" 404 -
+[11/24/17  04:16:03 PM] - [Thread-1] -[homework-web.py-line:106] [DEBUG] /checkuser post
+[11/24/17  04:16:03 PM] - [Thread-1] -[homework-web.py-line:107] [DEBUG] fxl2
+[11/24/17  04:16:03 PM] - [Thread-1] -[homework-web.py-line:109] [DEBUG] user exist
+[11/24/17  04:16:03 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:16:03] "POST /checkuser HTTP/1.1" 200 -
+[11/24/17  04:18:17 PM] - [Thread-1] -[homework-web.py-line:52] [DEBUG] search user:
+[11/24/17  04:18:17 PM] - [Thread-1] -[homework-web.py-line:53] [DEBUG] None
+[11/24/17  04:18:17 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:18:17] "GET /users HTTP/1.1" 200 -
+[11/24/17  04:18:20 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:18:20] "GET /static/img/remove-icon-small.png HTTP/1.1" 404 -
+[11/24/17  04:18:25 PM] - [Thread-1] -[homework-web.py-line:106] [DEBUG] /checkuser post
+[11/24/17  04:18:25 PM] - [Thread-1] -[homework-web.py-line:107] [DEBUG] fxl2
+[11/24/17  04:18:25 PM] - [Thread-1] -[homework-web.py-line:109] [DEBUG] user exist
+[11/24/17  04:18:25 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:18:25] "POST /checkuser HTTP/1.1" 200 -
+[11/24/17  04:19:47 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Running on http://0.0.0.0:9000/ (Press CTRL+C to quit)
+[11/24/17  04:19:47 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Restarting with stat
+[11/24/17  04:19:47 PM] - [MainThread] -[_internal.py-line:87] [WARNING]  * Debugger is active!
+[11/24/17  04:19:47 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Debugger PIN: 233-530-204
+[11/24/17  04:19:50 PM] - [Thread-1] -[homework-web.py-line:52] [DEBUG] search user:
+[11/24/17  04:19:50 PM] - [Thread-1] -[homework-web.py-line:53] [DEBUG] None
+[11/24/17  04:19:50 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:19:50] "GET /users HTTP/1.1" 200 -
+[11/24/17  04:19:53 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:19:53] "GET /static/img/remove-icon-small.png HTTP/1.1" 404 -
+[11/24/17  04:19:57 PM] - [Thread-1] -[homework-web.py-line:106] [DEBUG] /checkuser post
+[11/24/17  04:19:57 PM] - [Thread-1] -[homework-web.py-line:107] [DEBUG] fxl2
+[11/24/17  04:19:58 PM] - [Thread-1] -[homework-web.py-line:109] [DEBUG] user exist
+[11/24/17  04:19:58 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:19:58] "POST /checkuser HTTP/1.1" 200 -
+[11/24/17  04:21:02 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Running on http://0.0.0.0:9000/ (Press CTRL+C to quit)
+[11/24/17  04:21:02 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Restarting with stat
+[11/24/17  04:21:03 PM] - [MainThread] -[_internal.py-line:87] [WARNING]  * Debugger is active!
+[11/24/17  04:21:03 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Debugger PIN: 233-530-204
+[11/24/17  04:21:08 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:21:08] "GET / HTTP/1.1" 200 -
+[11/24/17  04:21:10 PM] - [Thread-1] -[homework-web.py-line:52] [DEBUG] search user:
+[11/24/17  04:21:10 PM] - [Thread-1] -[homework-web.py-line:53] [DEBUG] None
+[11/24/17  04:21:11 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:21:11] "GET /users HTTP/1.1" 200 -
+[11/24/17  04:21:18 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:21:18] "GET /static/img/remove-icon-small.png HTTP/1.1" 404 -
+[11/24/17  04:21:22 PM] - [Thread-1] -[homework-web.py-line:106] [DEBUG] /checkuser post
+[11/24/17  04:21:22 PM] - [Thread-1] -[homework-web.py-line:107] [DEBUG] fxl2
+[11/24/17  04:21:22 PM] - [Thread-1] -[homework-web.py-line:109] [DEBUG] user exist
+[11/24/17  04:21:22 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:21:22] "POST /checkuser HTTP/1.1" 200 -
+[11/24/17  04:26:31 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Running on http://0.0.0.0:9000/ (Press CTRL+C to quit)
+[11/24/17  04:26:31 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Restarting with stat
+[11/24/17  04:26:31 PM] - [MainThread] -[_internal.py-line:87] [WARNING]  * Debugger is active!
+[11/24/17  04:26:31 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Debugger PIN: 233-530-204
+[11/24/17  04:26:34 PM] - [Thread-1] -[homework-web.py-line:52] [DEBUG] search user:
+[11/24/17  04:26:34 PM] - [Thread-1] -[homework-web.py-line:53] [DEBUG] None
+[11/24/17  04:26:35 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:26:35] "GET /users HTTP/1.1" 200 -
+[11/24/17  04:26:37 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:26:37] "GET /static/img/remove-icon-small.png HTTP/1.1" 404 -
+[11/24/17  04:26:43 PM] - [Thread-1] -[homework-web.py-line:106] [DEBUG] /checkuser post
+[11/24/17  04:26:43 PM] - [Thread-1] -[homework-web.py-line:107] [DEBUG] fxl2
+[11/24/17  04:26:43 PM] - [Thread-1] -[homework-web.py-line:109] [DEBUG] user exist
+[11/24/17  04:26:43 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:26:43] "POST /checkuser HTTP/1.1" 200 -
+[11/24/17  04:28:21 PM] - [Thread-1] -[homework-web.py-line:52] [DEBUG] search user:
+[11/24/17  04:28:21 PM] - [Thread-1] -[homework-web.py-line:53] [DEBUG] None
+[11/24/17  04:28:21 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:28:21] "GET /users HTTP/1.1" 200 -
+[11/24/17  04:28:23 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:28:23] "GET /static/img/remove-icon-small.png HTTP/1.1" 404 -
+[11/24/17  04:28:28 PM] - [Thread-1] -[homework-web.py-line:106] [DEBUG] /checkuser post
+[11/24/17  04:28:28 PM] - [Thread-1] -[homework-web.py-line:107] [DEBUG] fxl2
+[11/24/17  04:28:28 PM] - [Thread-1] -[homework-web.py-line:109] [DEBUG] user exist
+[11/24/17  04:28:28 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:28:28] "POST /checkuser HTTP/1.1" 200 -
+[11/24/17  04:29:04 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Running on http://0.0.0.0:9000/ (Press CTRL+C to quit)
+[11/24/17  04:29:04 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Restarting with stat
+[11/24/17  04:29:04 PM] - [MainThread] -[_internal.py-line:87] [WARNING]  * Debugger is active!
+[11/24/17  04:29:04 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Debugger PIN: 233-530-204
+[11/24/17  04:29:12 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:29:12] "GET / HTTP/1.1" 200 -
+[11/24/17  04:29:14 PM] - [Thread-1] -[homework-web.py-line:52] [DEBUG] search user:
+[11/24/17  04:29:14 PM] - [Thread-1] -[homework-web.py-line:53] [DEBUG] None
+[11/24/17  04:29:14 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:29:14] "GET /users HTTP/1.1" 200 -
+[11/24/17  04:29:17 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:29:17] "GET /static/img/remove-icon-small.png HTTP/1.1" 404 -
+[11/24/17  04:29:25 PM] - [Thread-1] -[homework-web.py-line:106] [DEBUG] /checkuser post
+[11/24/17  04:29:25 PM] - [Thread-1] -[homework-web.py-line:107] [DEBUG] fxl2
+[11/24/17  04:29:25 PM] - [Thread-1] -[homework-web.py-line:109] [DEBUG] user exist
+[11/24/17  04:29:25 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:29:25] "POST /checkuser HTTP/1.1" 200 -
+[11/24/17  04:38:36 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Running on http://0.0.0.0:9000/ (Press CTRL+C to quit)
+[11/24/17  04:38:36 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Restarting with stat
+[11/24/17  04:38:36 PM] - [MainThread] -[_internal.py-line:87] [WARNING]  * Debugger is active!
+[11/24/17  04:38:36 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Debugger PIN: 233-530-204
+[11/24/17  04:38:45 PM] - [Thread-1] -[homework-web.py-line:52] [DEBUG] search user:
+[11/24/17  04:38:45 PM] - [Thread-1] -[homework-web.py-line:53] [DEBUG] None
+[11/24/17  04:38:45 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:38:45] "GET /users HTTP/1.1" 200 -
+[11/24/17  04:38:45 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:38:45] "GET /static/js/my.js HTTP/1.1" 200 -
+[11/24/17  04:38:48 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:38:48] "GET /static/img/remove-icon-small.png HTTP/1.1" 404 -
+[11/24/17  04:38:53 PM] - [Thread-1] -[homework-web.py-line:106] [DEBUG] /checkuser post
+[11/24/17  04:38:53 PM] - [Thread-1] -[homework-web.py-line:107] [DEBUG] fxl2
+[11/24/17  04:38:53 PM] - [Thread-1] -[homework-web.py-line:109] [DEBUG] user exist
+[11/24/17  04:38:53 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:38:53] "POST /checkuser HTTP/1.1" 200 -
+[11/24/17  04:39:20 PM] - [Thread-1] -[homework-web.py-line:126] [DEBUG] email do not exist
+[11/24/17  04:39:20 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:39:20] "POST /checkemail HTTP/1.1" 200 -
+[11/24/17  04:40:04 PM] - [Thread-1] -[homework-web.py-line:106] [DEBUG] /checkuser post
+[11/24/17  04:40:04 PM] - [Thread-1] -[homework-web.py-line:107] [DEBUG] fxl11
+[11/24/17  04:40:04 PM] - [Thread-1] -[homework-web.py-line:109] [DEBUG] user exist
+[11/24/17  04:40:04 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:40:04] "POST /checkuser HTTP/1.1" 200 -
+[11/24/17  04:40:16 PM] - [Thread-1] -[homework-web.py-line:106] [DEBUG] /checkuser post
+[11/24/17  04:40:16 PM] - [Thread-1] -[homework-web.py-line:107] [DEBUG] fx22
+[11/24/17  04:40:16 PM] - [Thread-1] -[homework-web.py-line:113] [DEBUG] user does not exist
+[11/24/17  04:40:16 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:40:16] "POST /checkuser HTTP/1.1" 200 -
+[11/24/17  04:44:12 PM] - [Thread-1] -[homework-web.py-line:52] [DEBUG] search user:
+[11/24/17  04:44:12 PM] - [Thread-1] -[homework-web.py-line:53] [DEBUG] None
+[11/24/17  04:44:12 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:44:12] "GET /users HTTP/1.1" 200 -
+[11/24/17  04:44:15 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:44:15] "GET /static/img/remove-icon-small.png HTTP/1.1" 404 -
+[11/24/17  04:44:22 PM] - [Thread-1] -[homework-web.py-line:106] [DEBUG] /checkuser post
+[11/24/17  04:44:22 PM] - [Thread-1] -[homework-web.py-line:107] [DEBUG] fxl2
+[11/24/17  04:44:22 PM] - [Thread-1] -[homework-web.py-line:109] [DEBUG] user exist
+[11/24/17  04:44:22 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:44:22] "POST /checkuser HTTP/1.1" 200 -
+[11/24/17  04:44:31 PM] - [Thread-1] -[homework-web.py-line:106] [DEBUG] /checkuser post
+[11/24/17  04:44:31 PM] - [Thread-1] -[homework-web.py-line:107] [DEBUG] fxl11
+[11/24/17  04:44:31 PM] - [Thread-1] -[homework-web.py-line:109] [DEBUG] user exist
+[11/24/17  04:44:31 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:44:31] "POST /checkuser HTTP/1.1" 200 -
+[11/24/17  04:44:38 PM] - [Thread-1] -[homework-web.py-line:106] [DEBUG] /checkuser post
+[11/24/17  04:44:38 PM] - [Thread-1] -[homework-web.py-line:107] [DEBUG] fxl22
+[11/24/17  04:44:38 PM] - [Thread-1] -[homework-web.py-line:113] [DEBUG] user does not exist
+[11/24/17  04:44:38 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:44:38] "POST /checkuser HTTP/1.1" 200 -
+[11/24/17  04:45:39 PM] - [Thread-1] -[homework-web.py-line:52] [DEBUG] search user:
+[11/24/17  04:45:39 PM] - [Thread-1] -[homework-web.py-line:53] [DEBUG] None
+[11/24/17  04:45:39 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:45:39] "GET /users HTTP/1.1" 200 -
+[11/24/17  04:45:42 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:45:42] "GET /static/img/remove-icon-small.png HTTP/1.1" 404 -
+[11/24/17  04:45:51 PM] - [Thread-1] -[homework-web.py-line:106] [DEBUG] /checkuser post
+[11/24/17  04:45:51 PM] - [Thread-1] -[homework-web.py-line:107] [DEBUG] fxl2
+[11/24/17  04:45:51 PM] - [Thread-1] -[homework-web.py-line:109] [DEBUG] user exist
+[11/24/17  04:45:51 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:45:51] "POST /checkuser HTTP/1.1" 200 -
+[11/24/17  04:45:56 PM] - [Thread-1] -[homework-web.py-line:106] [DEBUG] /checkuser post
+[11/24/17  04:45:56 PM] - [Thread-1] -[homework-web.py-line:107] [DEBUG] fxl22
+[11/24/17  04:45:56 PM] - [Thread-1] -[homework-web.py-line:113] [DEBUG] user does not exist
+[11/24/17  04:45:56 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:45:56] "POST /checkuser HTTP/1.1" 200 -
+[11/24/17  04:47:56 PM] - [Thread-1] -[homework-web.py-line:52] [DEBUG] search user:
+[11/24/17  04:47:56 PM] - [Thread-1] -[homework-web.py-line:53] [DEBUG] None
+[11/24/17  04:47:56 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:47:56] "GET /users HTTP/1.1" 200 -
+[11/24/17  04:47:59 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:47:59] "GET /static/img/remove-icon-small.png HTTP/1.1" 404 -
+[11/24/17  04:48:03 PM] - [Thread-1] -[homework-web.py-line:106] [DEBUG] /checkuser post
+[11/24/17  04:48:03 PM] - [Thread-1] -[homework-web.py-line:107] [DEBUG] fxl2
+[11/24/17  04:48:03 PM] - [Thread-1] -[homework-web.py-line:109] [DEBUG] user exist
+[11/24/17  04:48:03 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:48:03] "POST /checkuser HTTP/1.1" 200 -
+[11/24/17  04:48:09 PM] - [Thread-1] -[homework-web.py-line:106] [DEBUG] /checkuser post
+[11/24/17  04:48:09 PM] - [Thread-1] -[homework-web.py-line:107] [DEBUG] fxl22
+[11/24/17  04:48:09 PM] - [Thread-1] -[homework-web.py-line:113] [DEBUG] user does not exist
+[11/24/17  04:48:09 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:48:09] "POST /checkuser HTTP/1.1" 200 -
+[11/24/17  04:50:09 PM] - [Thread-1] -[homework-web.py-line:52] [DEBUG] search user:
+[11/24/17  04:50:09 PM] - [Thread-1] -[homework-web.py-line:53] [DEBUG] None
+[11/24/17  04:50:09 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:50:09] "GET /users HTTP/1.1" 200 -
+[11/24/17  04:50:12 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:50:12] "GET /static/img/remove-icon-small.png HTTP/1.1" 404 -
+[11/24/17  04:50:16 PM] - [Thread-1] -[homework-web.py-line:106] [DEBUG] /checkuser post
+[11/24/17  04:50:16 PM] - [Thread-1] -[homework-web.py-line:107] [DEBUG] fxl2
+[11/24/17  04:50:16 PM] - [Thread-1] -[homework-web.py-line:109] [DEBUG] user exist
+[11/24/17  04:50:16 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:50:16] "POST /checkuser HTTP/1.1" 200 -
+[11/24/17  04:50:21 PM] - [Thread-1] -[homework-web.py-line:106] [DEBUG] /checkuser post
+[11/24/17  04:50:21 PM] - [Thread-1] -[homework-web.py-line:107] [DEBUG] fxl22
+[11/24/17  04:50:21 PM] - [Thread-1] -[homework-web.py-line:113] [DEBUG] user does not exist
+[11/24/17  04:50:21 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:50:21] "POST /checkuser HTTP/1.1" 200 -
+[11/24/17  04:51:44 PM] - [Thread-1] -[homework-web.py-line:52] [DEBUG] search user:
+[11/24/17  04:51:44 PM] - [Thread-1] -[homework-web.py-line:53] [DEBUG] None
+[11/24/17  04:51:44 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:51:44] "GET /users HTTP/1.1" 200 -
+[11/24/17  04:51:47 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:51:47] "GET /static/img/remove-icon-small.png HTTP/1.1" 404 -
+[11/24/17  04:51:53 PM] - [Thread-1] -[homework-web.py-line:106] [DEBUG] /checkuser post
+[11/24/17  04:51:53 PM] - [Thread-1] -[homework-web.py-line:107] [DEBUG] fxl2
+[11/24/17  04:51:53 PM] - [Thread-1] -[homework-web.py-line:109] [DEBUG] user exist
+[11/24/17  04:51:53 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:51:53] "POST /checkuser HTTP/1.1" 200 -
+[11/24/17  04:52:17 PM] - [Thread-1] -[homework-web.py-line:106] [DEBUG] /checkuser post
+[11/24/17  04:52:17 PM] - [Thread-1] -[homework-web.py-line:107] [DEBUG] fxl22
+[11/24/17  04:52:17 PM] - [Thread-1] -[homework-web.py-line:113] [DEBUG] user does not exist
+[11/24/17  04:52:17 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:52:17] "POST /checkuser HTTP/1.1" 200 -
+[11/24/17  04:53:16 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Detected change in '/home/fengxiaoli/myworkspace/python-learning/9/fengxiaoli/homework-web.py', reloading
+[11/24/17  04:53:16 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Restarting with stat
+[11/24/17  04:53:17 PM] - [MainThread] -[_internal.py-line:87] [WARNING]  * Debugger is active!
+[11/24/17  04:53:17 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Debugger PIN: 233-530-204
+[11/24/17  04:53:24 PM] - [Thread-1] -[homework-web.py-line:52] [DEBUG] search user:
+[11/24/17  04:53:24 PM] - [Thread-1] -[homework-web.py-line:53] [DEBUG] None
+[11/24/17  04:53:24 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:53:24] "GET /users HTTP/1.1" 200 -
+[11/24/17  04:53:27 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:53:27] "GET /static/img/remove-icon-small.png HTTP/1.1" 404 -
+[11/24/17  04:53:35 PM] - [Thread-1] -[homework-web.py-line:106] [DEBUG] /checkuser post
+[11/24/17  04:53:35 PM] - [Thread-1] -[homework-web.py-line:107] [DEBUG] fxl2
+[11/24/17  04:53:35 PM] - [Thread-1] -[homework-web.py-line:109] [DEBUG] user exist
+[11/24/17  04:53:35 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:53:35] "POST /checkuser HTTP/1.1" 200 -
+[11/24/17  04:53:41 PM] - [Thread-1] -[homework-web.py-line:106] [DEBUG] /checkuser post
+[11/24/17  04:53:41 PM] - [Thread-1] -[homework-web.py-line:107] [DEBUG] fxl22
+[11/24/17  04:53:41 PM] - [Thread-1] -[homework-web.py-line:113] [DEBUG] user does not exist
+[11/24/17  04:53:41 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:53:41] "POST /checkuser HTTP/1.1" 200 -
+[11/24/17  04:56:54 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Running on http://0.0.0.0:9000/ (Press CTRL+C to quit)
+[11/24/17  04:56:54 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Restarting with stat
+[11/24/17  04:56:54 PM] - [MainThread] -[_internal.py-line:87] [WARNING]  * Debugger is active!
+[11/24/17  04:56:54 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Debugger PIN: 233-530-204
+[11/24/17  04:57:00 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:57:00] "GET / HTTP/1.1" 200 -
+[11/24/17  04:57:03 PM] - [Thread-1] -[homework-web.py-line:52] [DEBUG] search user:
+[11/24/17  04:57:03 PM] - [Thread-1] -[homework-web.py-line:53] [DEBUG] None
+[11/24/17  04:57:04 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:57:04] "GET /users HTTP/1.1" 200 -
+[11/24/17  04:57:06 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:57:06] "GET /static/img/remove-icon-small.png HTTP/1.1" 404 -
+[11/24/17  04:57:10 PM] - [Thread-1] -[homework-web.py-line:106] [DEBUG] /checkuser post
+[11/24/17  04:57:10 PM] - [Thread-1] -[homework-web.py-line:107] [DEBUG] fxl2
+[11/24/17  04:57:10 PM] - [Thread-1] -[homework-web.py-line:109] [DEBUG] user exist
+[11/24/17  04:57:10 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:57:10] "POST /checkuser HTTP/1.1" 200 -
+[11/24/17  04:59:27 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Running on http://0.0.0.0:9000/ (Press CTRL+C to quit)
+[11/24/17  04:59:27 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Restarting with stat
+[11/24/17  04:59:27 PM] - [MainThread] -[_internal.py-line:87] [WARNING]  * Debugger is active!
+[11/24/17  04:59:27 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Debugger PIN: 233-530-204
+[11/24/17  04:59:45 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:59:45] "GET / HTTP/1.1" 200 -
+[11/24/17  04:59:48 PM] - [Thread-1] -[homework-web.py-line:52] [DEBUG] search user:
+[11/24/17  04:59:48 PM] - [Thread-1] -[homework-web.py-line:53] [DEBUG] None
+[11/24/17  04:59:48 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:59:48] "GET /users HTTP/1.1" 200 -
+[11/24/17  04:59:50 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:59:50] "GET /static/img/remove-icon-small.png HTTP/1.1" 404 -
+[11/24/17  04:59:54 PM] - [Thread-1] -[homework-web.py-line:106] [DEBUG] /checkuser post
+[11/24/17  04:59:54 PM] - [Thread-1] -[homework-web.py-line:107] [DEBUG] fxl2
+[11/24/17  04:59:54 PM] - [Thread-1] -[homework-web.py-line:109] [DEBUG] user exist
+[11/24/17  04:59:54 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 16:59:54] "POST /checkuser HTTP/1.1" 200 -
+[11/24/17  05:00:06 PM] - [Thread-1] -[homework-web.py-line:106] [DEBUG] /checkuser post
+[11/24/17  05:00:06 PM] - [Thread-1] -[homework-web.py-line:107] [DEBUG] fxl22
+[11/24/17  05:00:06 PM] - [Thread-1] -[homework-web.py-line:113] [DEBUG] user does not exist
+[11/24/17  05:00:06 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 17:00:06] "POST /checkuser HTTP/1.1" 200 -
+[11/24/17  05:04:23 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Running on http://0.0.0.0:9000/ (Press CTRL+C to quit)
+[11/24/17  05:04:23 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Restarting with stat
+[11/24/17  05:04:23 PM] - [MainThread] -[_internal.py-line:87] [WARNING]  * Debugger is active!
+[11/24/17  05:04:23 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Debugger PIN: 153-688-450
+[11/24/17  05:04:31 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 17:04:31] "GET / HTTP/1.1" 302 -
+[11/24/17  05:04:31 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 17:04:31] "GET /login HTTP/1.1" 200 -
+[11/24/17  05:04:41 PM] - [Thread-1] -[homework-web.py-line:65] [DEBUG] login post:
+[11/24/17  05:04:41 PM] - [Thread-1] -[homework-web.py-line:66] [DEBUG] {'username': u'fxl2', 'password': u'123'}
+[11/24/17  05:04:41 PM] - [Thread-1] -[common.py-line:49] [DEBUG] SELECT * FROM users WHERE username = 'fxl2' and password = '123';
+[11/24/17  05:04:41 PM] - [Thread-1] -[homework-web.py-line:68] [DEBUG] userfxl2exist.
+[11/24/17  05:04:41 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 17:04:41] "POST /login HTTP/1.1" 302 -
+[11/24/17  05:04:41 PM] - [Thread-1] -[homework-web.py-line:52] [DEBUG] search user:
+[11/24/17  05:04:41 PM] - [Thread-1] -[homework-web.py-line:53] [DEBUG] None
+[11/24/17  05:04:41 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 17:04:41] "GET /users HTTP/1.1" 200 -
+[11/24/17  05:04:45 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 17:04:45] "GET /static/img/remove-icon-small.png HTTP/1.1" 404 -
+[11/24/17  05:04:54 PM] - [Thread-1] -[homework-web.py-line:106] [DEBUG] /checkuser post
+[11/24/17  05:04:54 PM] - [Thread-1] -[homework-web.py-line:107] [DEBUG] fxl2
+[11/24/17  05:04:54 PM] - [Thread-1] -[homework-web.py-line:109] [DEBUG] user exist
+[11/24/17  05:04:54 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 17:04:54] "POST /checkuser HTTP/1.1" 200 -
+[11/24/17  05:05:55 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Running on http://0.0.0.0:9000/ (Press CTRL+C to quit)
+[11/24/17  05:05:55 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Restarting with stat
+[11/24/17  05:05:56 PM] - [MainThread] -[_internal.py-line:87] [WARNING]  * Debugger is active!
+[11/24/17  05:05:56 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Debugger PIN: 233-530-204
+[11/24/17  05:06:36 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 17:06:36] "GET / HTTP/1.1" 302 -
+[11/24/17  05:06:36 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 17:06:36] "GET /login HTTP/1.1" 200 -
+[11/24/17  05:06:41 PM] - [Thread-1] -[homework-web.py-line:65] [DEBUG] login post:
+[11/24/17  05:06:41 PM] - [Thread-1] -[homework-web.py-line:66] [DEBUG] {'username': u'fxl2', 'password': u'123'}
+[11/24/17  05:06:41 PM] - [Thread-1] -[common.py-line:49] [DEBUG] SELECT * FROM users WHERE username = 'fxl2' and password = '123';
+[11/24/17  05:06:41 PM] - [Thread-1] -[homework-web.py-line:68] [DEBUG] userfxl2exist.
+[11/24/17  05:06:41 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 17:06:41] "POST /login HTTP/1.1" 302 -
+[11/24/17  05:06:41 PM] - [Thread-1] -[homework-web.py-line:52] [DEBUG] search user:
+[11/24/17  05:06:41 PM] - [Thread-1] -[homework-web.py-line:53] [DEBUG] None
+[11/24/17  05:06:42 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 17:06:42] "GET /users HTTP/1.1" 200 -
+[11/24/17  05:06:48 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 17:06:48] "GET /static/img/remove-icon-small.png HTTP/1.1" 404 -
+[11/24/17  05:06:53 PM] - [Thread-1] -[homework-web.py-line:106] [DEBUG] /checkuser post
+[11/24/17  05:06:53 PM] - [Thread-1] -[homework-web.py-line:107] [DEBUG] fxl
+[11/24/17  05:06:53 PM] - [Thread-1] -[homework-web.py-line:113] [DEBUG] user does not exist
+[11/24/17  05:06:53 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 17:06:53] "POST /checkuser HTTP/1.1" 200 -
+[11/24/17  05:07:05 PM] - [Thread-1] -[homework-web.py-line:106] [DEBUG] /checkuser post
+[11/24/17  05:07:05 PM] - [Thread-1] -[homework-web.py-line:107] [DEBUG] fxl2
+[11/24/17  05:07:05 PM] - [Thread-1] -[homework-web.py-line:109] [DEBUG] user exist
+[11/24/17  05:07:05 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 17:07:05] "POST /checkuser HTTP/1.1" 200 -
+[11/24/17  05:07:28 PM] - [Thread-1] -[homework-web.py-line:106] [DEBUG] /checkuser post
+[11/24/17  05:07:28 PM] - [Thread-1] -[homework-web.py-line:107] [DEBUG] fxl22
+[11/24/17  05:07:28 PM] - [Thread-1] -[homework-web.py-line:113] [DEBUG] user does not exist
+[11/24/17  05:07:28 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 17:07:28] "POST /checkuser HTTP/1.1" 200 -
+[11/24/17  07:29:50 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Running on http://0.0.0.0:9000/ (Press CTRL+C to quit)
+[11/24/17  07:29:50 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Restarting with stat
+[11/24/17  07:29:50 PM] - [MainThread] -[_internal.py-line:87] [WARNING]  * Debugger is active!
+[11/24/17  07:29:50 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Debugger PIN: 233-530-204
+[11/24/17  07:30:06 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 19:30:06] "GET / HTTP/1.1" 302 -
+[11/24/17  07:30:06 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 19:30:06] "GET /login HTTP/1.1" 200 -
+[11/24/17  07:30:16 PM] - [Thread-1] -[homework-web.py-line:65] [DEBUG] login post:
+[11/24/17  07:30:16 PM] - [Thread-1] -[homework-web.py-line:66] [DEBUG] {'username': u'fxl2', 'password': u'123'}
+[11/24/17  07:30:16 PM] - [Thread-1] -[common.py-line:49] [DEBUG] SELECT * FROM users WHERE username = 'fxl2' and password = '123';
+[11/24/17  07:30:16 PM] - [Thread-1] -[homework-web.py-line:68] [DEBUG] userfxl2exist.
+[11/24/17  07:30:16 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 19:30:16] "POST /login HTTP/1.1" 302 -
+[11/24/17  07:30:16 PM] - [Thread-1] -[homework-web.py-line:52] [DEBUG] search user:
+[11/24/17  07:30:16 PM] - [Thread-1] -[homework-web.py-line:53] [DEBUG] None
+[11/24/17  07:30:16 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 19:30:16] "GET /users HTTP/1.1" 200 -
+[11/24/17  07:35:45 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Detected change in '/home/fengxiaoli/myworkspace/python-learning/9/fengxiaoli/homework-web.py', reloading
+[11/24/17  07:35:45 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Restarting with stat
+[11/24/17  07:35:47 PM] - [MainThread] -[_internal.py-line:87] [WARNING]  * Debugger is active!
+[11/24/17  07:35:47 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Debugger PIN: 233-530-204
+[11/24/17  07:42:53 PM] - [Thread-1] -[homework-web.py-line:52] [DEBUG] search user:
+[11/24/17  07:42:53 PM] - [Thread-1] -[homework-web.py-line:53] [DEBUG] None
+[11/24/17  07:42:53 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 19:42:53] "GET /users HTTP/1.1" 200 -
+[11/24/17  07:42:53 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 19:42:53] "GET /static/js/users.js HTTP/1.1" 200 -
+[11/24/17  07:43:20 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 19:43:20] "GET / HTTP/1.1" 200 -
+[11/24/17  07:43:24 PM] - [Thread-1] -[homework-web.py-line:52] [DEBUG] search user:
+[11/24/17  07:43:24 PM] - [Thread-1] -[homework-web.py-line:53] [DEBUG] None
+[11/24/17  07:43:24 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 19:43:24] "GET /users HTTP/1.1" 200 -
+[11/24/17  07:43:27 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 19:43:27] "GET /static/img/remove-icon-small.png HTTP/1.1" 404 -
+[11/24/17  07:43:36 PM] - [Thread-1] -[homework-web.py-line:106] [DEBUG] /checkuser post
+[11/24/17  07:43:36 PM] - [Thread-1] -[homework-web.py-line:107] [DEBUG] fxl2
+[11/24/17  07:43:37 PM] - [Thread-1] -[homework-web.py-line:109] [DEBUG] user exist
+[11/24/17  07:43:37 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 19:43:37] "POST /checkuser HTTP/1.1" 200 -
+[11/24/17  07:46:32 PM] - [Thread-1] -[homework-web.py-line:106] [DEBUG] /checkuser post
+[11/24/17  07:46:32 PM] - [Thread-1] -[homework-web.py-line:107] [DEBUG] fxl22
+[11/24/17  07:46:32 PM] - [Thread-1] -[homework-web.py-line:115] [DEBUG] user does not exist
+[11/24/17  07:46:32 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 19:46:32] "POST /checkuser HTTP/1.1" 200 -
+[11/24/17  07:46:39 PM] - [Thread-1] -[homework-web.py-line:106] [DEBUG] /checkuser post
+[11/24/17  07:46:39 PM] - [Thread-1] -[homework-web.py-line:107] [DEBUG] fxl2
+[11/24/17  07:46:39 PM] - [Thread-1] -[homework-web.py-line:109] [DEBUG] user exist
+[11/24/17  07:46:39 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 19:46:39] "POST /checkuser HTTP/1.1" 200 -
+[11/24/17  07:46:45 PM] - [Thread-1] -[homework-web.py-line:52] [DEBUG] search user:
+[11/24/17  07:46:45 PM] - [Thread-1] -[homework-web.py-line:53] [DEBUG] None
+[11/24/17  07:46:45 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 19:46:45] "GET /users HTTP/1.1" 200 -
+[11/24/17  07:46:53 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 19:46:53] "GET /static/img/remove-icon-small.png HTTP/1.1" 404 -
+[11/24/17  07:47:02 PM] - [Thread-1] -[homework-web.py-line:106] [DEBUG] /checkuser post
+[11/24/17  07:47:02 PM] - [Thread-1] -[homework-web.py-line:107] [DEBUG] fxl2
+[11/24/17  07:47:02 PM] - [Thread-1] -[homework-web.py-line:109] [DEBUG] user exist
+[11/24/17  07:47:02 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 19:47:02] "POST /checkuser HTTP/1.1" 200 -
+[11/24/17  07:48:04 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 19:48:04] "GET / HTTP/1.1" 200 -
+[11/24/17  07:48:07 PM] - [Thread-1] -[homework-web.py-line:52] [DEBUG] search user:
+[11/24/17  07:48:07 PM] - [Thread-1] -[homework-web.py-line:53] [DEBUG] None
+[11/24/17  07:48:07 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 19:48:07] "GET /users HTTP/1.1" 200 -
+[11/24/17  07:48:10 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 19:48:10] "GET /static/img/remove-icon-small.png HTTP/1.1" 404 -
+[11/24/17  07:48:18 PM] - [Thread-1] -[homework-web.py-line:106] [DEBUG] /checkuser post
+[11/24/17  07:48:18 PM] - [Thread-1] -[homework-web.py-line:107] [DEBUG] fxl2
+[11/24/17  07:48:18 PM] - [Thread-1] -[homework-web.py-line:109] [DEBUG] user exist
+[11/24/17  07:48:18 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 19:48:18] "POST /checkuser HTTP/1.1" 200 -
+[11/24/17  07:50:05 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Running on http://0.0.0.0:9000/ (Press CTRL+C to quit)
+[11/24/17  07:50:05 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Restarting with stat
+[11/24/17  07:50:05 PM] - [MainThread] -[_internal.py-line:87] [WARNING]  * Debugger is active!
+[11/24/17  07:50:05 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Debugger PIN: 233-530-204
+[11/24/17  07:50:12 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 19:50:12] "GET / HTTP/1.1" 302 -
+[11/24/17  07:50:12 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 19:50:12] "GET /login HTTP/1.1" 200 -
+[11/24/17  07:50:23 PM] - [Thread-1] -[homework-web.py-line:65] [DEBUG] login post:
+[11/24/17  07:50:23 PM] - [Thread-1] -[homework-web.py-line:66] [DEBUG] {'username': u'fxl2', 'password': u'123'}
+[11/24/17  07:50:23 PM] - [Thread-1] -[common.py-line:49] [DEBUG] SELECT * FROM users WHERE username = 'fxl2' and password = '123';
+[11/24/17  07:50:23 PM] - [Thread-1] -[homework-web.py-line:68] [DEBUG] userfxl2exist.
+[11/24/17  07:50:23 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 19:50:23] "POST /login HTTP/1.1" 302 -
+[11/24/17  07:50:23 PM] - [Thread-1] -[homework-web.py-line:52] [DEBUG] search user:
+[11/24/17  07:50:23 PM] - [Thread-1] -[homework-web.py-line:53] [DEBUG] None
+[11/24/17  07:50:23 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 19:50:23] "GET /users HTTP/1.1" 200 -
+[11/24/17  07:50:27 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 19:50:27] "GET /static/img/remove-icon-small.png HTTP/1.1" 404 -
+[11/24/17  07:50:37 PM] - [Thread-1] -[homework-web.py-line:106] [DEBUG] /checkuser post
+[11/24/17  07:50:37 PM] - [Thread-1] -[homework-web.py-line:107] [DEBUG] fxl2
+[11/24/17  07:50:37 PM] - [Thread-1] -[homework-web.py-line:109] [DEBUG] user exist
+[11/24/17  07:50:37 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 19:50:37] "POST /checkuser HTTP/1.1" 200 -
+[11/24/17  07:51:11 PM] - [Thread-1] -[homework-web.py-line:52] [DEBUG] search user:
+[11/24/17  07:51:11 PM] - [Thread-1] -[homework-web.py-line:53] [DEBUG] None
+[11/24/17  07:51:11 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 19:51:11] "GET /users HTTP/1.1" 200 -
+[11/24/17  07:51:14 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 19:51:14] "GET /static/img/remove-icon-small.png HTTP/1.1" 404 -
+[11/24/17  07:51:20 PM] - [Thread-1] -[homework-web.py-line:106] [DEBUG] /checkuser post
+[11/24/17  07:51:20 PM] - [Thread-1] -[homework-web.py-line:107] [DEBUG] fxl2
+[11/24/17  07:51:20 PM] - [Thread-1] -[homework-web.py-line:109] [DEBUG] user exist
+[11/24/17  07:51:20 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 19:51:20] "POST /checkuser HTTP/1.1" 200 -
+[11/24/17  07:52:13 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Running on http://0.0.0.0:9000/ (Press CTRL+C to quit)
+[11/24/17  07:52:13 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Restarting with stat
+[11/24/17  07:52:14 PM] - [MainThread] -[_internal.py-line:87] [WARNING]  * Debugger is active!
+[11/24/17  07:52:14 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Debugger PIN: 233-530-204
+[11/24/17  07:52:23 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 19:52:23] "GET / HTTP/1.1" 200 -
+[11/24/17  07:52:25 PM] - [Thread-1] -[homework-web.py-line:52] [DEBUG] search user:
+[11/24/17  07:52:25 PM] - [Thread-1] -[homework-web.py-line:53] [DEBUG] None
+[11/24/17  07:52:25 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 19:52:25] "GET /users HTTP/1.1" 200 -
+[11/24/17  07:52:29 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 19:52:29] "GET /static/img/remove-icon-small.png HTTP/1.1" 404 -
+[11/24/17  07:52:36 PM] - [Thread-1] -[homework-web.py-line:106] [DEBUG] /checkuser post
+[11/24/17  07:52:36 PM] - [Thread-1] -[homework-web.py-line:107] [DEBUG] fxl2
+[11/24/17  07:52:36 PM] - [Thread-1] -[homework-web.py-line:109] [DEBUG] user exist
+[11/24/17  07:52:36 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 19:52:36] "POST /checkuser HTTP/1.1" 200 -
+[11/24/17  07:53:29 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 19:53:29] "GET / HTTP/1.1" 302 -
+[11/24/17  07:53:29 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 19:53:29] "GET /login HTTP/1.1" 200 -
+[11/24/17  07:53:39 PM] - [Thread-1] -[homework-web.py-line:65] [DEBUG] login post:
+[11/24/17  07:53:39 PM] - [Thread-1] -[homework-web.py-line:66] [DEBUG] {'username': u'fxl2', 'password': u'123'}
+[11/24/17  07:53:39 PM] - [Thread-1] -[common.py-line:49] [DEBUG] SELECT * FROM users WHERE username = 'fxl2' and password = '123';
+[11/24/17  07:53:39 PM] - [Thread-1] -[homework-web.py-line:68] [DEBUG] userfxl2exist.
+[11/24/17  07:53:39 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 19:53:39] "POST /login HTTP/1.1" 302 -
+[11/24/17  07:53:39 PM] - [Thread-1] -[homework-web.py-line:52] [DEBUG] search user:
+[11/24/17  07:53:39 PM] - [Thread-1] -[homework-web.py-line:53] [DEBUG] None
+[11/24/17  07:53:39 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 19:53:39] "GET /users HTTP/1.1" 200 -
+[11/24/17  07:53:47 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 19:53:47] "GET /static/img/remove-icon-small.png HTTP/1.1" 404 -
+[11/24/17  07:53:52 PM] - [Thread-1] -[homework-web.py-line:106] [DEBUG] /checkuser post
+[11/24/17  07:53:52 PM] - [Thread-1] -[homework-web.py-line:107] [DEBUG] fxl2
+[11/24/17  07:53:52 PM] - [Thread-1] -[homework-web.py-line:109] [DEBUG] user exist
+[11/24/17  07:53:52 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 19:53:52] "POST /checkuser HTTP/1.1" 200 -
+[11/24/17  07:55:03 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Detected change in '/home/fengxiaoli/myworkspace/python-learning/9/fengxiaoli/homework-web.py', reloading
+[11/24/17  07:55:03 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Restarting with stat
+[11/24/17  07:55:04 PM] - [MainThread] -[_internal.py-line:87] [WARNING]  * Debugger is active!
+[11/24/17  07:55:04 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Debugger PIN: 233-530-204
+[11/24/17  07:55:09 PM] - [Thread-1] -[homework-web.py-line:52] [DEBUG] search user:
+[11/24/17  07:55:09 PM] - [Thread-1] -[homework-web.py-line:53] [DEBUG] None
+[11/24/17  07:55:09 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 19:55:09] "GET /users HTTP/1.1" 200 -
+[11/24/17  07:55:13 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 19:55:13] "GET /static/img/remove-icon-small.png HTTP/1.1" 404 -
+[11/24/17  07:55:19 PM] - [Thread-1] -[homework-web.py-line:106] [DEBUG] /checkuser post
+[11/24/17  07:55:19 PM] - [Thread-1] -[homework-web.py-line:107] [DEBUG] fxl2
+[11/24/17  07:55:19 PM] - [Thread-1] -[homework-web.py-line:109] [DEBUG] user exist
+[11/24/17  07:55:19 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 19:55:19] "POST /checkuser HTTP/1.1" 200 -
+[11/24/17  07:58:13 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Detected change in '/home/fengxiaoli/myworkspace/python-learning/9/fengxiaoli/homework-web.py', reloading
+[11/24/17  07:58:13 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Restarting with stat
+[11/24/17  07:58:14 PM] - [MainThread] -[_internal.py-line:87] [WARNING]  * Debugger is active!
+[11/24/17  07:58:14 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Debugger PIN: 233-530-204
+[11/24/17  07:58:18 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Running on http://0.0.0.0:9001/ (Press CTRL+C to quit)
+[11/24/17  07:58:18 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Restarting with stat
+[11/24/17  07:58:19 PM] - [MainThread] -[_internal.py-line:87] [WARNING]  * Debugger is active!
+[11/24/17  07:58:19 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Debugger PIN: 233-530-204
+[11/24/17  07:58:37 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 19:58:37] "GET / HTTP/1.1" 302 -
+[11/24/17  07:58:37 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 19:58:37] "GET /login HTTP/1.1" 200 -
+[11/24/17  07:58:37 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 19:58:37] "GET /static/global/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+[11/24/17  07:58:37 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 19:58:37] "GET /static/global/plugins/simple-line-icons/simple-line-icons.min.css HTTP/1.1" 200 -
+[11/24/17  07:58:37 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 19:58:37] "GET /static/global/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+[11/24/17  07:58:37 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 19:58:37] "GET /static/layouts/layout/css/layout.min.css HTTP/1.1" 200 -
+[11/24/17  07:58:37 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 19:58:37] "GET /static/layouts/layout/css/themes/darkblue.min.css HTTP/1.1" 200 -
+[11/24/17  07:58:37 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 19:58:37] "GET /static/css/components.min.css HTTP/1.1" 200 -
+[11/24/17  07:58:37 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 19:58:37] "GET /static/global/plugins/jquery.min.js HTTP/1.1" 200 -
+[11/24/17  07:58:37 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 19:58:37] "GET /static/global/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+[11/24/17  07:58:37 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 19:58:37] "GET /static/global/plugins/js.cookie.min.js HTTP/1.1" 200 -
+[11/24/17  07:58:37 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 19:58:37] "GET /static/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js HTTP/1.1" 200 -
+[11/24/17  07:58:37 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 19:58:37] "GET /static/global/plugins/jquery.blockui.min.js HTTP/1.1" 200 -
+[11/24/17  07:58:37 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 19:58:37] "GET /static/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js HTTP/1.1" 200 -
+[11/24/17  07:58:37 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 19:58:37] "GET /static/global/scripts/app.min.js HTTP/1.1" 200 -
+[11/24/17  07:58:37 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 19:58:37] "GET /static/layouts/layout/scripts/layout.min.js HTTP/1.1" 200 -
+[11/24/17  07:58:37 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 19:58:37] "GET /static/layouts/layout/scripts/demo.min.js HTTP/1.1" 200 -
+[11/24/17  07:58:37 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 19:58:37] "GET /static/layouts/global/scripts/quick-sidebar.min.js HTTP/1.1" 200 -
+[11/24/17  07:58:37 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 19:58:37] "GET /static/layouts/global/scripts/quick-nav.min.js HTTP/1.1" 200 -
+[11/24/17  07:58:37 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 19:58:37] "GET /static/layouts/layout/img/logo.png HTTP/1.1" 200 -
+[11/24/17  07:58:37 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 19:58:37] "GET /static/layouts/layout/img/avatar3_small.jpg HTTP/1.1" 200 -
+[11/24/17  07:58:37 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 19:58:37] "GET /static/imgs/favicon.ico HTTP/1.1" 200 -
+[11/24/17  07:58:37 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 19:58:37] "GET /static/global/plugins/simple-line-icons/fonts/Simple-Line-Icons.woff HTTP/1.1" 200 -
+[11/24/17  07:58:37 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 19:58:37] "GET /static/global/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.4.0 HTTP/1.1" 200 -
+[11/24/17  07:58:47 PM] - [Thread-1] -[homework-web.py-line:65] [DEBUG] login post:
+[11/24/17  07:58:47 PM] - [Thread-1] -[homework-web.py-line:66] [DEBUG] {'username': u'fxl2', 'password': u'123'}
+[11/24/17  07:58:47 PM] - [Thread-1] -[common.py-line:49] [DEBUG] SELECT * FROM users WHERE username = 'fxl2' and password = '123';
+[11/24/17  07:58:47 PM] - [Thread-1] -[homework-web.py-line:68] [DEBUG] userfxl2exist.
+[11/24/17  07:58:47 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 19:58:47] "POST /login HTTP/1.1" 302 -
+[11/24/17  07:58:47 PM] - [Thread-1] -[homework-web.py-line:52] [DEBUG] search user:
+[11/24/17  07:58:47 PM] - [Thread-1] -[homework-web.py-line:53] [DEBUG] None
+[11/24/17  07:58:47 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 19:58:47] "GET /users HTTP/1.1" 200 -
+[11/24/17  07:58:47 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 19:58:47] "GET /static/js/myajax.js HTTP/1.1" 200 -
+[11/24/17  07:58:47 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 19:58:47] "GET /static/js/users.js HTTP/1.1" 200 -
+[11/24/17  07:59:01 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 19:59:01] "GET /static/img/remove-icon-small.png HTTP/1.1" 404 -
+[11/24/17  07:59:08 PM] - [Thread-1] -[homework-web.py-line:106] [DEBUG] /checkuser post
+[11/24/17  07:59:08 PM] - [Thread-1] -[homework-web.py-line:107] [DEBUG] fxl2
+[11/24/17  07:59:08 PM] - [Thread-1] -[homework-web.py-line:109] [DEBUG] user exist
+[11/24/17  07:59:08 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 19:59:08] "POST /checkuser HTTP/1.1" 200 -
+[11/24/17  07:59:20 PM] - [Thread-1] -[homework-web.py-line:106] [DEBUG] /checkuser post
+[11/24/17  07:59:20 PM] - [Thread-1] -[homework-web.py-line:107] [DEBUG] fxl22
+[11/24/17  07:59:20 PM] - [Thread-1] -[homework-web.py-line:116] [DEBUG] user does not exist
+[11/24/17  07:59:20 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 19:59:20] "POST /checkuser HTTP/1.1" 200 -
+[11/24/17  07:59:50 PM] - [Thread-1] -[homework-web.py-line:129] [DEBUG] email do not exist
+[11/24/17  07:59:50 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 19:59:50] "POST /checkemail HTTP/1.1" 200 -
+[11/24/17  08:02:51 PM] - [Thread-1] -[homework-web.py-line:52] [DEBUG] search user:
+[11/24/17  08:02:51 PM] - [Thread-1] -[homework-web.py-line:53] [DEBUG] None
+[11/24/17  08:02:51 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:02:51] "GET /users HTTP/1.1" 200 -
+[11/24/17  08:02:51 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:02:51] "GET /static/global/plugins/simple-line-icons/simple-line-icons.min.css HTTP/1.1" 304 -
+[11/24/17  08:02:51 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:02:51] "GET /static/global/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+[11/24/17  08:02:51 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:02:51] "GET /static/css/components.min.css HTTP/1.1" 304 -
+[11/24/17  08:02:51 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:02:51] "GET /static/layouts/layout/css/themes/darkblue.min.css HTTP/1.1" 304 -
+[11/24/17  08:02:51 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:02:51] "GET /static/layouts/layout/css/layout.min.css HTTP/1.1" 304 -
+[11/24/17  08:02:51 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:02:51] "GET /static/global/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+[11/24/17  08:02:51 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:02:51] "GET /static/global/plugins/jquery.min.js HTTP/1.1" 304 -
+[11/24/17  08:02:51 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:02:51] "GET /static/global/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+[11/24/17  08:02:51 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:02:51] "GET /static/global/plugins/js.cookie.min.js HTTP/1.1" 304 -
+[11/24/17  08:02:51 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:02:51] "GET /static/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js HTTP/1.1" 304 -
+[11/24/17  08:02:51 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:02:51] "GET /static/global/plugins/jquery.blockui.min.js HTTP/1.1" 304 -
+[11/24/17  08:02:51 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:02:51] "GET /static/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js HTTP/1.1" 304 -
+[11/24/17  08:02:51 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:02:51] "GET /static/global/scripts/app.min.js HTTP/1.1" 304 -
+[11/24/17  08:02:51 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:02:51] "GET /static/layouts/layout/scripts/layout.min.js HTTP/1.1" 304 -
+[11/24/17  08:02:51 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:02:51] "GET /static/layouts/layout/scripts/demo.min.js HTTP/1.1" 304 -
+[11/24/17  08:02:51 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:02:51] "GET /static/layouts/global/scripts/quick-sidebar.min.js HTTP/1.1" 304 -
+[11/24/17  08:02:51 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:02:51] "GET /static/layouts/global/scripts/quick-nav.min.js HTTP/1.1" 304 -
+[11/24/17  08:02:51 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:02:51] "GET /static/js/myajax.js HTTP/1.1" 304 -
+[11/24/17  08:02:51 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:02:51] "GET /static/js/users.js HTTP/1.1" 200 -
+[11/24/17  08:02:51 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:02:51] "GET /static/layouts/layout/img/logo.png HTTP/1.1" 304 -
+[11/24/17  08:02:51 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:02:51] "GET /static/layouts/layout/img/avatar3_small.jpg HTTP/1.1" 304 -
+[11/24/17  08:02:56 PM] - [Thread-1] -[homework-web.py-line:52] [DEBUG] search user:
+[11/24/17  08:02:56 PM] - [Thread-1] -[homework-web.py-line:53] [DEBUG] None
+[11/24/17  08:02:56 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:02:56] "GET /users HTTP/1.1" 200 -
+[11/24/17  08:02:56 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:02:56] "GET /static/global/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+[11/24/17  08:02:56 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:02:56] "GET /static/global/plugins/simple-line-icons/simple-line-icons.min.css HTTP/1.1" 304 -
+[11/24/17  08:02:56 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:02:56] "GET /static/css/components.min.css HTTP/1.1" 304 -
+[11/24/17  08:02:56 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:02:56] "GET /static/layouts/layout/css/themes/darkblue.min.css HTTP/1.1" 304 -
+[11/24/17  08:02:56 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:02:56] "GET /static/layouts/layout/css/layout.min.css HTTP/1.1" 304 -
+[11/24/17  08:02:56 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:02:56] "GET /static/global/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+[11/24/17  08:02:56 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:02:56] "GET /static/global/plugins/jquery.min.js HTTP/1.1" 304 -
+[11/24/17  08:02:56 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:02:56] "GET /static/global/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+[11/24/17  08:02:56 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:02:56] "GET /static/global/plugins/js.cookie.min.js HTTP/1.1" 304 -
+[11/24/17  08:02:56 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:02:56] "GET /static/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js HTTP/1.1" 304 -
+[11/24/17  08:02:56 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:02:56] "GET /static/global/plugins/jquery.blockui.min.js HTTP/1.1" 304 -
+[11/24/17  08:02:56 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:02:56] "GET /static/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js HTTP/1.1" 304 -
+[11/24/17  08:02:56 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:02:56] "GET /static/global/scripts/app.min.js HTTP/1.1" 304 -
+[11/24/17  08:02:56 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:02:56] "GET /static/layouts/layout/scripts/layout.min.js HTTP/1.1" 304 -
+[11/24/17  08:02:56 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:02:56] "GET /static/layouts/layout/scripts/demo.min.js HTTP/1.1" 304 -
+[11/24/17  08:02:56 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:02:56] "GET /static/layouts/global/scripts/quick-sidebar.min.js HTTP/1.1" 304 -
+[11/24/17  08:02:56 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:02:56] "GET /static/layouts/global/scripts/quick-nav.min.js HTTP/1.1" 304 -
+[11/24/17  08:02:56 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:02:56] "GET /static/js/myajax.js HTTP/1.1" 304 -
+[11/24/17  08:02:56 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:02:56] "GET /static/js/users.js HTTP/1.1" 304 -
+[11/24/17  08:02:56 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:02:56] "GET /static/layouts/layout/img/logo.png HTTP/1.1" 304 -
+[11/24/17  08:02:56 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:02:56] "GET /static/layouts/layout/img/avatar3_small.jpg HTTP/1.1" 304 -
+[11/24/17  08:03:01 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:03:01] "GET /static/img/remove-icon-small.png HTTP/1.1" 404 -
+[11/24/17  08:03:18 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Running on http://0.0.0.0:9001/ (Press CTRL+C to quit)
+[11/24/17  08:03:18 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Restarting with stat
+[11/24/17  08:03:19 PM] - [MainThread] -[_internal.py-line:87] [WARNING]  * Debugger is active!
+[11/24/17  08:03:19 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Debugger PIN: 233-530-204
+[11/24/17  08:03:24 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:03:24] "GET / HTTP/1.1" 200 -
+[11/24/17  08:03:27 PM] - [Thread-1] -[homework-web.py-line:52] [DEBUG] search user:
+[11/24/17  08:03:27 PM] - [Thread-1] -[homework-web.py-line:53] [DEBUG] None
+[11/24/17  08:03:27 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:03:27] "GET /users HTTP/1.1" 200 -
+[11/24/17  08:03:30 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:03:30] "GET /static/img/remove-icon-small.png HTTP/1.1" 404 -
+[11/24/17  08:03:44 PM] - [Thread-1] -[homework-web.py-line:106] [DEBUG] /checkuser post
+[11/24/17  08:03:44 PM] - [Thread-1] -[homework-web.py-line:107] [DEBUG] fxl2
+[11/24/17  08:03:44 PM] - [Thread-1] -[homework-web.py-line:109] [DEBUG] user exist
+[11/24/17  08:03:44 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:03:44] "POST /checkuser HTTP/1.1" 200 -
+[11/24/17  08:03:47 PM] - [Thread-1] -[homework-web.py-line:106] [DEBUG] /checkuser post
+[11/24/17  08:03:47 PM] - [Thread-1] -[homework-web.py-line:107] [DEBUG] fxl22
+[11/24/17  08:03:47 PM] - [Thread-1] -[homework-web.py-line:116] [DEBUG] user does not exist
+[11/24/17  08:03:47 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:03:47] "POST /checkuser HTTP/1.1" 200 -
+[11/24/17  08:03:59 PM] - [Thread-1] -[homework-web.py-line:129] [DEBUG] email do not exist
+[11/24/17  08:03:59 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:03:59] "POST /checkemail HTTP/1.1" 200 -
+[11/24/17  08:04:49 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:04:49] "GET / HTTP/1.1" 302 -
+[11/24/17  08:04:49 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:04:49] "GET /login HTTP/1.1" 200 -
+[11/24/17  08:05:00 PM] - [Thread-1] -[homework-web.py-line:65] [DEBUG] login post:
+[11/24/17  08:05:00 PM] - [Thread-1] -[homework-web.py-line:66] [DEBUG] {'username': u'fxl2', 'password': u'123'}
+[11/24/17  08:05:00 PM] - [Thread-1] -[common.py-line:49] [DEBUG] SELECT * FROM users WHERE username = 'fxl2' and password = '123';
+[11/24/17  08:05:00 PM] - [Thread-1] -[homework-web.py-line:68] [DEBUG] userfxl2exist.
+[11/24/17  08:05:00 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:05:00] "POST /login HTTP/1.1" 302 -
+[11/24/17  08:05:00 PM] - [Thread-1] -[homework-web.py-line:52] [DEBUG] search user:
+[11/24/17  08:05:00 PM] - [Thread-1] -[homework-web.py-line:53] [DEBUG] None
+[11/24/17  08:05:01 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:05:01] "GET /users HTTP/1.1" 200 -
+[11/24/17  08:05:06 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:05:06] "GET /static/img/remove-icon-small.png HTTP/1.1" 404 -
+[11/24/17  08:05:10 PM] - [Thread-1] -[homework-web.py-line:106] [DEBUG] /checkuser post
+[11/24/17  08:05:10 PM] - [Thread-1] -[homework-web.py-line:107] [DEBUG] fxl2
+[11/24/17  08:05:10 PM] - [Thread-1] -[homework-web.py-line:109] [DEBUG] user exist
+[11/24/17  08:05:10 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:05:10] "POST /checkuser HTTP/1.1" 200 -
+[11/24/17  08:05:26 PM] - [Thread-1] -[homework-web.py-line:129] [DEBUG] email do not exist
+[11/24/17  08:05:26 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:05:26] "POST /checkemail HTTP/1.1" 200 -
+[11/24/17  08:05:37 PM] - [Thread-1] -[homework-web.py-line:129] [DEBUG] email do not exist
+[11/24/17  08:05:37 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:05:37] "POST /checkemail HTTP/1.1" 200 -
+[11/24/17  08:05:47 PM] - [Thread-1] -[homework-web.py-line:106] [DEBUG] /checkuser post
+[11/24/17  08:05:47 PM] - [Thread-1] -[homework-web.py-line:107] [DEBUG] fxl22
+[11/24/17  08:05:47 PM] - [Thread-1] -[homework-web.py-line:116] [DEBUG] user does not exist
+[11/24/17  08:05:47 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:05:47] "POST /checkuser HTTP/1.1" 200 -
+[11/24/17  08:06:26 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Running on http://0.0.0.0:9001/ (Press CTRL+C to quit)
+[11/24/17  08:06:26 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Restarting with stat
+[11/24/17  08:06:26 PM] - [MainThread] -[_internal.py-line:87] [WARNING]  * Debugger is active!
+[11/24/17  08:06:26 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Debugger PIN: 233-530-204
+[11/24/17  08:06:42 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:06:42] "GET / HTTP/1.1" 302 -
+[11/24/17  08:06:42 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:06:42] "GET /login HTTP/1.1" 200 -
+[11/24/17  08:06:42 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:06:42] "GET /static/global/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+[11/24/17  08:06:42 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:06:42] "GET /static/global/plugins/simple-line-icons/simple-line-icons.min.css HTTP/1.1" 200 -
+[11/24/17  08:06:42 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:06:42] "GET /static/global/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+[11/24/17  08:06:42 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:06:42] "GET /static/layouts/layout/css/layout.min.css HTTP/1.1" 200 -
+[11/24/17  08:06:42 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:06:42] "GET /static/layouts/layout/css/themes/darkblue.min.css HTTP/1.1" 200 -
+[11/24/17  08:06:42 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:06:42] "GET /static/css/components.min.css HTTP/1.1" 200 -
+[11/24/17  08:06:42 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:06:42] "GET /static/global/plugins/jquery.min.js HTTP/1.1" 200 -
+[11/24/17  08:06:42 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:06:42] "GET /static/global/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+[11/24/17  08:06:42 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:06:42] "GET /static/global/plugins/js.cookie.min.js HTTP/1.1" 200 -
+[11/24/17  08:06:42 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:06:42] "GET /static/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js HTTP/1.1" 200 -
+[11/24/17  08:06:42 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:06:42] "GET /static/layouts/layout/img/avatar3_small.jpg HTTP/1.1" 200 -
+[11/24/17  08:06:42 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:06:42] "GET /static/layouts/layout/img/logo.png HTTP/1.1" 200 -
+[11/24/17  08:06:42 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:06:42] "GET /static/global/plugins/jquery.blockui.min.js HTTP/1.1" 200 -
+[11/24/17  08:06:42 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:06:42] "GET /static/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js HTTP/1.1" 200 -
+[11/24/17  08:06:42 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:06:42] "GET /static/global/scripts/app.min.js HTTP/1.1" 200 -
+[11/24/17  08:06:42 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:06:42] "GET /static/layouts/layout/scripts/layout.min.js HTTP/1.1" 200 -
+[11/24/17  08:06:42 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:06:42] "GET /static/layouts/layout/scripts/demo.min.js HTTP/1.1" 200 -
+[11/24/17  08:06:42 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:06:42] "GET /static/layouts/global/scripts/quick-sidebar.min.js HTTP/1.1" 200 -
+[11/24/17  08:06:42 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:06:42] "GET /static/layouts/global/scripts/quick-nav.min.js HTTP/1.1" 200 -
+[11/24/17  08:06:42 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:06:42] "GET /static/global/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.4.0 HTTP/1.1" 200 -
+[11/24/17  08:06:42 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:06:42] "GET /static/global/plugins/simple-line-icons/fonts/Simple-Line-Icons.woff HTTP/1.1" 200 -
+[11/24/17  08:06:42 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:06:42] "GET /static/imgs/favicon.ico HTTP/1.1" 200 -
+[11/24/17  08:06:50 PM] - [Thread-1] -[homework-web.py-line:65] [DEBUG] login post:
+[11/24/17  08:06:50 PM] - [Thread-1] -[homework-web.py-line:66] [DEBUG] {'username': u'fxl2', 'password': u'123'}
+[11/24/17  08:06:50 PM] - [Thread-1] -[common.py-line:49] [DEBUG] SELECT * FROM users WHERE username = 'fxl2' and password = '123';
+[11/24/17  08:06:50 PM] - [Thread-1] -[homework-web.py-line:68] [DEBUG] userfxl2exist.
+[11/24/17  08:06:50 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:06:50] "POST /login HTTP/1.1" 302 -
+[11/24/17  08:06:50 PM] - [Thread-1] -[homework-web.py-line:52] [DEBUG] search user:
+[11/24/17  08:06:50 PM] - [Thread-1] -[homework-web.py-line:53] [DEBUG] None
+[11/24/17  08:06:50 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:06:50] "GET /users HTTP/1.1" 200 -
+[11/24/17  08:06:50 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:06:50] "GET /static/js/myajax.js HTTP/1.1" 200 -
+[11/24/17  08:06:50 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:06:50] "GET /static/js/users.js HTTP/1.1" 200 -
+[11/24/17  08:06:53 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:06:53] "GET /users/add HTTP/1.1" 200 -
+[11/24/17  08:06:53 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:06:53] "GET /static/js/users_add.js HTTP/1.1" 200 -
+[11/24/17  08:07:13 PM] - [Thread-1] -[homework-web.py-line:39] [DEBUG] user add:
+[11/24/17  08:07:13 PM] - [Thread-1] -[homework-web.py-line:40] [DEBUG] {'username': u'nora3', 'password': u'123', 'email': u'nora3@51reboot.com'}
+[11/24/17  08:07:13 PM] - [Thread-1] -[common.py-line:40] [DEBUG] INSERT INTO users(username, email, password) values('nora3', 'nora3@51reboot.com', '123')
+[11/24/17  08:07:13 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:07:13] "POST /users/add HTTP/1.1" 302 -
+[11/24/17  08:07:13 PM] - [Thread-1] -[homework-web.py-line:52] [DEBUG] search user:
+[11/24/17  08:07:13 PM] - [Thread-1] -[homework-web.py-line:53] [DEBUG] None
+[11/24/17  08:07:13 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:07:13] "GET /users HTTP/1.1" 200 -
+[11/24/17  08:07:20 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:07:20] "GET /static/img/remove-icon-small.png HTTP/1.1" 404 -
+[11/24/17  08:07:26 PM] - [Thread-1] -[homework-web.py-line:106] [DEBUG] /checkuser post
+[11/24/17  08:07:26 PM] - [Thread-1] -[homework-web.py-line:107] [DEBUG] fxl22
+[11/24/17  08:07:26 PM] - [Thread-1] -[homework-web.py-line:116] [DEBUG] user does not exist
+[11/24/17  08:07:26 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:07:26] "POST /checkuser HTTP/1.1" 200 -
+[11/24/17  08:07:33 PM] - [Thread-1] -[homework-web.py-line:129] [DEBUG] email do not exist
+[11/24/17  08:07:33 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:07:33] "POST /checkemail HTTP/1.1" 200 -
+[11/24/17  08:08:32 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Running on http://0.0.0.0:9001/ (Press CTRL+C to quit)
+[11/24/17  08:08:32 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Restarting with stat
+[11/24/17  08:08:32 PM] - [MainThread] -[_internal.py-line:87] [WARNING]  * Debugger is active!
+[11/24/17  08:08:32 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Debugger PIN: 233-530-204
+[11/24/17  08:10:33 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Running on http://0.0.0.0:9001/ (Press CTRL+C to quit)
+[11/24/17  08:10:33 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Restarting with stat
+[11/24/17  08:10:33 PM] - [MainThread] -[_internal.py-line:87] [WARNING]  * Debugger is active!
+[11/24/17  08:10:33 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Debugger PIN: 233-530-204
+[11/24/17  08:10:52 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:10:52] "GET / HTTP/1.1" 302 -
+[11/24/17  08:10:52 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:10:52] "GET /login HTTP/1.1" 200 -
+[11/24/17  08:10:59 PM] - [Thread-1] -[homework-web.py-line:65] [DEBUG] login post:
+[11/24/17  08:10:59 PM] - [Thread-1] -[homework-web.py-line:66] [DEBUG] {'username': u'fxl2', 'password': u'123'}
+[11/24/17  08:10:59 PM] - [Thread-1] -[common.py-line:49] [DEBUG] SELECT * FROM users WHERE username = 'fxl2' and password = '123';
+[11/24/17  08:10:59 PM] - [Thread-1] -[homework-web.py-line:68] [DEBUG] userfxl2exist.
+[11/24/17  08:10:59 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:10:59] "POST /login HTTP/1.1" 302 -
+[11/24/17  08:10:59 PM] - [Thread-1] -[homework-web.py-line:52] [DEBUG] search user:
+[11/24/17  08:10:59 PM] - [Thread-1] -[homework-web.py-line:53] [DEBUG] None
+[11/24/17  08:10:59 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:10:59] "GET /users HTTP/1.1" 200 -
+[11/24/17  08:11:02 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:11:02] "GET /static/img/remove-icon-small.png HTTP/1.1" 404 -
+[11/24/17  08:11:28 PM] - [Thread-1] -[homework-web.py-line:106] [DEBUG] /checkuser post
+[11/24/17  08:11:28 PM] - [Thread-1] -[homework-web.py-line:107] [DEBUG] fxl22
+[11/24/17  08:11:28 PM] - [Thread-1] -[homework-web.py-line:116] [DEBUG] user does not exist
+[11/24/17  08:11:28 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:11:28] "POST /checkuser HTTP/1.1" 200 -
+[11/24/17  08:11:35 PM] - [Thread-1] -[homework-web.py-line:129] [DEBUG] email do not exist
+[11/24/17  08:11:35 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 20:11:35] "POST /checkemail HTTP/1.1" 200 -
+[11/24/17  09:01:46 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Running on http://0.0.0.0:9001/ (Press CTRL+C to quit)
+[11/24/17  09:01:46 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Restarting with stat
+[11/24/17  09:01:47 PM] - [MainThread] -[_internal.py-line:87] [WARNING]  * Debugger is active!
+[11/24/17  09:01:47 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Debugger PIN: 233-530-204
+[11/24/17  09:01:53 PM] - [Thread-1] -[homework-web.py-line:52] [DEBUG] search user:
+[11/24/17  09:01:53 PM] - [Thread-1] -[homework-web.py-line:53] [DEBUG] None
+[11/24/17  09:01:53 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:01:53] "GET /users HTTP/1.1" 200 -
+[11/24/17  09:01:58 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:01:58] "GET /static/img/remove-icon-small.png HTTP/1.1" 404 -
+[11/24/17  09:02:07 PM] - [Thread-1] -[homework-web.py-line:106] [DEBUG] /checkuser post
+[11/24/17  09:02:07 PM] - [Thread-1] -[homework-web.py-line:107] [DEBUG] fxl2
+[11/24/17  09:02:07 PM] - [Thread-1] -[homework-web.py-line:109] [DEBUG] user exist
+[11/24/17  09:02:07 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:02:07] "POST /checkuser HTTP/1.1" 200 -
+[11/24/17  09:02:13 PM] - [Thread-1] -[homework-web.py-line:106] [DEBUG] /checkuser post
+[11/24/17  09:02:13 PM] - [Thread-1] -[homework-web.py-line:107] [DEBUG] fxl22
+[11/24/17  09:02:13 PM] - [Thread-1] -[homework-web.py-line:116] [DEBUG] user does not exist
+[11/24/17  09:02:13 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:02:13] "POST /checkuser HTTP/1.1" 200 -
+[11/24/17  09:02:18 PM] - [Thread-1] -[homework-web.py-line:129] [DEBUG] email do not exist
+[11/24/17  09:02:18 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:02:18] "POST /checkemail HTTP/1.1" 200 -
+[11/24/17  09:07:26 PM] - [Thread-1] -[homework-web.py-line:52] [DEBUG] search user:
+[11/24/17  09:07:26 PM] - [Thread-1] -[homework-web.py-line:53] [DEBUG] None
+[11/24/17  09:07:26 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:07:26] "GET /users HTTP/1.1" 200 -
+[11/24/17  09:07:27 PM] - [Thread-1] -[homework-web.py-line:52] [DEBUG] search user:
+[11/24/17  09:07:27 PM] - [Thread-1] -[homework-web.py-line:53] [DEBUG] None
+[11/24/17  09:07:27 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:07:27] "GET /users HTTP/1.1" 200 -
+[11/24/17  09:07:31 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:07:31] "GET /static/img/remove-icon-small.png HTTP/1.1" 404 -
+[11/24/17  09:07:36 PM] - [Thread-1] -[homework-web.py-line:106] [DEBUG] /checkuser post
+[11/24/17  09:07:36 PM] - [Thread-1] -[homework-web.py-line:107] [DEBUG] fxl2
+[11/24/17  09:07:36 PM] - [Thread-1] -[homework-web.py-line:109] [DEBUG] user exist
+[11/24/17  09:07:36 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:07:36] "POST /checkuser HTTP/1.1" 200 -
+[11/24/17  09:07:41 PM] - [Thread-1] -[homework-web.py-line:106] [DEBUG] /checkuser post
+[11/24/17  09:07:41 PM] - [Thread-1] -[homework-web.py-line:107] [DEBUG] fxl22
+[11/24/17  09:07:41 PM] - [Thread-1] -[homework-web.py-line:116] [DEBUG] user does not exist
+[11/24/17  09:07:41 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:07:41] "POST /checkuser HTTP/1.1" 200 -
+[11/24/17  09:07:49 PM] - [Thread-1] -[homework-web.py-line:129] [DEBUG] email do not exist
+[11/24/17  09:07:49 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:07:49] "POST /checkemail HTTP/1.1" 200 -
+[11/24/17  09:22:04 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Running on http://0.0.0.0:9001/ (Press CTRL+C to quit)
+[11/24/17  09:22:04 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Restarting with stat
+[11/24/17  09:22:05 PM] - [MainThread] -[_internal.py-line:87] [WARNING]  * Debugger is active!
+[11/24/17  09:22:05 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Debugger PIN: 233-530-204
+[11/24/17  09:22:09 PM] - [Thread-1] -[homework-web.py-line:52] [DEBUG] search user:
+[11/24/17  09:22:09 PM] - [Thread-1] -[homework-web.py-line:53] [DEBUG] None
+[11/24/17  09:22:09 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:22:09] "GET /users HTTP/1.1" 200 -
+[11/24/17  09:22:18 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:22:18] "GET /static/img/remove-icon-small.png HTTP/1.1" 404 -
+[11/24/17  09:22:45 PM] - [Thread-1] -[homework-web.py-line:106] [DEBUG] /checkuser post
+[11/24/17  09:22:45 PM] - [Thread-1] -[homework-web.py-line:107] [DEBUG] fxl2
+[11/24/17  09:22:45 PM] - [Thread-1] -[homework-web.py-line:109] [DEBUG] user exist
+[11/24/17  09:22:45 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:22:45] "POST /checkuser HTTP/1.1" 200 -
+[11/24/17  09:23:01 PM] - [Thread-1] -[homework-web.py-line:129] [DEBUG] email do not exist
+[11/24/17  09:23:01 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:23:01] "POST /checkemail HTTP/1.1" 200 -
+[11/24/17  09:24:17 PM] - [Thread-1] -[homework-web.py-line:52] [DEBUG] search user:
+[11/24/17  09:24:17 PM] - [Thread-1] -[homework-web.py-line:53] [DEBUG] None
+[11/24/17  09:24:17 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:24:17] "GET /users HTTP/1.1" 200 -
+[11/24/17  09:24:20 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:24:20] "GET /static/img/remove-icon-small.png HTTP/1.1" 404 -
+[11/24/17  09:24:25 PM] - [Thread-1] -[homework-web.py-line:129] [DEBUG] email do not exist
+[11/24/17  09:24:25 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:24:25] "POST /checkemail HTTP/1.1" 200 -
+[11/24/17  09:27:57 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:27:57] "GET /users HTTP/1.1" 302 -
+[11/24/17  09:27:57 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:27:57] "GET /login HTTP/1.1" 200 -
+[11/24/17  09:27:57 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:27:57] "GET /static/global/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+[11/24/17  09:27:57 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:27:57] "GET /static/global/plugins/simple-line-icons/simple-line-icons.min.css HTTP/1.1" 200 -
+[11/24/17  09:27:57 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:27:57] "GET /static/global/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+[11/24/17  09:27:57 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:27:57] "GET /static/layouts/layout/css/layout.min.css HTTP/1.1" 200 -
+[11/24/17  09:27:57 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:27:57] "GET /static/layouts/layout/css/themes/darkblue.min.css HTTP/1.1" 200 -
+[11/24/17  09:27:57 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:27:57] "GET /static/css/components.min.css HTTP/1.1" 200 -
+[11/24/17  09:27:57 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:27:57] "GET /static/global/plugins/jquery.min.js HTTP/1.1" 200 -
+[11/24/17  09:27:57 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:27:57] "GET /static/global/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+[11/24/17  09:27:57 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:27:57] "GET /static/global/plugins/js.cookie.min.js HTTP/1.1" 200 -
+[11/24/17  09:27:57 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:27:57] "GET /static/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js HTTP/1.1" 200 -
+[11/24/17  09:27:57 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:27:57] "GET /static/global/plugins/jquery.blockui.min.js HTTP/1.1" 200 -
+[11/24/17  09:27:57 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:27:57] "GET /static/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js HTTP/1.1" 200 -
+[11/24/17  09:27:57 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:27:57] "GET /static/global/scripts/app.min.js HTTP/1.1" 200 -
+[11/24/17  09:27:57 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:27:57] "GET /static/layouts/layout/scripts/layout.min.js HTTP/1.1" 200 -
+[11/24/17  09:27:57 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:27:57] "GET /static/layouts/layout/scripts/demo.min.js HTTP/1.1" 200 -
+[11/24/17  09:27:57 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:27:57] "GET /static/layouts/global/scripts/quick-sidebar.min.js HTTP/1.1" 200 -
+[11/24/17  09:27:57 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:27:57] "GET /static/layouts/global/scripts/quick-nav.min.js HTTP/1.1" 200 -
+[11/24/17  09:27:57 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:27:57] "GET /static/layouts/layout/img/logo.png HTTP/1.1" 200 -
+[11/24/17  09:27:57 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:27:57] "GET /static/layouts/layout/img/avatar3_small.jpg HTTP/1.1" 200 -
+[11/24/17  09:27:57 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:27:57] "GET /static/global/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.4.0 HTTP/1.1" 200 -
+[11/24/17  09:27:57 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:27:57] "GET /static/global/plugins/simple-line-icons/fonts/Simple-Line-Icons.woff HTTP/1.1" 200 -
+[11/24/17  09:27:57 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:27:57] "GET /static/imgs/favicon.ico HTTP/1.1" 200 -
+[11/24/17  09:28:06 PM] - [Thread-1] -[homework-web.py-line:65] [DEBUG] login post:
+[11/24/17  09:28:06 PM] - [Thread-1] -[homework-web.py-line:66] [DEBUG] {'username': u'fxl2', 'password': u'123'}
+[11/24/17  09:28:06 PM] - [Thread-1] -[common.py-line:49] [DEBUG] SELECT * FROM users WHERE username = 'fxl2' and password = '123';
+[11/24/17  09:28:06 PM] - [Thread-1] -[homework-web.py-line:68] [DEBUG] userfxl2exist.
+[11/24/17  09:28:06 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:28:06] "POST /login HTTP/1.1" 302 -
+[11/24/17  09:28:06 PM] - [Thread-1] -[homework-web.py-line:52] [DEBUG] search user:
+[11/24/17  09:28:06 PM] - [Thread-1] -[homework-web.py-line:53] [DEBUG] None
+[11/24/17  09:28:06 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:28:06] "GET /users HTTP/1.1" 200 -
+[11/24/17  09:28:06 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:28:06] "GET /static/js/myajax.js HTTP/1.1" 200 -
+[11/24/17  09:28:06 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:28:06] "GET /static/js/users.js HTTP/1.1" 200 -
+[11/24/17  09:28:50 PM] - [Thread-1] -[homework-web.py-line:52] [DEBUG] search user:
+[11/24/17  09:28:50 PM] - [Thread-1] -[homework-web.py-line:53] [DEBUG] None
+[11/24/17  09:28:50 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:28:50] "GET /users HTTP/1.1" 200 -
+[11/24/17  09:29:03 PM] - [Thread-1] -[homework-web.py-line:52] [DEBUG] search user:
+[11/24/17  09:29:03 PM] - [Thread-1] -[homework-web.py-line:53] [DEBUG] None
+[11/24/17  09:29:03 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:29:03] "GET /users HTTP/1.1" 200 -
+[11/24/17  09:29:14 PM] - [Thread-1] -[homework-web.py-line:52] [DEBUG] search user:
+[11/24/17  09:29:14 PM] - [Thread-1] -[homework-web.py-line:53] [DEBUG] None
+[11/24/17  09:29:14 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:29:14] "GET /users HTTP/1.1" 200 -
+[11/24/17  09:29:15 PM] - [Thread-1] -[homework-web.py-line:52] [DEBUG] search user:
+[11/24/17  09:29:15 PM] - [Thread-1] -[homework-web.py-line:53] [DEBUG] None
+[11/24/17  09:29:16 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:29:16] "GET /users HTTP/1.1" 200 -
+[11/24/17  09:29:16 PM] - [Thread-1] -[homework-web.py-line:52] [DEBUG] search user:
+[11/24/17  09:29:16 PM] - [Thread-1] -[homework-web.py-line:53] [DEBUG] None
+[11/24/17  09:29:16 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:29:16] "GET /users HTTP/1.1" 200 -
+[11/24/17  09:29:17 PM] - [Thread-1] -[homework-web.py-line:52] [DEBUG] search user:
+[11/24/17  09:29:17 PM] - [Thread-1] -[homework-web.py-line:53] [DEBUG] None
+[11/24/17  09:29:17 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:29:17] "GET /users HTTP/1.1" 200 -
+[11/24/17  09:29:17 PM] - [Thread-1] -[homework-web.py-line:52] [DEBUG] search user:
+[11/24/17  09:29:17 PM] - [Thread-1] -[homework-web.py-line:53] [DEBUG] None
+[11/24/17  09:29:17 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:29:17] "GET /users HTTP/1.1" 200 -
+[11/24/17  09:29:18 PM] - [Thread-1] -[homework-web.py-line:52] [DEBUG] search user:
+[11/24/17  09:29:18 PM] - [Thread-1] -[homework-web.py-line:53] [DEBUG] None
+[11/24/17  09:29:18 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:29:18] "GET /users HTTP/1.1" 200 -
+[11/24/17  09:29:36 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:29:36] "GET /users HTTP/1.1" 302 -
+[11/24/17  09:29:36 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:29:36] "GET /login HTTP/1.1" 200 -
+[11/24/17  09:29:36 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:29:36] "GET /static/global/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+[11/24/17  09:29:36 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:29:36] "GET /static/global/plugins/simple-line-icons/simple-line-icons.min.css HTTP/1.1" 200 -
+[11/24/17  09:29:36 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:29:36] "GET /static/global/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+[11/24/17  09:29:36 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:29:36] "GET /static/layouts/layout/css/layout.min.css HTTP/1.1" 200 -
+[11/24/17  09:29:36 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:29:36] "GET /static/layouts/layout/css/themes/darkblue.min.css HTTP/1.1" 200 -
+[11/24/17  09:29:36 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:29:36] "GET /static/css/components.min.css HTTP/1.1" 200 -
+[11/24/17  09:29:36 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:29:36] "GET /static/global/plugins/jquery.min.js HTTP/1.1" 200 -
+[11/24/17  09:29:36 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:29:36] "GET /static/global/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+[11/24/17  09:29:36 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:29:36] "GET /static/global/plugins/js.cookie.min.js HTTP/1.1" 200 -
+[11/24/17  09:29:36 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:29:36] "GET /static/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js HTTP/1.1" 200 -
+[11/24/17  09:29:36 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:29:36] "GET /static/global/plugins/jquery.blockui.min.js HTTP/1.1" 200 -
+[11/24/17  09:29:36 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:29:36] "GET /static/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js HTTP/1.1" 200 -
+[11/24/17  09:29:36 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:29:36] "GET /static/global/scripts/app.min.js HTTP/1.1" 200 -
+[11/24/17  09:29:36 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:29:36] "GET /static/layouts/layout/scripts/layout.min.js HTTP/1.1" 200 -
+[11/24/17  09:29:36 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:29:36] "GET /static/layouts/layout/scripts/demo.min.js HTTP/1.1" 200 -
+[11/24/17  09:29:36 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:29:36] "GET /static/layouts/global/scripts/quick-sidebar.min.js HTTP/1.1" 200 -
+[11/24/17  09:29:36 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:29:36] "GET /static/layouts/global/scripts/quick-nav.min.js HTTP/1.1" 200 -
+[11/24/17  09:29:36 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:29:36] "GET /static/layouts/layout/img/logo.png HTTP/1.1" 200 -
+[11/24/17  09:29:36 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:29:36] "GET /static/layouts/layout/img/avatar3_small.jpg HTTP/1.1" 200 -
+[11/24/17  09:29:36 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:29:36] "GET /static/global/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.4.0 HTTP/1.1" 200 -
+[11/24/17  09:29:36 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:29:36] "GET /static/global/plugins/simple-line-icons/fonts/Simple-Line-Icons.woff HTTP/1.1" 200 -
+[11/24/17  09:29:36 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:29:36] "GET /static/imgs/favicon.ico HTTP/1.1" 200 -
+[11/24/17  09:29:41 PM] - [Thread-1] -[homework-web.py-line:65] [DEBUG] login post:
+[11/24/17  09:29:41 PM] - [Thread-1] -[homework-web.py-line:66] [DEBUG] {'username': u'fxl2', 'password': u'123'}
+[11/24/17  09:29:41 PM] - [Thread-1] -[common.py-line:49] [DEBUG] SELECT * FROM users WHERE username = 'fxl2' and password = '123';
+[11/24/17  09:29:41 PM] - [Thread-1] -[homework-web.py-line:68] [DEBUG] userfxl2exist.
+[11/24/17  09:29:41 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:29:41] "POST /login HTTP/1.1" 302 -
+[11/24/17  09:29:41 PM] - [Thread-1] -[homework-web.py-line:52] [DEBUG] search user:
+[11/24/17  09:29:41 PM] - [Thread-1] -[homework-web.py-line:53] [DEBUG] None
+[11/24/17  09:29:41 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:29:41] "GET /users HTTP/1.1" 200 -
+[11/24/17  09:29:42 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:29:42] "GET /static/js/myajax.js HTTP/1.1" 200 -
+[11/24/17  09:29:42 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:29:42] "GET /static/js/users.js HTTP/1.1" 200 -
+[11/24/17  09:30:05 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:30:05] "GET /static/img/remove-icon-small.png HTTP/1.1" 404 -
+[11/24/17  09:30:15 PM] - [Thread-1] -[homework-web.py-line:129] [DEBUG] email do not exist
+[11/24/17  09:30:15 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:30:15] "POST /checkemail HTTP/1.1" 200 -
+[11/24/17  09:30:23 PM] - [Thread-1] -[homework-web.py-line:106] [DEBUG] /checkuser post
+[11/24/17  09:30:23 PM] - [Thread-1] -[homework-web.py-line:107] [DEBUG] fxl2
+[11/24/17  09:30:23 PM] - [Thread-1] -[homework-web.py-line:109] [DEBUG] user exist
+[11/24/17  09:30:23 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:30:23] "POST /checkuser HTTP/1.1" 200 -
+[11/24/17  09:30:27 PM] - [Thread-1] -[homework-web.py-line:106] [DEBUG] /checkuser post
+[11/24/17  09:30:27 PM] - [Thread-1] -[homework-web.py-line:107] [DEBUG] fxl22
+[11/24/17  09:30:27 PM] - [Thread-1] -[homework-web.py-line:116] [DEBUG] user does not exist
+[11/24/17  09:30:27 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:30:27] "POST /checkuser HTTP/1.1" 200 -
+[11/24/17  09:33:20 PM] - [Thread-1] -[homework-web.py-line:52] [DEBUG] search user:
+[11/24/17  09:33:20 PM] - [Thread-1] -[homework-web.py-line:53] [DEBUG] None
+[11/24/17  09:33:20 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:33:20] "GET /users HTTP/1.1" 200 -
+[11/24/17  09:33:23 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:33:23] "GET /static/img/remove-icon-small.png HTTP/1.1" 404 -
+[11/24/17  09:33:28 PM] - [Thread-1] -[homework-web.py-line:106] [DEBUG] /checkuser post
+[11/24/17  09:33:28 PM] - [Thread-1] -[homework-web.py-line:107] [DEBUG] fxl2
+[11/24/17  09:33:28 PM] - [Thread-1] -[homework-web.py-line:109] [DEBUG] user exist
+[11/24/17  09:33:28 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:33:28] "POST /checkuser HTTP/1.1" 200 -
+[11/24/17  09:33:35 PM] - [Thread-1] -[homework-web.py-line:106] [DEBUG] /checkuser post
+[11/24/17  09:33:35 PM] - [Thread-1] -[homework-web.py-line:107] [DEBUG] fxl22
+[11/24/17  09:33:35 PM] - [Thread-1] -[homework-web.py-line:116] [DEBUG] user does not exist
+[11/24/17  09:33:35 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:33:35] "POST /checkuser HTTP/1.1" 200 -
+[11/24/17  09:33:45 PM] - [Thread-1] -[homework-web.py-line:129] [DEBUG] email do not exist
+[11/24/17  09:33:45 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:33:45] "POST /checkemail HTTP/1.1" 200 -
+[11/24/17  09:34:09 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:34:09] "GET /users HTTP/1.1" 302 -
+[11/24/17  09:34:09 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:34:09] "GET /login HTTP/1.1" 200 -
+[11/24/17  09:34:09 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:34:09] "GET /static/global/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+[11/24/17  09:34:09 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:34:09] "GET /static/global/plugins/simple-line-icons/simple-line-icons.min.css HTTP/1.1" 200 -
+[11/24/17  09:34:09 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:34:09] "GET /static/global/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+[11/24/17  09:34:09 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:34:09] "GET /static/layouts/layout/css/layout.min.css HTTP/1.1" 200 -
+[11/24/17  09:34:09 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:34:09] "GET /static/layouts/layout/css/themes/darkblue.min.css HTTP/1.1" 200 -
+[11/24/17  09:34:09 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:34:09] "GET /static/css/components.min.css HTTP/1.1" 200 -
+[11/24/17  09:34:09 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:34:09] "GET /static/global/plugins/jquery.min.js HTTP/1.1" 200 -
+[11/24/17  09:34:09 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:34:09] "GET /static/global/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+[11/24/17  09:34:09 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:34:09] "GET /static/global/plugins/js.cookie.min.js HTTP/1.1" 200 -
+[11/24/17  09:34:09 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:34:09] "GET /static/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js HTTP/1.1" 200 -
+[11/24/17  09:34:09 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:34:09] "GET /static/global/plugins/jquery.blockui.min.js HTTP/1.1" 200 -
+[11/24/17  09:34:09 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:34:09] "GET /static/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js HTTP/1.1" 200 -
+[11/24/17  09:34:09 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:34:09] "GET /static/global/scripts/app.min.js HTTP/1.1" 200 -
+[11/24/17  09:34:09 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:34:09] "GET /static/layouts/layout/scripts/layout.min.js HTTP/1.1" 200 -
+[11/24/17  09:34:09 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:34:09] "GET /static/layouts/layout/scripts/demo.min.js HTTP/1.1" 200 -
+[11/24/17  09:34:09 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:34:09] "GET /static/layouts/global/scripts/quick-sidebar.min.js HTTP/1.1" 200 -
+[11/24/17  09:34:09 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:34:09] "GET /static/layouts/global/scripts/quick-nav.min.js HTTP/1.1" 200 -
+[11/24/17  09:34:09 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:34:09] "GET /static/layouts/layout/img/logo.png HTTP/1.1" 200 -
+[11/24/17  09:34:09 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:34:09] "GET /static/layouts/layout/img/avatar3_small.jpg HTTP/1.1" 200 -
+[11/24/17  09:34:09 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:34:09] "GET /static/global/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.4.0 HTTP/1.1" 200 -
+[11/24/17  09:34:09 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:34:09] "GET /static/global/plugins/simple-line-icons/fonts/Simple-Line-Icons.woff HTTP/1.1" 200 -
+[11/24/17  09:34:10 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:34:10] "GET /static/imgs/favicon.ico HTTP/1.1" 200 -
+[11/24/17  09:34:20 PM] - [Thread-1] -[homework-web.py-line:65] [DEBUG] login post:
+[11/24/17  09:34:20 PM] - [Thread-1] -[homework-web.py-line:66] [DEBUG] {'username': u'fxl2', 'password': u'123'}
+[11/24/17  09:34:20 PM] - [Thread-1] -[common.py-line:49] [DEBUG] SELECT * FROM users WHERE username = 'fxl2' and password = '123';
+[11/24/17  09:34:20 PM] - [Thread-1] -[homework-web.py-line:68] [DEBUG] userfxl2exist.
+[11/24/17  09:34:20 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:34:20] "POST /login HTTP/1.1" 302 -
+[11/24/17  09:34:20 PM] - [Thread-1] -[homework-web.py-line:52] [DEBUG] search user:
+[11/24/17  09:34:20 PM] - [Thread-1] -[homework-web.py-line:53] [DEBUG] None
+[11/24/17  09:34:20 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:34:20] "GET /users HTTP/1.1" 200 -
+[11/24/17  09:34:20 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:34:20] "GET /static/js/myajax.js HTTP/1.1" 200 -
+[11/24/17  09:34:20 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:34:20] "GET /static/js/users.js HTTP/1.1" 200 -
+[11/24/17  09:34:22 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:34:22] "GET /static/img/remove-icon-small.png HTTP/1.1" 404 -
+[11/24/17  09:34:27 PM] - [Thread-1] -[homework-web.py-line:106] [DEBUG] /checkuser post
+[11/24/17  09:34:27 PM] - [Thread-1] -[homework-web.py-line:107] [DEBUG] fxl2
+[11/24/17  09:34:27 PM] - [Thread-1] -[homework-web.py-line:109] [DEBUG] user exist
+[11/24/17  09:34:27 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:34:27] "POST /checkuser HTTP/1.1" 200 -
+[11/24/17  09:34:30 PM] - [Thread-1] -[homework-web.py-line:129] [DEBUG] email do not exist
+[11/24/17  09:34:30 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:34:30] "POST /checkemail HTTP/1.1" 200 -
+[11/24/17  09:34:32 PM] - [Thread-1] -[homework-web.py-line:106] [DEBUG] /checkuser post
+[11/24/17  09:34:32 PM] - [Thread-1] -[homework-web.py-line:107] [DEBUG] fxl22
+[11/24/17  09:34:32 PM] - [Thread-1] -[homework-web.py-line:116] [DEBUG] user does not exist
+[11/24/17  09:34:32 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:34:32] "POST /checkuser HTTP/1.1" 200 -
+[11/24/17  09:34:43 PM] - [Thread-1] -[homework-web.py-line:93] [DEBUG] user edit post:
+[11/24/17  09:34:43 PM] - [Thread-1] -[homework-web.py-line:94] [DEBUG] {'username': u'fxl22', 'password': u'1231', 'email': u'fxldas1@51reboot.com', 'id': u'28'}
+[11/24/17  09:34:43 PM] - [Thread-1] -[common.py-line:71] [DEBUG] UPDATE users set username='fxl22',password='1231',email='fxldas1@51reboot.com'  WHERE id = 28;
+[11/24/17  09:34:43 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:34:43] "POST /users/edit/28 HTTP/1.1" 200 -
+[11/24/17  09:34:43 PM] - [Thread-1] -[homework-web.py-line:52] [DEBUG] search user:
+[11/24/17  09:34:43 PM] - [Thread-1] -[homework-web.py-line:53] [DEBUG] None
+[11/24/17  09:34:43 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 127.0.0.1 - - [24/Nov/2017 21:34:43] "GET /users HTTP/1.1" 200 -
+[11/24/17  09:42:51 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Detected change in '/home/fengxiaoli/myworkspace/python-learning/9/fengxiaoli/homework-web.py', reloading
+[11/24/17  09:42:51 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Restarting with stat
+[11/24/17  09:42:51 PM] - [MainThread] -[_internal.py-line:87] [WARNING]  * Debugger is active!
+[11/24/17  09:42:51 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Debugger PIN: 233-530-204

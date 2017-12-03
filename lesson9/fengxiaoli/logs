@@ -953,3 +953,64 @@
 [11/24/17  09:42:51 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Restarting with stat
 [11/24/17  09:42:51 PM] - [MainThread] -[_internal.py-line:87] [WARNING]  * Debugger is active!
 [11/24/17  09:42:51 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Debugger PIN: 233-530-204
+[11/25/17  06:59:43 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Running on http://0.0.0.0:9001/ (Press CTRL+C to quit)
+[11/25/17  06:59:43 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Restarting with stat
+[11/25/17  06:59:44 PM] - [MainThread] -[_internal.py-line:87] [WARNING]  * Debugger is active!
+[11/25/17  06:59:44 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Debugger PIN: 285-614-285
+[11/25/17  07:00:01 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Running on http://0.0.0.0:9001/ (Press CTRL+C to quit)
+[11/25/17  07:00:01 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Restarting with stat
+[11/25/17  07:00:02 PM] - [MainThread] -[_internal.py-line:87] [WARNING]  * Debugger is active!
+[11/25/17  07:00:02 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Debugger PIN: 285-614-285
+[11/25/17  07:00:16 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Running on http://0.0.0.0:9001/ (Press CTRL+C to quit)
+[11/25/17  07:00:16 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Restarting with stat
+[11/25/17  07:00:16 PM] - [MainThread] -[_internal.py-line:87] [WARNING]  * Debugger is active!
+[11/25/17  07:00:16 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Debugger PIN: 285-614-285
+[11/25/17  07:00:22 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 192.168.247.1 - - [25/Nov/2017 19:00:22] "GET / HTTP/1.1" 302 -
+[11/25/17  07:00:22 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 192.168.247.1 - - [25/Nov/2017 19:00:22] "GET /login HTTP/1.1" 200 -
+[11/25/17  07:00:22 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 192.168.247.1 - - [25/Nov/2017 19:00:22] "GET /static/global/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+[11/25/17  07:00:22 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 192.168.247.1 - - [25/Nov/2017 19:00:22] "GET /static/global/plugins/simple-line-icons/simple-line-icons.min.css HTTP/1.1" 200 -
+[11/25/17  07:00:22 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 192.168.247.1 - - [25/Nov/2017 19:00:22] "GET /static/global/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+[11/25/17  07:00:22 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 192.168.247.1 - - [25/Nov/2017 19:00:22] "GET /static/layouts/layout/css/layout.min.css HTTP/1.1" 200 -
+[11/25/17  07:00:22 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 192.168.247.1 - - [25/Nov/2017 19:00:22] "GET /static/layouts/layout/css/themes/darkblue.min.css HTTP/1.1" 200 -
+[11/25/17  07:00:22 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 192.168.247.1 - - [25/Nov/2017 19:00:22] "GET /static/css/components.min.css HTTP/1.1" 200 -
+[11/25/17  07:00:22 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 192.168.247.1 - - [25/Nov/2017 19:00:22] "GET /static/global/plugins/jquery.min.js HTTP/1.1" 200 -
+[11/25/17  07:00:22 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 192.168.247.1 - - [25/Nov/2017 19:00:22] "GET /static/layouts/layout/img/avatar3_small.jpg HTTP/1.1" 200 -
+[11/25/17  07:00:22 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 192.168.247.1 - - [25/Nov/2017 19:00:22] "GET /static/layouts/layout/img/logo.png HTTP/1.1" 200 -
+[11/25/17  07:00:22 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 192.168.247.1 - - [25/Nov/2017 19:00:22] "GET /static/global/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+[11/25/17  07:00:22 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 192.168.247.1 - - [25/Nov/2017 19:00:22] "GET /static/global/plugins/js.cookie.min.js HTTP/1.1" 200 -
+[11/25/17  07:00:22 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 192.168.247.1 - - [25/Nov/2017 19:00:22] "GET /static/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js HTTP/1.1" 200 -
+[11/25/17  07:00:22 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 192.168.247.1 - - [25/Nov/2017 19:00:22] "GET /static/global/plugins/jquery.blockui.min.js HTTP/1.1" 200 -
+[11/25/17  07:00:22 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 192.168.247.1 - - [25/Nov/2017 19:00:22] "GET /static/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js HTTP/1.1" 200 -
+[11/25/17  07:00:22 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 192.168.247.1 - - [25/Nov/2017 19:00:22] "GET /static/global/scripts/app.min.js HTTP/1.1" 200 -
+[11/25/17  07:00:22 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 192.168.247.1 - - [25/Nov/2017 19:00:22] "GET /static/layouts/layout/scripts/layout.min.js HTTP/1.1" 200 -
+[11/25/17  07:00:22 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 192.168.247.1 - - [25/Nov/2017 19:00:22] "GET /static/layouts/layout/scripts/demo.min.js HTTP/1.1" 200 -
+[11/25/17  07:00:22 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 192.168.247.1 - - [25/Nov/2017 19:00:22] "GET /static/layouts/global/scripts/quick-sidebar.min.js HTTP/1.1" 200 -
+[11/25/17  07:00:22 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 192.168.247.1 - - [25/Nov/2017 19:00:22] "GET /static/layouts/global/scripts/quick-nav.min.js HTTP/1.1" 200 -
+[11/25/17  07:00:22 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 192.168.247.1 - - [25/Nov/2017 19:00:22] "GET /static/global/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.4.0 HTTP/1.1" 200 -
+[11/25/17  07:00:22 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 192.168.247.1 - - [25/Nov/2017 19:00:22] "GET /static/global/plugins/simple-line-icons/fonts/Simple-Line-Icons.woff HTTP/1.1" 200 -
+[11/25/17  07:00:23 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 192.168.247.1 - - [25/Nov/2017 19:00:23] "GET /static/imgs/favicon.ico HTTP/1.1" 200 -
+[11/25/17  07:00:29 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 192.168.247.1 - - [25/Nov/2017 19:00:29] "GET /users HTTP/1.1" 302 -
+[11/25/17  07:00:29 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 192.168.247.1 - - [25/Nov/2017 19:00:29] "GET /login HTTP/1.1" 200 -
+[11/25/17  07:00:46 PM] - [Thread-1] -[homework-web.py-line:65] [DEBUG] login post:
+[11/25/17  07:00:46 PM] - [Thread-1] -[homework-web.py-line:66] [DEBUG] {'username': u'monkey', 'password': u'123456'}
+[11/25/17  07:00:46 PM] - [Thread-1] -[common.py-line:49] [DEBUG] SELECT * FROM users WHERE username = 'monkey' and password = '123456';
+[11/25/17  07:00:46 PM] - [Thread-1] -[homework-web.py-line:73] [DEBUG] usermonkeydo not exist.
+[11/25/17  07:00:46 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 192.168.247.1 - - [25/Nov/2017 19:00:46] "POST /login HTTP/1.1" 200 -
+[11/25/17  07:02:12 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Running on http://0.0.0.0:9001/ (Press CTRL+C to quit)
+[11/25/17  07:02:12 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Restarting with stat
+[11/25/17  07:02:13 PM] - [MainThread] -[_internal.py-line:87] [WARNING]  * Debugger is active!
+[11/25/17  07:02:13 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Debugger PIN: 285-614-285
+[11/25/17  07:02:18 PM] - [Thread-1] -[homework-web.py-line:65] [DEBUG] login post:
+[11/25/17  07:02:18 PM] - [Thread-1] -[homework-web.py-line:66] [DEBUG] {'username': u'test1', 'password': u'123'}
+[11/25/17  07:02:18 PM] - [Thread-1] -[common.py-line:49] [DEBUG] SELECT * FROM users WHERE username = 'test1' and password = '123';
+[11/25/17  07:02:18 PM] - [Thread-1] -[homework-web.py-line:73] [DEBUG] usertest1do not exist.
+[11/25/17  07:02:18 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 192.168.247.1 - - [25/Nov/2017 19:02:18] "POST /login HTTP/1.1" 200 -
+[11/25/17  07:02:40 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Running on http://0.0.0.0:9001/ (Press CTRL+C to quit)
+[11/25/17  07:02:40 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Restarting with stat
+[11/25/17  07:02:40 PM] - [MainThread] -[_internal.py-line:87] [WARNING]  * Debugger is active!
+[11/25/17  07:02:40 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Debugger PIN: 285-614-285
+[11/25/17  07:02:45 PM] - [Thread-1] -[homework-web.py-line:65] [DEBUG] login post:
+[11/25/17  07:02:45 PM] - [Thread-1] -[homework-web.py-line:66] [DEBUG] {'username': u'hehe', 'password': u'111'}
+[11/25/17  07:02:45 PM] - [Thread-1] -[common.py-line:49] [DEBUG] SELECT * FROM users WHERE username = 'hehe' and password = '111';
+[11/25/17  07:02:45 PM] - [Thread-1] -[homework-web.py-line:73] [DEBUG] userhehedo not exist.
+[11/25/17  07:02:45 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 192.168.247.1 - - [25/Nov/2017 19:02:45] "POST /login HTTP/1.1" 200 -

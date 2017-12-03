@@ -83,9 +83,9 @@ def updateuser(uid):
 
 @app.route('/checkuser',methods=['GET', 'POST'])
 def checkuser():
-    if request.method == 'POST':
+    if request.method == 'GET':
         print 'checkuser post'
-        user = request.form.to_dict()
+        user = request.args.to_dict()
         print user
         print user['username']
         if get_user(user['username']):

@@ -1,0 +1,240 @@
+{% extends "layout.html" %}
+{% block cssref %}
+ <link href="/static/css/jquery.dataTables.min.css" rel="stylesheet" type="text/css" />
+{% endblock %}
+{% block modal %}
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+                <div class="modal-content">
+                        <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                                        &times;
+                                </button>
+                                <h4 class="modal-title" id="myModalLabel">
+                                        用户修改
+                                </h4>
+                        </div>
+                        <div class="modal-body">
+                               <div class="form-group">
+                                   <label class="control-label">Username
+                                       <span class="required" aria-required="true"> * </span>
+                                   </label>
+                                   <div>
+                                       <input type="text" class="form-control" id="username" readonly="readonly">
+                                        <div id='checkuserinfo' style="color:red"></div>
+                                   </div>
+                               </div>
+
+                               <div class="form-group">
+                                   <label class="control-label">Email
+                                       <span class="required" aria-required="true"> * </span>
+                                   </label>
+                                   <div>
+                                       <input type="text" class="form-control" id="email" >
+                                        <div id='checkemailinfo' style="color:red"></div>
+                                   </div>
+                               </div>
+
+                               <div class="form-group">
+                                   <label class="control-label">Password
+                                       <span class="required" aria-required="true"> * </span>
+                                   </label>
+                                   <div>
+                                       <input type="password" class="form-control" id="password" id="submit_form_password">
+                                        <div id='checkpasswd' style="color:red"></div>
+                                   </div>
+                               </div>
+
+                               <div class="form-group">
+                                   <label class="control-label">Confirm Password
+                                       <span class="required" aria-required="true"> * </span>
+                                   </label>
+                                   <div>
+                                       <input type="password" class="form-control" id="rpassword">
+                                        <div id='comparepasswd' style="color:red"></div>
+                                   </div>
+                               </div>
+
+
+                                <div class="modal-footer">
+                                        <button type="button" id='editbtnclose' class="btn btn-default" data-dismiss="modal">关闭
+                                        </button>
+                                        <button id='btnsave' type="button" class="btn btn-primary">
+                                                提交更改
+                                        </button>
+                                        <div id='errorstatus' style="color:red"></div>
+                                </div>
+
+
+                        </div>
+                </div><!-- /.modal-content -->
+      </div><!-- /.modal -->
+</div>
+
+<div class="modal fade" id="myDelModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+                <div class="modal-content">
+                        <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                                        &times;
+                                </button>
+                                <h4 class="modal-title" id="myModalLabel">
+                                        删除用户
+                                </h4>
+                        </div>
+			<div class="modal-body">
+				<div id="delinfo"></div>
+                        </div>
+                        <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">关闭
+                                </button>
+                                <button id='btndel' type="button" class="btn btn-primary">
+                                        确定删除
+                                </button>
+                        </div>
+                </div><!-- /.modal-content -->
+        </div><!-- /.modal -->
+</div>
+
+<div class="modal fade" id="useraddModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+                <div class="modal-content">
+                        <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                                        &times;
+                                </button>
+                                <h4 class="modal-title" id="myModalLabel">
+                                        用户添加
+                                </h4>
+                        </div>
+                        <div class="modal-body">
+                               <div class="form-group">
+                                   <label class="control-label">Username
+                                       <span class="required" aria-required="true"> * </span>
+                                   </label>
+                                   <div>
+                                       <input type="text" class="form-control" id="newusername">
+                                        <div id='checknewuserinfo' style="color:red"></div>
+                                   </div>
+                               </div>
+
+                               <div class="form-group">
+                                   <label class="control-label">Email
+                                       <span class="required" aria-required="true"> * </span>
+                                   </label>
+                                   <div>
+                                       <input type="text" class="form-control" id="newemail" >
+                                        <div id='checknewemailinfo' style="color:red"></div>
+                                   </div>
+                               </div>
+
+                               <div class="form-group">
+                                   <label class="control-label">Password
+                                       <span class="required" aria-required="true"> * </span>
+                                   </label>
+                                   <div>
+                                       <input type="password" class="form-control" id="newpassword" id="submit_form_password">
+                                        <div id='checknewpasswd' style="color:red"></div>
+                                   </div>
+                               </div>
+
+                               <div class="form-group">
+                                   <label class="control-label">Confirm Password
+                                       <span class="required" aria-required="true"> * </span>
+                                   </label>
+                                   <div>
+                                       <input type="password" class="form-control" id="newrpassword">
+                                        <div id='comparenewpasswd' style="color:red"></div>
+                                   </div>
+                               </div>
+
+
+                                <div class="modal-footer">
+                                        <button type="button" id='addbtnclose' class="btn btn-default" data-dismiss="modal">关闭
+                                        </button>
+                                        <button id='btnnew' type="button" class="btn btn-primary">
+                                                添加
+                                        </button>
+                                        <div id='adderrorstatus' style="color:red"></div>
+                                </div>
+
+
+                        </div>
+                </div><!-- /.modal-content -->
+        </div><!-- /.modal -->
+</div>
+{% endblock %}
+{% block content %}
+<div class="row">
+<div class="col-md-12">
+	<div class="portlet light">
+		<div class="portlet-body">
+			<div class="table-toolbar">
+
+				<div class="btn-group pull-right">
+					<button id= "adduserbtn" data-toggle="modal"
+							class="btn btn-circle orange btn-outline" data-toggle="modal" data-target=".bs-example-modal-lg"> 添加用户
+						<i class="fa fa-plus"></i>
+					</button>
+				</div>
+
+
+			</div>
+			</br>
+			<div class="fw-container">
+				<div class="fw-body">
+					<div class="content">
+						<table id='userstable' class="display" width="100%" cellspacing="0">
+							<thead>
+								<tr>
+									<th>#</th>
+									<th>用户名</th>
+									<th>邮箱</th>
+									<th>密码</th>
+									<th>操作</th>
+								</tr>
+							</thead>
+							<tfoot>
+								<tr>
+									<th>#</th>
+									<th>用户名</th>
+									<th>邮箱</th>
+									<th>密码</th>
+									<th>操作</th>
+								</tr>
+							</tfoot>
+							<tbody>
+								{% for user in users %}
+									<tr>
+										<td>
+											<div> </div>
+											<a href="javascript:;"> {{ user[0] }} </a>
+										</td>
+										<td> {{ user[1] }}</td>
+										<td> {{ user[2] }} </td>
+										<td> {{ user[3] }} </td>
+										<td>
+											<button class='btn btn-primary editbtn' uid={{ user[0] }}>修改</button>
+											<button class='btn btn-danger delbtn' uid={{ user[0] }} username={{ user[1] }}>删除</button>
+										</td>
+									</tr>
+								 {% endfor %}
+							</tbody>
+						</table>
+					</div>
+				</div>
+                    </div><!-- end table layout -->
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+{% block jsref %}
+        <script src="/static/js/jquery.dataTables.min.js" type="text/javascript"></script>
+        <script src="/static/js/myajax.js" type="text/javascript"></script>
+        <script src="/static/js/users.js" type="text/javascript"></script>
+	<!--  <script src="/static/js/jquery-1.12.4.js" type="text/javascript"></script> -->
+{% endblock %}
+{% block js %}
+$('#userstable').DataTable();
+{% endblock %}

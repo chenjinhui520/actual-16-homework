@@ -1,0 +1,30 @@
+
+[12/02/17  09:19:18 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Running on http://0.0.0.0:9001/ (Press CTRL+C to quit)
+[12/02/17  09:19:18 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Restarting with stat
+[12/02/17  09:19:19 PM] - [MainThread] -[_internal.py-line:87] [WARNING]  * Debugger is active!
+[12/02/17  09:19:19 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Debugger PIN: 276-169-252
+[12/02/17  09:19:49 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Running on http://0.0.0.0:9001/ (Press CTRL+C to quit)
+[12/02/17  09:19:49 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Restarting with stat
+[12/02/17  09:19:50 PM] - [MainThread] -[_internal.py-line:87] [WARNING]  * Debugger is active!
+[12/02/17  09:19:50 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Debugger PIN: 276-169-252
+[12/02/17  09:19:57 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 192.168.247.1 - - [02/Dec/2017 21:19:57] "GET / HTTP/1.1" 302 -
+[12/02/17  09:19:57 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 192.168.247.1 - - [02/Dec/2017 21:19:57] "GET /login HTTP/1.1" 200 -
+[12/02/17  09:19:57 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 192.168.247.1 - - [02/Dec/2017 21:19:57] "GET /static/layouts/layout/css/layout.min.css HTTP/1.1" 200 -
+[12/02/17  09:19:57 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 192.168.247.1 - - [02/Dec/2017 21:19:57] "GET /static/global/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+[12/02/17  09:19:57 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 192.168.247.1 - - [02/Dec/2017 21:19:57] "GET /static/global/plugins/simple-line-icons/simple-line-icons.min.css HTTP/1.1" 200 -
+[12/02/17  09:19:57 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 192.168.247.1 - - [02/Dec/2017 21:19:57] "GET /static/global/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+[12/02/17  09:19:57 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 192.168.247.1 - - [02/Dec/2017 21:19:57] "GET /static/layouts/layout/css/themes/darkblue.min.css HTTP/1.1" 200 -
+[12/02/17  09:19:57 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 192.168.247.1 - - [02/Dec/2017 21:19:57] "GET /static/css/components.min.css HTTP/1.1" 200 -
+[12/02/17  09:19:57 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 192.168.247.1 - - [02/Dec/2017 21:19:57] "GET /static/global/plugins/jquery.min.js HTTP/1.1" 200 -
+[12/02/17  09:19:57 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 192.168.247.1 - - [02/Dec/2017 21:19:57] "GET /static/global/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+[12/02/17  09:19:57 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 192.168.247.1 - - [02/Dec/2017 21:19:57] "GET /static/global/plugins/js.cookie.min.js HTTP/1.1" 200 -
+[12/02/17  09:19:57 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 192.168.247.1 - - [02/Dec/2017 21:19:57] "GET /static/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js HTTP/1.1" 200 -
+[12/02/17  09:19:57 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 192.168.247.1 - - [02/Dec/2017 21:19:57] "GET /static/global/plugins/jquery.blockui.min.js HTTP/1.1" 200 -
+[12/02/17  09:19:57 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 192.168.247.1 - - [02/Dec/2017 21:19:57] "GET /static/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js HTTP/1.1" 200 -
+[12/02/17  09:19:57 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 192.168.247.1 - - [02/Dec/2017 21:19:57] "GET /static/global/scripts/app.min.js HTTP/1.1" 200 -
+[12/02/17  09:19:57 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 192.168.247.1 - - [02/Dec/2017 21:19:57] "GET /static/layouts/layout/scripts/layout.min.js HTTP/1.1" 200 -
+[12/02/17  09:19:57 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 192.168.247.1 - - [02/Dec/2017 21:19:57] "GET /static/layouts/layout/scripts/demo.min.js HTTP/1.1" 200 -
+[12/02/17  09:19:57 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 192.168.247.1 - - [02/Dec/2017 21:19:57] "GET /static/layouts/global/scripts/quick-sidebar.min.js HTTP/1.1" 200 -
+[12/02/17  09:19:57 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 192.168.247.1 - - [02/Dec/2017 21:19:57] "GET /static/layouts/global/scripts/quick-nav.min.js HTTP/1.1" 200 -
+[12/02/17  09:19:57 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 192.168.247.1 - - [02/Dec/2017 21:19:57] "GET /static/global/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.4.0 HTTP/1.1" 200 -
+[12/02/17  09:19:57 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 192.168.247.1 - - [02/Dec/2017 21:19:57] "GET /static/imgs/favicon.ico HTTP/1.1" 200 -

@@ -317,7 +317,9 @@
             
             $('.editbtn').click(function(){
 		    var id = $(this).attr('uid')
-		    var username = $(this).parents('tr').children('td').eq(1).text()
+            console.log($(this).parents('tr'))
+		    var username = $(this).parents('tr').children().eq(1).text()
+            console.log(username)
 		    var email = $(this).parents('tr').children('td').eq(2).text()
 		    var password = $(this).parents('tr').children('td').eq(3).text()
 

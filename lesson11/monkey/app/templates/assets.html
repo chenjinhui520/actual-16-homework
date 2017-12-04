@@ -1,0 +1,84 @@
+{% extends "layout.html" %}
+
+{{ super() }}
+
+{% block csshref %}
+    <link href="/static/css/components.min.css" rel="stylesheet" id="style_components" type="text/css" />
+{% endblock %}
+      
+{% block content %}
+
+<div class="row">
+    <div class="col-md-12">
+	<div class="portlet light">
+	    <div class="portlet-body">
+		<div class="table-toolbar">
+		   <div class="btn-group pull-left">
+			<button data-toggle="modal" href="/assets/add" class="btn btn-circle orange btn-outline"> 添加资产<i class="fa fa-plus"></i></button>
+		   </div>
+					
+		    <i class="tip_icon pull-right icon-question"></i>
+		    <div class="tip_seach_1"></div>
+		    <div class="btn-group col-md-4 pull-right">
+		    	<div class="input-icon right" style="float: right;width:70%">
+		    		<i class="icon-magnifier" id="seach"></i>
+		    		<input type="text" id="seach2" class="form-control" placeholder="" >
+		    	</div>
+		    	<select id="seach1" class="form-control" style="width:30%;float: right;">
+		    		<option value="default">全部</option>
+		    	</select>
+		    </div>
+		    	
+		    </div>
+		    
+		    <div class="portlet">
+		    	<div class="portlet-body">
+		    		<div class="table-scrollable">
+		    			<table class="table table-striped table-bordered table-hover">
+		    <thead>
+		    	<tr>
+		    		<th>#</th>
+		    		<th>主机名</th>
+		    		<th>内存</th>
+		    		<th>磁盘</th>
+		    		<th>CPU</th>
+		    		<th>操作</th>
+		    	</tr>
+		    </thead>
+		    <tbody>
+		    	<tr>
+		    		<td class="highlight">1</td>
+		    		<td class="hidden-xs"> monkey </td>
+		    		<td class="hidden-xs"> monkey@51reboot.com </td>
+		    		<td> 123456 </td>
+		    		<td> 123456 </td>
+		    		<td>
+		    			<a href="javascript:;" class="btn btn-sm blue"><i class="fa fa-file-o"></i> 编辑 </a> </a>
+		    			<a href="javascript:;" class="btn btn-sm red"><i class="fa fa-times"></i> 删除</a>
+		    		</td>
+		    	</tr>
+		    	
+		    	<tr>
+		    		<td class="highlight">2</td>
+		    		<td class="hidden-xs"> monkey </td>
+		    		<td class="hidden-xs"> monkey@51reboot.com </td>
+		    		<td> 123456 </td>
+		    		<td> 123456 </td>
+		    		<td>
+		    			<a href="javascript:;" class="btn btn-sm blue">1G</span> 编辑 </a> </a>
+		    			<a href="javascript:;" class="btn btn-sm red"><i class="fa fa-times"></i> 删除</a>
+		    		</td>
+		    	</tr>
+		    </tbody>
+	    	</table>
+	   </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+	
+   
+
+{% endblock %}

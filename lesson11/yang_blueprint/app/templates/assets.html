@@ -1,0 +1,271 @@
+{% extends "layout.html" %}
+        {% block csshref %}
+        <link href="/static/css/components.min.css" rel="stylesheet" id="style_components" type="text/css" />
+        {% endblock %}
+{% block content %}
+<!--标签内容start -->
+<div class="page-bar">
+    <ul class="page-breadcrumb">
+        <li>
+            <a href="/assets">Home</a>
+            <i class="fa fa-angle-right"></i>
+        </li>
+        <li>
+            <span>资产管理</span>
+        </li>
+    </ul>
+</div>
+<!--标签内容END-->
+
+<!--添加资产模态窗 BEGIN-->
+<div class="modal fade" id="add_asset_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel">添加资产 </h4>
+            </div>
+
+<form class="form-horizontal" id="add_form">
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label">主机名</label>
+        <div class="col-sm-8">
+            <input id="hostname" type="text" class="form-control" name='hostname' required>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label">内网IP</label>
+        <div class="col-sm-8">
+            <input id="private_ip" type="text" class="form-control" name='private_ip' required>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label">外网IP</label>
+        <div class="col-sm-8">
+            <input id="public_ip" type="text" class="form-control" name='public_ip'>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label">内存</label>
+        <div class="col-sm-8">
+            <input id="mem_total" type="text" class="form-control" name='mem_total' required>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label">磁盘</label>
+        <div class="col-sm-8">
+            <input id="disk" type="text" class="form-control" name='disk' required>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label">CPU</label>
+        <div class="col-sm-8">
+            <input id="cpu_num" type="text" class="form-control" name='cpu_num' required>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-2 control-label">CPU model</label>
+        <div class="col-sm-8">
+            <input id="cpu_model" type="text" class="form-control" name='cpu_model' required>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label">机房</label>
+        <div class="col-sm-8">
+            <select id="machine_room" class="form-control" name="machine_room" required>
+                <option > ---请选择机房--- </option>
+                <option name='yz'> 亦庄机房 </option>
+                <option name="jxq"> 酒仙桥机房 </option>
+            </select>
+        </div>
+    </div>
+
+    <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+        <button type="button" class="btn btn-primary" id="btn_addsave">保存</button>
+    </div>
+
+</form>
+
+
+        </div>
+    </div>
+</div><!-- /.modal-content -->
+<!--添加资产模态窗 END-->
+
+
+<!-- 修改资产模态窗START-->
+<div class="modal fade" id="edit_asset_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModaledit">修改资产 </h4>
+            </div>
+
+<form class="form-horizontal" id="edit_form">
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label">主机名</label>
+        <div class="col-sm-8">
+            <input id="edit_hostname"  type="text" class="form-control" name='hostname' required>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label">内网IP</label>
+        <div class="col-sm-8">
+            <input id="edit_private_ip" type="text" class="form-control" name='private_ip' required>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label">外网IP</label>
+        <div class="col-sm-8">
+            <input id="edit_public_ip" type="text" class="form-control" name='public_ip'>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label">内存</label>
+        <div class="col-sm-8">
+            <input id="edit_mem_total" type="text" class="form-control" name='mem_total' required>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label">磁盘</label>
+        <div class="col-sm-8">
+            <input id="edit_disk" type="text" class="form-control" name='disk' required>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label">CPU</label>
+        <div class="col-sm-8">
+            <input id="edit_cpu_num" type="text" class="form-control" name='cpu_num' required>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-2 control-label">CPU model</label>
+        <div class="col-sm-8">
+            <input id="edit_cpu_model" type="text" class="form-control" name='cpu_model' required>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label">机房</label>
+        <div class="col-sm-8">
+            <select id="edit_machine_room" class="form-control" name="machine_room" required>
+                <option > ---请选择机房--- </option>
+                <option name='yz'> 亦庄机房 </option>
+                <option name="jxq"> 酒仙桥机房 </option>
+            </select>
+        </div>
+    </div>
+
+    <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+        <button type="button" class="btn btn-primary" id="btn_editsave">保存修改</button>
+    </div>
+
+</form>
+
+
+        </div>
+    </div>
+</div><!-- /.modal-content -->
+<!--修改资产模态窗 END-->
+
+
+<div class="table-toolbar">
+    <div class="btn-group pull-left">
+    	<button id="addAsset" class="btn btn-circle orange btn-outline" data-toggle="modal" data-target="#add_asset_modal"> 添加资产
+    	    <i class="fa fa-plus"></i>
+    	</button>
+    </div>
+
+    <div class="btn-group pull-right open">
+        <button class="btn green  btn-outline dropdown-toggle" data-toggle="dropdown" aria-expanded="true">Tools
+            <i class="fa fa-angle-down"></i>
+        </button>
+        <ul class="dropdown-menu pull-right">
+            <li><a href="/asset/csv"><i class="fa fa-file-excel-o"></i> Export to Excel </a></li>
+        </ul>
+    </div>
+  
+  
+</div>
+
+
+<div class="portlet">
+    <div class="portlet-body">
+            <table id="example" class="table table-striped table-bordered" cellspacing="0" width="100%">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>主机名</th>
+                        <th>主机状态</th>
+                        <th>内网IP</th>
+                        <th>外网IP</th>
+                        <th>内存</th>
+                        <th>磁盘</th>
+                        <th>CPU核</th>
+                        <th>CPU model</th>
+                        <th>机房</th>
+                        <th>更新日期</th>
+                        <th align="center">操作</th>
+                    </tr>
+                </thead>
+            
+                <tbody>
+                    {% for asset in assets %}
+                
+                    <tr>
+                        <td class="highlight">
+                            {{ asset[0] }}
+                        </td>
+                        <td class="hidden-xs">{{ asset[1] }}</td>
+                        <td class="hidden-xs"> 
+
+                            <div class="fa fa-circle font-green-meadow breathe-btn"></div>
+                        </td>
+                        <td class="hidden-xs"> {{ asset[3] }} </td>
+                        <td> {{ asset[4] }}</td>
+                        <td> {{ asset[5] }} </td>
+                        <td> {{ asset[6] }}</td>
+                        <td> {{ asset[7] }}</td>
+                        <td> {{ asset[8] }} </td>
+                        <td> {{ asset[9] }} </td>
+                        <td> {{ asset[10] }}</td>
+                        <td>
+                            
+                            <button type="button" class="btn btn-warning btn-sm edit_asset" pk=6 uid={{ asset[0] }}>修改</button>
+                            <button uid={{ asset[0] }} type="button" class="btn btn-danger btn-sm del_asset" pk=6>删除</button>
+                            
+                            <button type="button" class="btn btn-success btn-sm info_asset" pk=6>详情</button>
+                        </td>
+                    </tr>
+                    {% endfor %}                
+                	
+                </tbody>
+            </table>
+        </div>
+    <!--</div>-->
+</div>
+{% endblock %}
+     {% block scriptsrc %}
+     <script src="/static/js/jquery.validate.min.js" type="text/javascript"></script>
+     <script src="/static/js/messages_zh.js" type="text/javascript"></script>
+     <script src="/static/js/assets.js" type="text/javascript"></script>
+     {% endblock %}
+     {% block script %}
+     $('#example').DataTable();
+     {% endblock %}

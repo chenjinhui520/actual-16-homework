@@ -1,0 +1,90 @@
+
+<!--
+ <!--模态框开始-->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                            &times;
+                        </button>
+                        <h2 class="modal-title" id="myModalLabel">
+                            <center>请输入用户信息</center>
+                        </h2>
+                    </div>
+                    <div id="useraddform" class="modal-body form-group srkuang">
+
+                        <div class="form-group"><label class="col-md-2 control-label">用户名<span
+                                class="required">*</span> </label>
+                            <div class="col-md-9"><input id='name' type="text" class="form-control" name="username" value="" required>
+                            </div>
+                        </div>
+                        <!---->
+                        <label> 用户名</label>
+                        <input id='name' class='form-control' placeholder="请输入用户名" required autofocus>
+                        <!---->
+
+                        <div class="namemsg" style="color:red"></div>
+
+                        <div class="form-group"><label class="col-md-2 control-label">密码<span
+                                class="required">*</span> </label>
+                            <div class="col-md-9"><input type="password" class="form-control" name="password" value="" id="passwd" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group"><label class="col-md-2 control-label">确认密码<span
+                                class="required">*</span> </label>
+                            <div class="col-md-9"><input type="password" class="form-control" name="rpassword" value="" id="rpasswd" required> 
+                            </div>
+                        </div>
+
+
+                        <!---->
+                        <label> 密码</label>
+                        <input id='passwd' type='password' class='form-control' placeholder="请输入密码" required>
+                        <label> 确认密码</label>
+                        <input id='rpasswd' type='password' class='form-control' placeholder="再次确认密码" required>
+                        <!---->
+                        <div class="pwdmsg" style="color:red"></div>
+
+                        <div class="form-group"><label class="col-md-2 control-label">邮箱<span
+                                class="required">*</span> </label>
+                            <div class="col-md-9"><input type="text" class="form-control" id='email'  name="email" value="" required>
+                            </div>
+                        </div>
+
+
+                        <!---->
+                        <label> 邮箱</label>
+                        <input id='email' type="email" class='form-control' placeholder="请输入邮箱"  name="email" required autofocus>
+                        <!---->
+                        <div class="emailmsg" style="color:red"></div>
+                        <div class="form-group"><label class="col-md-2 control-label">角色<span
+                                class="required">*</span> </label>
+                            <div class="col-md-9"><select id="role" class="form-control" required>
+                                <option>---请选择---</option>
+                                <option>admin</option>
+                                <option>common</option>
+                            </select>
+                            </div>
+                        </div>
+                        <!---->
+                        <label> 角色</label>
+                        <select id="role">
+                            <option>---请选择---</option>
+                            <option>common</option>
+                            <option>admin</option>
+                        </select>
+                        <!---->
+                    </div>
+                    <div class="modal-footer">
+                    <center>
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">关闭</button>
+                        <button id='btnsave' type="button" class="btn btn-success">提交</button>
+                        </center>
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal -->
+        </div>
+        <!-- 模态框结束-->
+        -->

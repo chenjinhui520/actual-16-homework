@@ -28,3 +28,13 @@
 [12/02/17  09:19:57 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 192.168.247.1 - - [02/Dec/2017 21:19:57] "GET /static/layouts/global/scripts/quick-nav.min.js HTTP/1.1" 200 -
 [12/02/17  09:19:57 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 192.168.247.1 - - [02/Dec/2017 21:19:57] "GET /static/global/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.4.0 HTTP/1.1" 200 -
 [12/02/17  09:19:57 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 192.168.247.1 - - [02/Dec/2017 21:19:57] "GET /static/imgs/favicon.ico HTTP/1.1" 200 -
+[12/03/17  10:32:28 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Running on http://0.0.0.0:9001/ (Press CTRL+C to quit)
+[12/03/17  10:32:28 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Restarting with stat
+[12/03/17  10:32:29 PM] - [MainThread] -[_internal.py-line:87] [WARNING]  * Debugger is active!
+[12/03/17  10:32:29 PM] - [MainThread] -[_internal.py-line:87] [INFO]  * Debugger PIN: 281-733-920
+[12/03/17  10:32:32 PM] - [Thread-1] -[homework-web.py-line:60] [DEBUG] search user:
+[12/03/17  10:32:32 PM] - [Thread-1] -[homework-web.py-line:61] [DEBUG] None
+[12/03/17  10:32:33 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 192.168.247.1 - - [03/Dec/2017 22:32:33] "GET /users HTTP/1.1" 200 -
+[12/03/17  10:32:33 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 192.168.247.1 - - [03/Dec/2017 22:32:33] "GET /static/css/jquery.dataTables.min.css HTTP/1.1" 200 -
+[12/03/17  10:32:33 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 192.168.247.1 - - [03/Dec/2017 22:32:33] "GET /static/images/sort_both.png HTTP/1.1" 404 -
+[12/03/17  10:32:33 PM] - [Thread-1] -[_internal.py-line:87] [INFO] 192.168.247.1 - - [03/Dec/2017 22:32:33] "GET /static/images/sort_asc.png HTTP/1.1" 404 -
